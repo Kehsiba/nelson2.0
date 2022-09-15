@@ -1,9 +1,10 @@
 (ns nelson2.neural_processes
-  (:require [nelson2.brain :as brain])
+  (:require [nelson2.brain :as brain] [nelson2.reward-log :as reward-log])
   (:gen-class)
   (:require [nelson2.weight_update :as weight-update]
             [nelson2.log :as log]
-            [clojure.edn :as edn][nelson2.utility :as utility])
+            [clojure.edn :as edn]
+            [nelson2.utility :as utility])
   (:use [clojure.string]))
 
 "Perform neural processes like thinking, creating neural maps, concept overlap"
@@ -92,6 +93,14 @@
   (map  (fn [neuron-file] (slurp (str "neuron-data/" neuron-file))) (remove empty? (set (get-neuron-files))) )
   )
 
+(defn get-reward-neuron-files []
+  (map #(apply str (filter (fn [_] (ends-with? % ".neuron")) (when (.isFile %) (.getName %)))) (file-seq (clojure.java.io/file "reward-neuron/"))))
+
+(defn get-reward-neurons []
+  "Loads all the neurons and returns a set of neurons"
+  (map  (fn [neuron-file] (slurp (str "reward-neuron/" neuron-file))) (remove empty? (set (get-reward-neuron-files))) )
+  )
+
 (defn load-neurons []
   "load neurons from file"
   (def tags {'nelson2.brain.skeleton brain/parse-skeleton, 'nelson2.brain.coord brain/handle-coord, 'object brain/handle-object})
@@ -111,7 +120,7 @@
   )
 (defn select-random-tuple []
   "returns only a pair for now"
-  (let [tuple [(rand-nth (keys @brain/neural-cluster)) (rand-nth (keys @brain/neural-cluster))]] tuple)
+  (let [tuple [(rand-nth (keys @brain/neural-cluster)) (do (Thread/sleep @(get brain/params :tuple-sample-latency)) (rand-nth (keys @brain/neural-cluster)))]] tuple)
   ;;
   ; (let [tuple (repeatedly (get-focus) (count @brain/neural-cluster))] (println "select random tuple " tuple) (vec (map #((nth % (nth tuple 0)) (nth % (nth tuple 1))) (keys @brain/neural-cluster))))
   ;;

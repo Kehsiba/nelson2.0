@@ -1,7 +1,17 @@
-28.139780100527556: Neural map created using : [:39 :38]
-28.13978010052876: Created file 39
-28.13978010052936: Created file 38
-28.13978010052936: Activated clojure.lang.LazySeq@8e11997e
-28.13978010052996: Neural map created
-28.13978010052996: New neural map created for string: hi
-28.139780132049435: All agents shutdown
+28.13979505645213: Neural map created using : [:39 :38]
+28.139795056453934: Created file 39
+28.139795056454535: Created file 38
+28.139795056454535: Activated clojure.lang.LazySeq@8e11997e
+28.13979505645514: Neural map created
+28.13979505645514: New neural map created for string: hi
+28.13979509294272: Neurons loaded.
+28.13979552064362: Neural map created using : [:39 :38]
+28.139795520644824: Created file 39
+28.139795520645425: Created file 38
+28.139795520645425: Activated clojure.lang.LazySeq@8e11997e
+28.139795520646025: Neural map created
+28.139795520646025: New neural map created for string: hi
+28.139795554426247: All agents shutdown
+28.139795565123965: Neurons loaded.
+28.139795590101546: Neurons loaded.
+28.139795611511417: All agents shutdown

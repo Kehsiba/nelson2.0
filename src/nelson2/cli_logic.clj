@@ -10,7 +10,9 @@
     (= command "@remember-concepts") (do (print "Enter the name of neuron :- ") (flush)
                                           (println "inferred-concepts :- " (logic-process/infer-concept-neurons [(keyword (read-line))])))
     (= command "@start-logic-thread") (do (print "Enter the name of initial neuron :- ") (flush)
-                                         (logic-process/start-logic-thread (keyword (read-line))))
+                                         (println (str "logic retrieved : " @(logic-process/start-logic-thread
+                                                                         (keyword (read-line)))))
+                                          )
     (= command "@expand-logic-thread") (do (print "Enter the logic thread :- ") (flush)
                                            (logic-process/expand-logic-thread (vec (map #(keyword %) (edn/read-string(read-line))))))
     (= command "@infer") (do (print "Enter the initial logic thread :- ") (flush)

@@ -1,1 +1,1 @@
-Fuck Google for now
+[:39 #nelson2.brain.skeleton{:state #object[clojure.lang.Atom 0x6f9ad11c {:status :ready, :val 1}], :dendrites #object[clojure.lang.Atom 0x4b2d44bc {:status :ready, :val {}}], :coordinate #nelson2.brain.coord{:x #object[clojure.lang.Atom 0x58e92c23 {:status :ready, :val 2.6537397417066293}], :y #object[clojure.lang.Atom 0x3e7545e8 {:status :ready, :val 26.55903521789252}], :z #object[clojure.lang.Atom 0x75e710b {:status :ready, :val 39.41938226145198}]}}]

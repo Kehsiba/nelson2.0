@@ -19,12 +19,14 @@
   )
 (defn neural-command [command]
   (cond
-    (= command "@read-file") (do (print "Enter the path of the file : ") (flush) (text-interface/parse-file (read-line)))
+    (= command "@read-file") (do (print "Enter the path of the file : ") (flush) (text-interface/parse-file
+                                                                                   (read-line)))
     (= command "@cli-logic") (logic-cli/introduce-logic)
     (= command "@cli-reward") (do (print (str (char 27) "[2J")) (reward-cli/introduce))
     (= command "@generate-personality") (pcalls handler/reward-cluster-engineer)
     (= command "@live-neurons") (println (keys (neural-processes/get-active-neurons)))
-    (= command "@forget") (do (print "Enter parent neuron ID ~~ ") (flush) (let [parent (read-line)] (do (print "Enter child neuron ID ~~ ") (flush) (neural-processes/forget-weight parent (read-line)))) (println "connection erased"))
+    (= command "@forget") (do (print "Enter parent neuron ID ~~ ") (flush) (let [parent (read-line)] (do (print "Enter child neuron ID ~~ ")
+                                                                                 (flush) (neural-processes/forget-weight parent (read-line)))) (println "connection erased"))
     (= command "@dump-all") (utility/save-neurons @brain/neural-cluster)
     (= command "@load-all") (neural-processes/load-neurons)
     (= command "@extract-concept") (extract-data-features/get-structure (neural-processes/select-random-tuple) (neural-processes/get-focus))

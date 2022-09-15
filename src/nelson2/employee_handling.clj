@@ -28,7 +28,6 @@
   "Manage the reward neurons automatically"
   (send-reward-neuron-managers-to-work)
   (Thread/sleep @(:manager-latency cluster/params))
-  (cluster/save-neurons @cluster/personality)
   (automatically-manage-reward-center)
   )
 (defn reward-cluster-engineer []
@@ -40,7 +39,6 @@
 
 (defn recruit []
   (pcalls send-concept-engineer-to-work send-neuron-managers-to-work)
-  (utility/save-neurons @brain/neural-cluster)
   )
 
 (defn background-recruit []

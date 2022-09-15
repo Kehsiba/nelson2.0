@@ -1,4 +1,8 @@
-(ns nelson2.cli_reward (:require [nelson2.reward-cluster :as cluster] [nelson2.employee-handling :as handler] [nelson2.reward-moderator :as moderator])
+(ns nelson2.cli_reward (:require
+                         [nelson2.reward-cluster :as cluster]
+                         [nelson2.employee-handling :as handler]
+                         [nelson2.reward-moderator :as moderator]
+                         [nelson2.neural_processes :as neural_processes])
   (:use [clojure.string :only (index-of)])  (:gen-class))
 "The cli for building and probing personalities"
 
@@ -8,6 +12,7 @@
   (cond
        (= command "@live-neurons") (println (cluster/get-live-neurons))
        (= command "@dump-all") (cluster/save-neurons @cluster/personality)
+       (= command "@load-all") (cluster/load-reward-neurons)
        (= command "@create-neurons") (do (print "Enter the names of the neurons : ") (flush) (cluster/create-neuron (read-line)))
        (= command "@create-cluster" )(cluster/create-reward-cluster)
        (= command "@activate-neuron") (do (print "Enter the name of the neuron : ") (flush) (cluster/activate-neurons [(keyword (read-line))]))
