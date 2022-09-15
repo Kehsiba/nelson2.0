@@ -1,19 +1,12 @@
-(ns nelson_clojure.utility
+(ns nelson2.utility
   (:gen-class)
-  (:require [clojure.edn :as edn] [clojure.data.json :as json]))
+  (:require [clojure.edn :as edn]))
 (defn dec2base32 [N]
     ;;convert a decimal into base 32
     (Integer/toString N 32))
 
 (defn base32todec [N]
   (Integer/parseInt N 32)
-  )
-(defn convert-data-to-json [neuron]
-  (when (not= neuron nil)
-    (let [map-entry (hash-map (key neuron) (val neuron))]
-      (json/write-str map-entry :value-fn (fn [key_ val_] (str @(:state val_) " " @(:dendrites val_) " "
-                                                               @(:x (:coordinate val_)) " " @(:y (:coordinate val_)) " " @(:z (:coordinate val_))))))
-    )
   )
 (defn save-neurons [cluster]
   "save the neurons to their files"

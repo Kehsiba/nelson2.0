@@ -1,7 +1,7 @@
-(ns nelson-clojure.logic_process
-  (:require [nelson_clojure.log :as log]
-            [nelson_clojure.utility :as utility] [nelson_clojure.neural_processes :as neural-processes] [nelson_clojure.log :as log]
-           [nelson-clojure.logic-remember :as logic-remember] [nelson_clojure.reward-moderator :as reward-moderator] [nelson_clojure.brain :as brain]))
+(ns nelson2.logic_process
+  (:require [nelson2.log :as log]
+            [nelson2.utility :as utility] [nelson2.neural_processes :as neural-processes] [nelson2.log :as log]
+           [nelson2.logic-remember :as logic-remember] [nelson2.reward-moderator :as reward-moderator] [nelson2.brain :as brain]))
 "Take the brain and the reward center"
 "Given a fixed set of neurons which remain excited- make all possible conclusions"
 "extract the concept neurons of the given neurons first"

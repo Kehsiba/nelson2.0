@@ -1,6 +1,7 @@
-(ns nelson_clojure.brain (:require [nelson_clojure.utility :as utility])
+(ns nelson2.brain
   (:require [clojure.java.io :as io]
-            [nelson_clojure.log :as log]
+            [nelson2.utility :as utility]
+            [nelson2.log :as log]
             [clojure.edn :as edn]) (:gen-class))
 
 (def params {:recruiting-latency (atom 1000), :number-of-concept-engineers (atom 4), :neuron-latency (atom 500), :concept-engineer-latency (atom 300), :encoding-base (atom 256),
@@ -48,9 +49,9 @@
   (coord. (:x x) (:y x) (:z x))
   )
 (defn handle-object [x]
-  (def tags {'object handle-object,'nelson_clojure.brain.coord handle-coord })
+  (def tags {'object handle-object,'nelson2.brain.brain.coord handle-coord })
   (atom (:val (get (edn/read-string {:readers tags} (str x)) 2))))
 (defn parse-skeleton [x]
-  (def tags {'object handle-object,'nelson_clojure.brain.coord handle-coord })
+  (def tags {'object handle-object,'nelson2.brain.brain.coord handle-coord })
   (skeleton. (:state x) (:dendrites x) (:coordinate x))
   )

@@ -1,9 +1,9 @@
-(ns nelson_clojure.neural_processes
-  (:require [nelson_clojure.brain :as brain])
+(ns nelson2.neural_processes
+  (:require [nelson2.brain :as brain])
   (:gen-class)
-  (:require [nelson_clojure.weight_update :as weight-update]
-            [nelson_clojure.log :as log]
-            [clojure.edn :as edn] [clojure.data.json :as json][nelson_clojure.utility :as utility])
+  (:require [nelson2.weight_update :as weight-update]
+            [nelson2.log :as log]
+            [clojure.edn :as edn][nelson2.utility :as utility])
   (:use [clojure.string]))
 
 "Perform neural processes like thinking, creating neural maps, concept overlap"
@@ -92,14 +92,9 @@
   (map  (fn [neuron-file] (slurp (str "neuron-data/" neuron-file))) (remove empty? (set (get-neuron-files))) )
   )
 
-(defn load-json-neurons []
-  (let [x (into [] (get-neurons))]
-    (println (json/read-str (get x 0) :value-fn (fn [key_ val_] (str (keyword val) ))))
-    )
-  )
 (defn load-neurons []
   "load neurons from file"
-  (def tags {'nelson_clojure.brain.skeleton brain/parse-skeleton, 'nelson_clojure.brain.coord brain/handle-coord, 'object brain/handle-object})
+  (def tags {'nelson2.brain.skeleton brain/parse-skeleton, 'nelson2.brain.coord brain/handle-coord, 'object brain/handle-object})
    (let [x (map #(try (edn/read-string {:readers tags} %) (catch Exception ex))(get-neurons))] (swap! brain/neural-cluster (fn [_] (apply hash-map (flatten x)))))
   (log/log "Neurons loaded.")
   )

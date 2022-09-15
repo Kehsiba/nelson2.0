@@ -1,4 +1,4 @@
-(ns nelson_clojure.weight_update
+(ns nelson2.weight_update
   (:gen-class))
 
 ;;(refer ('cli :only params))

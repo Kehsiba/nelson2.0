@@ -1,7 +1,7 @@
-(ns nelson_clojure.reward-cluster
+(ns nelson2.reward-cluster
   (:gen-class)(:use [clojure.string :only (index-of)])
-  (:require [nelson_clojure.reward-log :as log]
-            [clojure.java.io :as io] [nelson_clojure.brain :as brain] [nelson_clojure.neural_processes :as nelson_clojure.neural_processes]))
+  (:require [nelson2.reward-log :as log]
+            [clojure.java.io :as io] [nelson2.brain :as brain] [nelson2.neural_processes :as nelson2.neural_processes]))
 
 (defrecord reward-neurons [state connections] :load-ns true)
 (def personality (atom {}))

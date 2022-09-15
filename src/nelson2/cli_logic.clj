@@ -1,5 +1,5 @@
-(ns nelson-clojure.cli_logic
-  (:require [nelson-clojure.logic_process :as logic-process])
+(ns nelson2.cli_logic
+  (:require [nelson2.logic_process :as logic-process])
   (:use [clojure.string :only (index-of)] [clojure.edn :as edn]) (:gen-class))
 "CLI for the logic sector"
 

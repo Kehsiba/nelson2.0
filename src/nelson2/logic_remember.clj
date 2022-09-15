@@ -1,4 +1,4 @@
-(ns nelson-clojure.logic-remember (:require [nelson_clojure.utility :as utility] [nelson_clojure.brain :as brain]))
+(ns nelson2.logic-remember (:require [nelson2.utility :as utility] [nelson2.brain :as brain]))
 "sample from the brain"
 
 

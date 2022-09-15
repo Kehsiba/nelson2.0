@@ -1,5 +1,5 @@
-(ns nelson_clojure.extract-data-features  (:require [nelson_clojure.utility :as utility] [nelson_clojure.log :as log])
-  (:require [nelson_clojure.brain :as brain] [nelson_clojure.neural_processes :as neural-processes] )(:use [clojure.set :only (intersection)])  (:gen-class))
+(ns nelson2.extract-data-features  (:require [nelson2.utility :as utility] [nelson2.log :as log])
+  (:require [nelson2.brain :as brain] [nelson2.neural_processes :as neural-processes] )(:use [clojure.set :only (intersection)])  (:gen-class))
 "takes the list of neuron ids and then extracts the features in the data"
 
 (defn validate-pair [neuron-pair]

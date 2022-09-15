@@ -1,6 +1,6 @@
-(ns nelson-clojure.agent-job-description
-  (:require [nelson_clojure.neural_processes :as neural-processes] [nelson_clojure.reward-cluster :as cluster] [nelson_clojure.reward-log :as r-log]
-            [nelson_clojure.brain :as brain]  [nelson_clojure.extract-data-features :as extract-concept] [nelson_clojure.log :as log]))
+(ns nelson2.agent-job-description
+  (:require [nelson2.neural_processes :as neural-processes] [nelson2.reward-cluster :as cluster] [nelson2.reward-log :as r-log]
+            [nelson2.brain :as brain]  [nelson2.extract-data-features :as extract-concept] [nelson2.log :as log]))
 "Has the job description of the agent"
 
 (defn neuron-manager [manager]

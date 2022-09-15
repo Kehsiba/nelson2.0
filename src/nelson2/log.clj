@@ -1,4 +1,4 @@
-(ns nelson_clojure.log
+(ns nelson2.log
   (:require [clojure.java.io :as io])
   (:import (java.util Date)))
 (defn timestamp []

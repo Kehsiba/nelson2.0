@@ -1,5 +1,5 @@
-(ns nelson-clojure.employee-handling (:require [nelson_clojure.brain :as brain] [nelson_clojure.utility :as utility] [nelson_clojure.reward-cluster :as cluster]
-                                               [nelson-clojure.agent-job-description :as job] [nelson_clojure.log :as log]))
+(ns nelson2.employee-handling (:require [nelson2.brain :as brain] [nelson2.utility :as utility] [nelson2.reward-cluster :as cluster]
+                                               [nelson2.agent-job-description :as job] [nelson2.log :as log]))
 "consist of a set of agents"
 
 (defn neuron-managers []

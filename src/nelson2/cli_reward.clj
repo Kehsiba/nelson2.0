@@ -1,4 +1,4 @@
-(ns nelson_clojure.cli_reward (:require [nelson_clojure.reward-cluster :as cluster] [nelson-clojure.employee-handling :as handler] [nelson_clojure.reward-moderator :as moderator])
+(ns nelson2.cli_reward (:require [nelson2.reward-cluster :as cluster] [nelson2.employee-handling :as handler] [nelson2.reward-moderator :as moderator])
   (:use [clojure.string :only (index-of)])  (:gen-class))
 "The cli for building and probing personalities"
 

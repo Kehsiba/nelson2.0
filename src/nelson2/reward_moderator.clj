@@ -1,7 +1,7 @@
-(ns nelson_clojure.reward-moderator
-  (:require [nelson_clojure.reward-cluster :as cluster]
-            [nelson_clojure.reward-log :as log]
-            [nelson_clojure.brain :as brain])  (:gen-class))
+(ns nelson2.reward-moderator
+  (:require [nelson2.reward-cluster :as cluster]
+            [nelson2.reward-log :as log]
+            [nelson2.brain :as brain])  (:gen-class))
 "calculates the reward and gives feedback to the neuron as if the new pattern increases or decreases the pleasure"
 (defn calc-reward []
 "calculates the total pleasure obtained from` the orgy"

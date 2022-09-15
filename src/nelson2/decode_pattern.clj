@@ -1,6 +1,6 @@
-(ns nelson_clojure.decode-pattern
+(ns nelson2.decode-pattern
   (:gen-class)
-  (:require [nelson_clojure.utility :as utility]))
+  (:require [nelson2.utility :as utility]))
 
 (defn decode-bytearr [byte-arr]
 "convert the byte array to string"
