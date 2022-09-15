@@ -1,9 +1,12 @@
 (ns nelson_clojure.cli_neural_network
   (:require [nelson_clojure.brain :as create-brain ] [ nelson_clojure.neural_processes :as neural-processes] [nelson_clojure.extract-data-features :as extract-data-features]
-            [nelson-clojure.cli_logic :as logic-cli] [nelson_clojure.utility :as utility] [nelson_clojure.cli_reward :as reward-cli] [nelson-clojure.employee-handling :as handler] [nelson_clojure.log :as log] [nelson_clojure.neural-encoder :as neural-encoder] [nelson_clojure.text-input-interface :as text-interface]) (:use [clojure.string :only (index-of)])  (:gen-class))
+            [nelson_clojure.cli_logic :as logic-cli] [nelson_clojure.utility :as utility] [nelson_clojure.cli_reward :as reward-cli] [nelson_clojure.employee-handling :as handler] [nelson_clojure.log :as log] [nelson_clojure.neural-encoder :as neural-encoder] [nelson_clojure.text-input-interface :as text-interface]) (:use [clojure.string :only (index-of)])  (:gen-class))
 
-(defn neural-interaction []
+(defn neural-interaction [text]
+  (let [temp-labels (neural-encoder/get-labels text)]
+    (println (str "Text entered is " "and the labels are "))
 
+    )
   )
 (defn neural-command [command]
   (cond
@@ -67,7 +70,7 @@
 
 (defn execute-desire [wish]
   "Execute the wish of the user"
-  (if (not= 0 (index-of wish "@" )) (neural-interaction) (neural-command wish)))
+  (if (not= 0 (index-of wish "@" )) (neural-interaction wish) (neural-command wish)))
 
 (defn terminal []
   (do (println "enter '@help' for a glossary of commands") (print "neural-network >> ") (flush))
