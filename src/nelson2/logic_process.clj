@@ -64,7 +64,9 @@
   "Given the logic threads find the lower concept representations i.e the byte representation of the concepts"
   "sample multiple times and prepare a list of outcome vs frequency"
   (let [concept-level (int (Math/floor (utility/concept-level? (first logic-thread))))]
-    (map #(keyword (utility/dec2base32 %)) (apply merge (map #(utility/de-compress [(utility/base32todec (name %))] concept-level)logic-thread)))))
+    (println (str "Concept level " concept-level))
+    (map #(keyword (utility/dec2base32 %)) (apply merge (map #(utility/de-compress [(utility/base32todec (name %))]
+                                                                                   concept-level)logic-thread)))))
 
 (defn logical-inference [neuron-ids]
   "logically infer everything from the data"

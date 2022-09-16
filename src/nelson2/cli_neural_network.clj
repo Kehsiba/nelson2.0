@@ -39,6 +39,7 @@
                                (println (str "Latency               : " @(get brain/params :latency)))
                                )
     (= command "@clear") (print (str (char 27) "[2J"))
+    (= command "@count-threads") (println (str "The number of threads running are :- " (Thread/activeCount)))
     (= command "@recruit") (handler/recruit)
     (= command "@neural-list") (println (str "Neurons :- " (keys @brain/neural-cluster)))
     (= command "@recruit-automatically") (pcalls handler/background-recruit)

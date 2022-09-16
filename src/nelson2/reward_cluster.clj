@@ -10,7 +10,7 @@
 (defrecord reward-neurons [state connections] :load-ns true)
 (def personality (atom {}))
 (def params {:number-of-reward-neurons (atom 100), :base-neuron-interest (atom 1),
-             :reward-neuron-sleep (atom 1000), :manager-latency (atom 10)})
+             :reward-neuron-sleep (atom 1000), :manager-latency (atom 2000)})
 
 (defn get-random-weights []
   (rand))
