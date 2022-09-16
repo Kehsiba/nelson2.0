@@ -18,6 +18,7 @@
        (= command "@activate-neuron") (do (print "Enter the name of the neuron : ") (flush) (cluster/activate-neurons [(keyword (read-line))]))
        (= command "@deactivate-neurons") (do (print "Enter the name of the neuron : ") (flush) (cluster/deactivate-neuron [(keyword (read-line))]))
        (= command "@mutate-personality" ) (cluster/mutate-cluster)
+       (= command "@neural-list") (println (str "Neurons :- " (keys @cluster/personality)))
        (= command "@flush-neuron") (do (print "Enter the name of the neuron : ") (flush) (cluster/flush (keyword (read-line))))
        (= command "@quit") (println "Hope to see you soon...")
        (= command "@recruit-automatically") (handler/automatically-manage-reward-center)

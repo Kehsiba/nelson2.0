@@ -104,7 +104,7 @@
 (defn load-neurons []
   "load neurons from file"
   (def tags {'nelson2.brain.skeleton brain/parse-skeleton, 'nelson2.brain.coord brain/handle-coord, 'object brain/handle-object})
-   (let [x (map #(try (edn/read-string {:readers tags} %) (catch Exception ex))(get-neurons))] (swap! brain/neural-cluster (fn [_] (apply hash-map (flatten x)))))
+   (let [x (map #(try (edn/read-string {:readers tags} %) (catch Exception ex (println (str "Exception caught - " ex))))(get-neurons))] (swap! brain/neural-cluster (fn [_] (apply hash-map (flatten x)))))
   (log/log "Neurons loaded.")
   )
 

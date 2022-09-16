@@ -15,3 +15,16 @@
 28.139795565123965: Neurons loaded.
 28.139795590101546: Neurons loaded.
 28.139795611511417: All agents shutdown
+28.139796828211125: Neurons loaded.
+28.13979686059885: All agents shutdown
+28.139796866656255: Neurons loaded.
+28.13979737058646: Neurons loaded.
+28.139797470019825: Neurons loaded.
+28.139797521183965: Neurons loaded.
+28.139797565401484: All agents shutdown
+28.139816423086355: Neurons loaded.
+28.1398168577144: Neurons loaded.
+28.13981687224767: All agents shutdown
+28.13981723143998: Neurons loaded.
+28.139817252250573: All agents shutdown
+28.139817330249706: All agents shutdown

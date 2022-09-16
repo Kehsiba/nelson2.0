@@ -4,11 +4,12 @@
             [clojure.java.io :as io]
             [nelson2.brain :as brain]
             [clojure.edn :as edn]
-            [nelson2.neural_processes :as neural_processes]))
+            [nelson2.neural_processes :as neural_processes]
+            [clojure.set :as set]))
 
 (defrecord reward-neurons [state connections] :load-ns true)
 (def personality (atom {}))
-(def params {:number-of-reward-neurons (atom 4), :base-neuron-interest (atom 1),
+(def params {:number-of-reward-neurons (atom 100), :base-neuron-interest (atom 1),
              :reward-neuron-sleep (atom 1000), :manager-latency (atom 10)})
 
 (defn get-random-weights []
@@ -32,6 +33,29 @@
   "return the set of active neurons"
   (keys (filter (fn [neuron] (if (= 1 @(:state (get neuron 1))) true false)) @personality))
   )
+
+(defn handle-object [x]
+  (def tags {'object handle-object})
+  (atom (:val (get (edn/read-string {:readers tags} (str x)) 2))))
+
+(defn parse-reward-personality [x]
+  (def tags {'object handle-object})
+  (reward-neurons. (:state x) (:connections x) )
+
+  )
+(defn load-reward-neurons []
+  "load reward neurons"
+  (let [x (map #(try (edn/read-string {:readers {'nelson2.reward_cluster.reward-neurons parse-reward-personality, 'object brain/handle-object}} %)
+                     (catch Exception ex (println (str "Exception caught - " ex))))
+               (neural_processes/get-reward-neurons))]
+    (swap! personality (fn [_] (apply hash-map (flatten x))))
+    "formatting the data structure"
+    (swap! personality (fn [_] (merge (apply set/union (keys @personality)) (apply set/union (vals @personality)))))
+    )
+  (reward-log/log "Neurons loaded.")
+  )
+
+
 (defn create-reward-cluster []
   "Takes the personality atom and updates the relationship between themselves"
   (doseq [neuron @personality] (create-neuron-relations (key neuron) (keys (dissoc @personality (key neuron)))))
@@ -88,24 +112,6 @@
   "given the connections calculates the interest using a formula"
   (/ (apply + (map #(* (if (validate-neuron-id %) (deref (:state (get @brain/neural-cluster %))) (deref (:state (get @personality %))))
                        (deref (get connections %))) (keys connections))) (count (keys connections)))
-  )
-(defn handle-object [x]
-  (def tags {'object handle-object})
-  (atom (:val (get (edn/read-string {:readers tags} (str x)) 2))))
-
-(defn parse-reward-personality [x]
-  (def tags {'object handle-object})
-  (reward-neurons. (:state x) (:connections x) )
-
-  )
-(defn load-reward-neurons []
-  "load reward neurons"
-  (def tags {'nelson2.reward_cluster.reward-neurons parse-reward-personality, 'object brain/handle-object})
-  (let [x (map #(try (edn/read-string {:readers tags} %) (catch Exception ex (println (str "Exception caught - " ex))))
-               (neural_processes/get-reward-neurons))]
-    (println (str "x = " (vec x)))
-    (swap! personality (fn [_] (apply hash-map (flatten x)))))
-  (reward-log/log "Neurons loaded.")
   )
 
 (defn calc-interest [connections]

@@ -40,6 +40,7 @@
                                )
     (= command "@clear") (print (str (char 27) "[2J"))
     (= command "@recruit") (handler/recruit)
+    (= command "@neural-list") (println (str "Neurons :- " (keys @brain/neural-cluster)))
     (= command "@recruit-automatically") (pcalls handler/background-recruit)
     (= command "@activate-neuron") (do (print "Enter the neuron ID (without :) :- ") (flush) (neural-processes/activate-neurons [(keyword (read-line))]))
     (= command "@deactivate-neuron") (do (print "Enter the neuron ID (without :) :- ") (flush) (neural-processes/deactivate-neuron (read-line)))
