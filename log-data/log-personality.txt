@@ -749,3 +749,305 @@
 28.139824574229817: All neurons connected to brain
 28.139824574230417: Reward cluster connected to brain.
 28.139824574240038: New personality generated.
+28.13982794937995: Created file reward-1
+28.139827949384156: Created neuron : reward-1
+28.139827949384156: Created file reward-2
+28.139827949384156: Created neuron : reward-2
+28.139827949384156: Created file reward-3
+28.139827949384156: Created neuron : reward-3
+28.139827949384156: Created file reward-4
+28.139827949384156: Created neuron : reward-4
+28.139827949384156: Created file reward-5
+28.139827949384156: Created neuron : reward-5
+28.13982794938596: Created file reward-6
+28.13982794938596: Created neuron : reward-6
+28.13982794938596: Created file reward-7
+28.13982794938596: Created neuron : reward-7
+28.13982794938656: Created file reward-8
+28.13982794938656: Created neuron : reward-8
+28.13982794938656: Created file reward-9
+28.13982794938656: Created neuron : reward-9
+28.13982794938656: Created file reward-10
+28.13982794938656: Created neuron : reward-10
+28.13982794938656: Created file reward-11
+28.13982794938656: Created neuron : reward-11
+28.13982794938656: Created file reward-12
+28.13982794938656: Created neuron : reward-12
+28.13982794938656: Created file reward-13
+28.13982794938656: Created neuron : reward-13
+28.13982794938656: Created file reward-14
+28.13982794938656: Created neuron : reward-14
+28.13982794938656: Created file reward-15
+28.13982794938656: Created neuron : reward-15
+28.13982794938656: Created file reward-16
+28.13982794938656: Created neuron : reward-16
+28.13982794938656: Created file reward-17
+28.13982794938656: Created neuron : reward-17
+28.13982794938656: Created file reward-18
+28.13982794938656: Created neuron : reward-18
+28.13982794938716: Created file reward-19
+28.13982794938716: Created neuron : reward-19
+28.13982794938716: Created file reward-20
+28.13982794938716: Created neuron : reward-20
+28.13982794938716: Created file reward-21
+28.13982794938716: Created neuron : reward-21
+28.13982794938716: Created file reward-22
+28.13982794938716: Created neuron : reward-22
+28.13982794938716: Created file reward-23
+28.13982794938716: Created neuron : reward-23
+28.13982794938716: Created file reward-24
+28.13982794938716: Created neuron : reward-24
+28.13982794938716: Created file reward-25
+28.13982794938716: Created neuron : reward-25
+28.13982794938716: Created file reward-26
+28.13982794938716: Created neuron : reward-26
+28.13982794938716: Created file reward-27
+28.13982794938716: Created neuron : reward-27
+28.139827949387765: Created file reward-28
+28.139827949387765: Created neuron : reward-28
+28.139827949387765: Created file reward-29
+28.139827949387765: Created neuron : reward-29
+28.139827949387765: Created file reward-30
+28.139827949387765: Created neuron : reward-30
+28.139827949387765: Created file reward-31
+28.139827949387765: Created neuron : reward-31
+28.139827949387765: Created file reward-32
+28.139827949387765: Created neuron : reward-32
+28.139827949387765: Created file reward-33
+28.139827949387765: Created neuron : reward-33
+28.139827949387765: Created file reward-34
+28.139827949388366: Created neuron : reward-34
+28.139827949388366: Created file reward-35
+28.139827949388366: Created neuron : reward-35
+28.139827949388366: Created file reward-36
+28.139827949388366: Created neuron : reward-36
+28.139827949388366: Created file reward-37
+28.139827949388366: Created neuron : reward-37
+28.139827949388366: Created file reward-38
+28.139827949388366: Created neuron : reward-38
+28.139827949388366: Created file reward-39
+28.139827949388366: Created neuron : reward-39
+28.139827949388366: Created file reward-40
+28.139827949388366: Created neuron : reward-40
+28.139827949388366: Created file reward-41
+28.139827949388366: Created neuron : reward-41
+28.139827949388366: Created file reward-42
+28.139827949388366: Created neuron : reward-42
+28.139827949388966: Created file reward-43
+28.139827949388966: Created neuron : reward-43
+28.139827949388966: Created file reward-44
+28.139827949388966: Created neuron : reward-44
+28.139827949388966: Created file reward-45
+28.139827949388966: Created neuron : reward-45
+28.139827949388966: Created file reward-46
+28.139827949388966: Created neuron : reward-46
+28.139827949388966: Created file reward-47
+28.139827949388966: Created neuron : reward-47
+28.139827949388966: Created file reward-48
+28.139827949388966: Created neuron : reward-48
+28.139827949388966: Created file reward-49
+28.139827949388966: Created neuron : reward-49
+28.139827949388966: Created file reward-50
+28.139827949388966: Created neuron : reward-50
+28.139827949388966: Created file reward-51
+28.139827949388966: Created neuron : reward-51
+28.139827949388966: Created file reward-52
+28.139827949389566: Created neuron : reward-52
+28.139827949389566: Created file reward-53
+28.139827949389566: Created neuron : reward-53
+28.139827949389566: Created file reward-54
+28.139827949389566: Created neuron : reward-54
+28.13982794939137: Created file reward-55
+28.13982794939197: Created neuron : reward-55
+28.13982794939197: Created file reward-56
+28.13982794939197: Created neuron : reward-56
+28.13982794939197: Created file reward-57
+28.13982794939197: Created neuron : reward-57
+28.13982794939197: Created file reward-58
+28.13982794939197: Created neuron : reward-58
+28.13982794939197: Created file reward-59
+28.13982794939197: Created neuron : reward-59
+28.13982794939197: Created file reward-60
+28.13982794939197: Created neuron : reward-60
+28.13982794939197: Created file reward-61
+28.13982794939197: Created neuron : reward-61
+28.13982794939197: Created file reward-62
+28.13982794939197: Created neuron : reward-62
+28.13982794939197: Created file reward-63
+28.13982794939197: Created neuron : reward-63
+28.13982794939197: Created file reward-64
+28.13982794939197: Created neuron : reward-64
+28.139827949392572: Created file reward-65
+28.139827949392572: Created neuron : reward-65
+28.139827949392572: Created file reward-66
+28.139827949392572: Created neuron : reward-66
+28.139827949392572: Created file reward-67
+28.139827949392572: Created neuron : reward-67
+28.139827949392572: Created file reward-68
+28.139827949392572: Created neuron : reward-68
+28.139827949392572: Created file reward-69
+28.139827949392572: Created neuron : reward-69
+28.139827949392572: Created file reward-70
+28.139827949392572: Created neuron : reward-70
+28.139827949392572: Created file reward-71
+28.139827949392572: Created neuron : reward-71
+28.139827949392572: Created file reward-72
+28.139827949392572: Created neuron : reward-72
+28.139827949392572: Created file reward-73
+28.139827949392572: Created neuron : reward-73
+28.139827949392572: Created file reward-74
+28.139827949392572: Created neuron : reward-74
+28.139827949392572: Created file reward-75
+28.139827949392572: Created neuron : reward-75
+28.139827949392572: Created file reward-76
+28.139827949392572: Created neuron : reward-76
+28.139827949392572: Created file reward-77
+28.139827949392572: Created neuron : reward-77
+28.139827949392572: Created file reward-78
+28.139827949393176: Created neuron : reward-78
+28.139827949393176: Created file reward-79
+28.139827949393176: Created neuron : reward-79
+28.139827949393176: Created file reward-80
+28.139827949393176: Created neuron : reward-80
+28.139827949393176: Created file reward-81
+28.139827949393176: Created neuron : reward-81
+28.139827949393176: Created file reward-82
+28.139827949393176: Created neuron : reward-82
+28.139827949393176: Created file reward-83
+28.139827949393176: Created neuron : reward-83
+28.139827949393176: Created file reward-84
+28.139827949393176: Created neuron : reward-84
+28.139827949393176: Created file reward-85
+28.139827949393176: Created neuron : reward-85
+28.139827949393176: Created file reward-86
+28.139827949393176: Created neuron : reward-86
+28.139827949393176: Created file reward-87
+28.139827949393176: Created neuron : reward-87
+28.139827949393176: Created file reward-88
+28.139827949393176: Created neuron : reward-88
+28.139827949393776: Created file reward-89
+28.139827949393776: Created neuron : reward-89
+28.13982794939558: Created file reward-90
+28.13982794939558: Created neuron : reward-90
+28.13982794939558: Created file reward-91
+28.13982794939558: Created neuron : reward-91
+28.13982794939558: Created file reward-92
+28.13982794939558: Created neuron : reward-92
+28.13982794939558: Created file reward-93
+28.13982794939558: Created neuron : reward-93
+28.13982794939558: Created file reward-94
+28.13982794939558: Created neuron : reward-94
+28.13982794939618: Created file reward-95
+28.13982794939618: Created neuron : reward-95
+28.13982794939618: Created file reward-96
+28.13982794939618: Created neuron : reward-96
+28.13982794939618: Created file reward-97
+28.13982794939618: Created neuron : reward-97
+28.13982794939618: Created file reward-98
+28.13982794939618: Created neuron : reward-98
+28.13982794939618: Created file reward-99
+28.13982794939618: Created neuron : reward-99
+28.1398279494058: Reward center created.
+28.1398279494058: Reward cluster created.
+28.139827949406403: Connected to brain : :reward-92
+28.139827949406403: Connected to brain : :reward-86
+28.139827949406403: Connected to brain : :reward-54
+28.139827949406403: Connected to brain : :reward-94
+28.139827949407003: Connected to brain : :reward-9
+28.139827949407003: Connected to brain : :reward-99
+28.139827949407003: Connected to brain : :reward-87
+28.139827949407003: Connected to brain : :reward-43
+28.139827949407003: Connected to brain : :reward-57
+28.139827949407003: Connected to brain : :reward-81
+28.139827949407003: Connected to brain : :reward-23
+28.139827949407003: Connected to brain : :reward-33
+28.139827949407003: Connected to brain : :reward-21
+28.139827949407003: Connected to brain : :reward-98
+28.139827949407604: Connected to brain : :reward-63
+28.139827949407604: Connected to brain : :reward-51
+28.139827949407604: Connected to brain : :reward-36
+28.139827949407604: Connected to brain : :reward-76
+28.139827949407604: Connected to brain : :reward-59
+28.139827949407604: Connected to brain : :reward-93
+28.139827949407604: Connected to brain : :reward-61
+28.139827949407604: Connected to brain : :reward-74
+28.139827949407604: Connected to brain : :reward-16
+28.139827949407604: Connected to brain : :reward-41
+28.139827949407604: Connected to brain : :reward-20
+28.139827949407604: Connected to brain : :reward-15
+28.139827949407604: Connected to brain : :reward-12
+28.139827949407604: Connected to brain : :reward-97
+28.139827949407604: Connected to brain : :reward-3
+28.139827949407604: Connected to brain : :reward-71
+28.139827949408204: Connected to brain : :reward-27
+28.139827949408204: Connected to brain : :reward-4
+28.139827949408204: Connected to brain : :reward-26
+28.139827949408204: Connected to brain : :reward-8
+28.139827949408204: Connected to brain : :reward-84
+28.139827949408204: Connected to brain : :reward-72
+28.139827949408204: Connected to brain : :reward-66
+28.139827949408204: Connected to brain : :reward-95
+28.139827949408204: Connected to brain : :reward-2
+28.139827949408204: Connected to brain : :reward-79
+28.139827949408204: Connected to brain : :reward-22
+28.139827949408204: Connected to brain : :reward-38
+28.139827949408204: Connected to brain : :reward-25
+28.139827949408204: Connected to brain : :reward-78
+28.139827949408204: Connected to brain : :reward-82
+28.139827949408204: Connected to brain : :reward-48
+28.139827949408808: Connected to brain : :reward-56
+28.139827949408808: Connected to brain : :reward-73
+28.139827949408808: Connected to brain : :reward-34
+28.139827949408808: Connected to brain : :reward-64
+28.139827949408808: Connected to brain : :reward-58
+28.139827949408808: Connected to brain : :reward-7
+28.139827949408808: Connected to brain : :reward-85
+28.139827949408808: Connected to brain : :reward-67
+28.139827949408808: Connected to brain : :reward-30
+28.139827949408808: Connected to brain : :reward-52
+28.139827949408808: Connected to brain : :reward-65
+28.139827949408808: Connected to brain : :reward-68
+28.139827949408808: Connected to brain : :reward-50
+28.139827949408808: Connected to brain : :reward-11
+28.13982794940941: Connected to brain : :reward-49
+28.13982794940941: Connected to brain : :reward-13
+28.13982794940941: Connected to brain : :reward-28
+28.13982794940941: Connected to brain : :reward-80
+28.13982794940941: Connected to brain : :reward-53
+28.13982794940941: Connected to brain : :reward-39
+28.13982794940941: Connected to brain : :reward-75
+28.13982794940941: Connected to brain : :reward-46
+28.13982794940941: Connected to brain : :reward-42
+28.13982794940941: Connected to brain : :reward-62
+28.13982794940941: Connected to brain : :reward-19
+28.13982794940941: Connected to brain : :reward-1
+28.13982794940941: Connected to brain : :reward-6
+28.13982794940941: Connected to brain : :reward-31
+28.13982794940941: Connected to brain : :reward-29
+28.13982794941001: Connected to brain : :reward-45
+28.13982794941001: Connected to brain : :reward-35
+28.13982794941001: Connected to brain : :reward-70
+28.13982794941001: Connected to brain : :reward-37
+28.13982794941001: Connected to brain : :reward-69
+28.13982794941001: Connected to brain : :reward-77
+28.13982794941001: Connected to brain : :reward-24
+28.13982794941001: Connected to brain : :reward-91
+28.13982794941001: Connected to brain : :reward-17
+28.13982794941001: Connected to brain : :reward-5
+28.13982794941001: Connected to brain : :reward-32
+28.13982794941001: Connected to brain : :reward-10
+28.13982794941001: Connected to brain : :reward-18
+28.13982794941001: Connected to brain : :reward-55
+28.13982794941001: Connected to brain : :reward-83
+28.13982794941061: Connected to brain : :reward-88
+28.13982794941061: Connected to brain : :reward-47
+28.13982794941061: Connected to brain : :reward-40
+28.13982794941061: Connected to brain : :reward-60
+28.13982794941061: Connected to brain : :reward-96
+28.13982794941061: Connected to brain : :reward-14
+28.13982794941061: Connected to brain : :reward-89
+28.13982794941061: Connected to brain : :reward-44
+28.13982794941061: Connected to brain : :reward-90
+28.13982794941061: All neurons connected to brain
+28.13982794941121: Reward cluster connected to brain.
+28.139827949417224: New personality generated.

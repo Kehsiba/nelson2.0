@@ -17,7 +17,7 @@
 (defn activate-neurons [neuron-ids]
   "Activate the supplied neuron"
   (doseq [key neuron-ids] (when (not= nil (key @brain/neural-cluster)) (swap! (:state (key @brain/neural-cluster)) (fn [_] 1))))
-  (log/log (str "Activated " neuron-ids))
+  (log/log (str "Activated " (vec neuron-ids)))
   )
 
 (defn update-radius [radius]
