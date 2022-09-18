@@ -7,7 +7,14 @@
   "Manage the neurons"
     (neural-processes/flush-neuron (key manager))
     (Thread/sleep @(:neuron-latency brain/params))
-    (neural-processes/deactivate-neuron (key manager))
+
+  "check if the neuron is activated"
+    (if (== 1 (:state (get @(brain/neural-cluster) (key manager))))
+        (println "Manager activated :- " (key manager))
+        (neural-processes/deactivate-neuron (key manager))
+      )
+
+
   ;;(log/log (str "Neuron-manager reporting. ID - " (key manager)))
   )
 (defn concept-engineer []
@@ -22,6 +29,9 @@
   "Manage the reward-neurons"
   (cluster/flush (key manager))
   (Thread/sleep @(:reward-neuron-sleep cluster/params))
-  (cluster/deactivate-neuron (key manager))
-  (r-log/log (str "Reporting " (key manager)))
+
+  (if (== 1 (:state (get @(cluster/personality) (key manager))))
+    (println "Reward Manager deactivated :- " (key manager))
+    (neural-processes/deactivate-neuron (key manager))
+    )
   )

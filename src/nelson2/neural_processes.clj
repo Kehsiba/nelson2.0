@@ -114,9 +114,11 @@
                               (apply + (map #(* (deref (get dendrites %)) @(get (get @brain/neural-cluster %) :state) ) (keys dendrites)) )
                               )
   )
+(defn calc-flush-prob [neuron-id])
 (defn flush-neuron [neuron-id]
   "Takes a neuron and calculates the flush probabilities"
-  (let [neuron (get @brain/neural-cluster (keyword neuron-id)), dendrites @(get neuron :dendrites)] (when-not (empty? (random-sample (if (= 0 (count (get-active-neurons))) (deref (:base-excitation-probability brain/params)) (calc-prob dendrites)) [1])) (activate-neurons [(keyword neuron-id)]))(log/log (str "excitation probability calculated : " (keys dendrites))))
+  (let [neuron (get @brain/neural-cluster (keyword neuron-id)), dendrites @(get neuron :dendrites)] (when-not (empty? (random-sample (if (= 0 (count (get-active-neurons))) (deref (:base-excitation-probability brain/params)) (calc-prob dendrites)) [1])) (activate-neurons [(keyword neuron-id)]))(log/log (str "excitation probability calculated for " neuron-id " to be "
+                                                                                                                                                                                                                                                                                                                    (if (= 0 (count (get-active-neurons))) (deref (:base-excitation-probability brain/params)) (calc-prob dendrites)))))
   )
 (defn select-random-tuple []
   "returns only a pair for now"

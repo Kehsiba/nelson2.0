@@ -1,13 +1,21 @@
 import matplotlib.pyplot as plt
 import numpy as np
-
-# Some example data to display
-x = np.linspace(0, 2 * np.pi, 400)
-y = np.sin(x ** 2)
-
-fig, axs = plt.subplots(2)
-fig.suptitle('Vertically stacked subplots')
-axs[0].plot(x, y)
-axs[1].plot(x, -y)
-
+  
+feature_x = np.linspace(-5.0, 3.0, 70)
+feature_y = np.linspace(-5.0, 3.0, 70)
+  
+# Creating 2-D grid of features
+[X, Y] = np.meshgrid(feature_x, feature_y)
+  
+fig, ax = plt.subplots(1, 1)
+  
+Z = X ** 2 + Y ** 2
+  
+# plots filled contour plot
+ax.contourf(X, Y, Z)
+  
+ax.set_title('Filled Contour Plot')
+ax.set_xlabel('feature_x')
+ax.set_ylabel('feature_y')
+  
 plt.show()
