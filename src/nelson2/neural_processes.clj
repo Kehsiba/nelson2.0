@@ -16,7 +16,8 @@
   )
 (defn activate-neurons [neuron-ids]
   "Activate the supplied neuron"
-  (doseq [key neuron-ids] (when (not= nil (key @brain/neural-cluster)) (swap! (:state (key @brain/neural-cluster)) (fn [_] 1))))
+  (doseq [key neuron-ids] (when (not= nil (key @brain/neural-cluster)) (if (== 0 @(:state (key @brain/neural-cluster)))
+                                                                         (swap! (:state (key @brain/neural-cluster)) (fn [_] 1)))))
   (log/log (str "Activated " (vec neuron-ids)))
   )
 
@@ -108,17 +109,24 @@
   (log/log "Neurons loaded.")
   )
 
-(defn calc-prob [dendrites]
+(defn calc-prob [neuron-id,dendrites]
   "Takes a map of dendrites and calculates the excitation probabillity"
-  (if (= 0 (count dendrites)) (get brain/params :base-excitation-probability)
-                              (apply + (map #(* (deref (get dendrites %)) @(get (get @brain/neural-cluster %) :state) ) (keys dendrites)) )
-                              )
+  (if (= 0 (count dendrites)) (* (get (get @brain/neural-cluster neuron-id) :state) (get brain/params :base-excitation-probability))
+    (/ (apply + (map #(* (deref (get dendrites %)) @(get (get @brain/neural-cluster %) :state) ) (keys dendrites)) ) (count (keys dendrites)))))
+
+(defn get-neuron-priority [neuron-id]
+"get the neural probability"
+  "if state = 0 then probability is state*base-excitation-probability"
+  "if state = 1 then calculate the probability"
+  (if (= 0 (:state (get @brain/neural-cluster neuron-id)))
+    ((* (get (get @brain/neural-cluster neuron-id) :state) (get brain/params :base-excitation-probability)))
+    (calc-prob neuron-id (get (get @brain/neural-cluster neuron-id) :dendrites))
+    )
   )
-(defn calc-flush-prob [neuron-id])
 (defn flush-neuron [neuron-id]
   "Takes a neuron and calculates the flush probabilities"
-  (let [neuron (get @brain/neural-cluster (keyword neuron-id)), dendrites @(get neuron :dendrites)] (when-not (empty? (random-sample (if (= 0 (count (get-active-neurons))) (deref (:base-excitation-probability brain/params)) (calc-prob dendrites)) [1])) (activate-neurons [(keyword neuron-id)]))(log/log (str "excitation probability calculated for " neuron-id " to be "
-                                                                                                                                                                                                                                                                                                                    (if (= 0 (count (get-active-neurons))) (deref (:base-excitation-probability brain/params)) (calc-prob dendrites)))))
+  (let [neuron (get @brain/neural-cluster (keyword neuron-id)), dendrites @(get neuron :dendrites)] (when-not (empty? (random-sample (if (= 0 (count (get-active-neurons))) (deref (:base-excitation-probability brain/params)) (calc-prob neuron-id dendrites)) [1])) (activate-neurons [(keyword neuron-id)]))(log/log (str "excitation probability calculated for " neuron-id " to be "
+                                                                                                                                                                                                                                                                                                                    (if (= 0 (count (get-active-neurons))) (deref (:base-excitation-probability brain/params)) (calc-prob neuron-id dendrites)))))
   )
 (defn select-random-tuple []
   "returns only a pair for now"

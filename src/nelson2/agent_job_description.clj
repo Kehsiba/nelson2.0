@@ -22,8 +22,7 @@
   (let [random-tuple (neural-processes/select-random-tuple)]
     (extract-concept/get-structure random-tuple (neural-processes/get-focus)))
 
-  (Thread/sleep @(:concept-engineer-latency brain/params))
-  (log/log "Concept-engineer reporting."))
+  (Thread/sleep @(:concept-engineer-latency brain/params)))
 
 (defn reward-neuron-manager [manager]
   "Manage the reward-neurons"

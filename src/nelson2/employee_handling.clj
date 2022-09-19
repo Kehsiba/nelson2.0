@@ -1,5 +1,10 @@
-(ns nelson2.employee-handling (:require [nelson2.brain :as brain] [nelson2.utility :as utility] [nelson2.reward-cluster :as cluster]
-                                               [nelson2.agent-job-description :as job] [nelson2.log :as log]))
+(ns nelson2.employee-handling
+  (:require [nelson2.brain :as brain]
+            [nelson2.utility :as utility]
+            [nelson2.reward-cluster :as cluster]
+            [nelson2.agent-job-description :as job]
+            [nelson2.log :as log]
+            [nelson2.neural_processes :as neural_processes]))
 "consist of a set of agents"
 
 (defn neuron-managers []
@@ -14,8 +19,19 @@
   (vec (map agent (range n))))
 
 (defn send-neuron-managers-to-work []
-  (doseq [manager (neuron-managers)] (send manager (fn [x] (job/neuron-manager x))))
-  (Thread/sleep @(:recruiting-latency brain/params)))
+  (doseq [manager (neuron-managers)] (if (not= 0 (neural_processes/get-neuron-priority manager))
+                                       (println "flushing neuron " manager)
+                                       )
+                                     (if (not= 0
+                                               (neural_processes/get-neuron-priority manager))
+
+                                       (do
+                                         (send manager (fn [x] (job/neuron-manager x)))
+                                         (Thread/sleep @(:recruiting-latency brain/params))
+                                       )
+                                     )
+  )
+  )
 
 (defn send-concept-engineer-to-work []
   (doseq [manager (concept-engineers @(:number-of-concept-engineers brain/params))]

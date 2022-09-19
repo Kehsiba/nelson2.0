@@ -1,10 +1,9 @@
 
 import math
-
+import os
 from matplotlib import pyplot as plt
-
 from matplotlib.animation import FuncAnimation
-
+import matplotlib.animation as animation
 import numpy as np
 
 #define the number of plots
@@ -12,20 +11,13 @@ import numpy as np
 fig, axes = plt.subplots(2,2)
 
 concept_x = []
-
 concept_y = []
-
 conceptLevelA_x = []
-
 conceptLevelA_y = []
-
 conceptLevelD_x = []
-
 conceptLevelD_y = []
 probabilities = []
 concept_levels = []
-
-
 neural_data = []
 
 countConcept = 0
@@ -109,27 +101,17 @@ def processActivatedNeurons(log):
     #print("y = "+str(conceptLevelA_y))
 
     plt.subplot(2,2,1)
-
     plt.xlabel("time")
-
     plt.ylabel("concept level")
-
     axes[0,1].set_title("Activation plot")
-
     plt.tick_params(axis='x',which='both',bottom=False,top=False)
-
     axes[0,1].scatter(conceptLevelA_x, conceptLevelA_y,sizes=[2]*len(conceptLevelA_x))
-
-    #axes[0,1].sharex(axes[0, 0])
-
     plt.autoscale()
 
 def processDeactivatedNeurons(log):
 
     #print("deactivate log = "+log)
-
     temp = log.split(" ")
-
     tempnew = temp[0]
 
     if len(temp) > 3:
@@ -233,8 +215,8 @@ def animate_conceptGraph(i):
         process_probMap(log)
 
 
-    if i % 10000 ==0:
-        plt.savefig("/home/abhishek/IdeaProjects/nelson2.0/plots/figure"+str(i/10000)+".png")
+    if i % 100 ==0:
+        plt.savefig("/home/abhishek/IdeaProjects/nelson2.0/plots/"+str(i/100)+".png")
         print("Figure saved")
     plt.autoscale()
 
@@ -243,6 +225,29 @@ def animate_conceptGraph(i):
 def plot_figs(i):
 
     animate_conceptGraph(i)
+
+def f(x, y):
+    return np.sin(x) + np.cos(y)
+
+def animate_images():
+    fig, ax = plt.subplots()
+    x = np.linspace(0, 2 * np.pi, 120)
+    y = np.linspace(0, 2 * np.pi, 100).reshape(-1, 1)
+
+    # ims is a list of lists, each row is a list of artists to draw in the
+    # current frame; here we are just animating one artist, the image, in
+    # each frame
+    ims = []
+    for i in range(60):
+        x += np.pi / 15.
+        y += np.pi / 20.
+        im = ax.imshow(f(x, y), animated=True)
+        if i == 0:
+            ax.imshow(f(x, y))  # show an initial one first
+        ims.append([im])
+
+    ani = animation.ArtistAnimation(fig, ims, interval=50, blit=True,
+                                repeat_delay=1000)
 
 def main():
 
@@ -268,7 +273,8 @@ def main():
 
             plt.show()
 
-            #print("erwqqg")   
+              #print("erwqqg")   
+    animate_images()
 
         
 
