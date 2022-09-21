@@ -19,17 +19,23 @@
   (vec (map agent (range n))))
 
 (defn send-neuron-managers-to-work []
-  (doseq [manager (neuron-managers)] (if (not= 0 (neural_processes/get-neuron-priority manager))
-                                       (println "flushing neuron " manager)
-                                       )
-                                     (if (not= 0
-                                               (neural_processes/get-neuron-priority manager))
-
-                                       (do
-                                         (send manager (fn [x] (job/neuron-manager x)))
-                                         (Thread/sleep @(:recruiting-latency brain/params))
-                                       )
-                                     )
+  (doseq [manager (neuron-managers)]
+    ;(println "priority = " (neural_processes/get-neuron-priority (get @manager 0)))
+    (if (not= 0 (neural_processes/get-neuron-priority (get @manager 0)))
+      (do
+        (send manager (fn [x] (job/neuron-manager x)))
+        (Thread/sleep @(:recruiting-latency brain/params))
+        )
+      )
+    ;(println "priority = " (neural_processes/get-neuron-priority (get @manager 0)))
+                                     ;(if (not= 0 )
+                                     ;     (println "hi")
+                                     ;  (do
+                                     ;    ;(println "flushing neuron " @manager)
+                                     ;    ;(send manager (fn [x] (job/neuron-manager x)))
+                                     ;    ;(Thread/sleep @(:recruiting-latency brain/params))
+                                     ;  )
+                                     ;)
   )
   )
 

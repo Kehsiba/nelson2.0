@@ -99,7 +99,10 @@
 
 (defn activate-neurons [neuron-ids]
   "Activate the supplied neurons"
-  (doseq [key neuron-ids] (when (not= nil (key @personality)) (swap! (:state (key @personality)) (fn [_] 1))))
+  (doseq [key neuron-ids] (when (not= nil (key @personality)) (if (= 0 @(:state (key @personality)))
+                                                                ((swap! (:state (key @personality)) (fn [_] 1))
+                                                                 (reward-log/log (str "Activated " (vec key)))
+                                                                 ))))
   (reward-log/log (str "Activated " neuron-ids)))
 
 (defn validate-neuron-id [id]

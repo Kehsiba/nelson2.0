@@ -81,20 +81,17 @@ def processActivatedNeurons(log):
         
 
     conceptLevelA_x.append(tempnew)
-
-            
-
-    keys = temp[2:]
+    key = temp[2]
 
     #extract the keys
 
-    for key in keys:
+    # for key in keys:
 
-        #print("key = " +key+"concept-level = "+str(concept_level(key)))
+    #     #print("key = " +key+"concept-level = "+str(concept_level(key)))
 
-        if key != " " and key != "":
+    #     if key != " " and key != "":
 
-            conceptLevelA_y.append(concept_level(key))
+    conceptLevelA_y.append(concept_level(key))
 
     #print("x = "+str(conceptLevelA_x))
 
