@@ -66,5 +66,6 @@
 (defn background-recruit []
   "recruit automatically in the background"
   (recruit)
+  (Thread/sleep @(:background-recruiting-latency brain/params))
   (background-recruit)
   )

@@ -3,7 +3,7 @@
             [nelson2.log :as log]
             [clojure.edn :as edn]) (:gen-class))
 
-(def params {:tuple-sample-latency (atom 10), :recruiting-latency (atom 1000),
+(def params {:background-recruiting-latency (atom 3000), :tuple-sample-latency (atom 10), :recruiting-latency (atom 1000),
              :number-of-concept-engineers (atom 4), :neuron-latency (atom 500),
              :concept-engineer-latency (atom 300), :encoding-base (atom 256),
              :concept-cap (atom 10),:base-excitation-probability (atom 0.5),
@@ -43,6 +43,11 @@
   "arr is the set of neurons...lets create the shit"
   (let [neural-map (if (= 0 @neural-cluster) (map #(create-neuron %) (set arr)) (map #(when (= nil (find @neural-cluster %)) (create-neuron %)) (set arr) ))] (log/log (str "Neural map created using : " (vec arr))) neural-map))
 
+(defn reinit []
+  "re-initialize the neural cluster"
+  (swap! neural-cluster (fn [_] 0))
+  (log/log "Brain reinitialized.")
+  )
 (defn init [arr]
  (when-not (.exists (io/file "neuron-data")) (.mkdir (io/file "neuron-data")))
   "Initialize the neural structure....yay it works"

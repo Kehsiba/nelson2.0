@@ -19,6 +19,7 @@
   (doseq [key neuron-ids] (when (not= nil (key @brain/neural-cluster))(if (= 0 @(:state (get @brain/neural-cluster key)))
                                                                          (do
                                                                           (swap! (:state (get @brain/neural-cluster key)) (fn [_] 1))
+                                                                          ;(println "activated " key)
                                                                           (log/log (str "Activated " key))
                                                                           ))))
 
@@ -122,7 +123,9 @@
   "if state = 0 then probability is state*base-excitation-probability"
   "if state = 1 then calculate the probability"
   (if (= 0 @(:state (get @brain/neural-cluster neuron-id)))
-    ((* @(:state (get @brain/neural-cluster neuron-id)) @(:base-excitation-probability brain/params )))
+    (
+     (* @(:state (get @brain/neural-cluster neuron-id)) @(:base-excitation-probability brain/params))
+     )
     (calc-prob neuron-id @(:dendrites (get @brain/neural-cluster neuron-id)))
     )
   )
@@ -130,8 +133,10 @@
   "Takes a neuron and flushes it"
   (let [priority (get-neuron-priority neuron-id)]
     (when-not (empty? (random-sample priority [1]))
+      ;(println "flushing = " neuron-id " to be = "priority)
       (activate-neurons [neuron-id]))
     (log/log (str "excitation probability calculated for " neuron-id " to be " priority))
+    priority
     )
   )
 (defn select-random-tuple []

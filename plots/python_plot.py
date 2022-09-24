@@ -156,6 +156,8 @@ def process_probMap(log):
     concept_levels.append(concept_level(temp[5]))
 
     axes[1,0].set_title("Probability map")
+    plt.xlabel("Probabilities")
+    plt.ylabel("Concept levels")
     #plt.gray()
     axes[1,0].scatter(probabilities, concept_levels, c = "blue", s=1)
 

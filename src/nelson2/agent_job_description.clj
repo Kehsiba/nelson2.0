@@ -9,7 +9,13 @@
     (Thread/sleep @(:neuron-latency brain/params))
   "check if the neuron is activated"
     (if (= 1 @(:state (get @brain/neural-cluster (key manager))))
-        (neural-processes/deactivate-neuron (key manager)))
+        (do
+          ;(println "deactivating " (key manager))
+          (neural-processes/deactivate-neuron (key manager))
+          )
+        )
+  ;(neural-processes/deactivate-neuron (key manager))
+  ;(println "done")
   ;;(log/log (str "Neuron-manager reporting. ID - " (key manager)))
   )
 (defn concept-engineer []
