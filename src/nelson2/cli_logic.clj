@@ -14,7 +14,7 @@
                                                                          (keyword (read-line)))))
                                           )
     (= command "@expand-logic-thread") (do (print "Enter the logic thread :- ") (flush)
-                                           (logic-process/expand-logic-thread (vec (map #(keyword %) (edn/read-string(read-line))))))
+                                           (println  (str "Expanded thread : " (logic-process/expand-logic-thread (mapv #(keyword %) (edn/read-string(read-line)))))))
     (= command "@infer") (do (print "Enter the initial logic thread :- ") (flush)
                              (println  "report : " (logic-process/logical-inference (edn/read-string (read-line)))))
     (= command "@sample-spontaneous") (logic-process/sample-spontaneous-mode)

@@ -5,12 +5,23 @@
 "Take the brain and the reward center"
 "Given a fixed set of neurons which remain excited- make all possible conclusions"
 "extract the concept neurons of the given neurons first"
-(def params {:logic-thread-timeout (atom 300) :logic-thread-count-sup (atom 100)})
+(def params {:logic-thread-timeout (atom 1000) :logic-thread-count-sup (atom 10)})
+
+(defn deactivate-all [neuron-ids]
+  "takes a set of neurons and deactivates them"
+  (comment
+    (map #(add-watch (:state (get @brain/neural-cluster %)) % (fn [key agent old-state new-state]
+                                                                (when (= @new-state 0) (neural-processes/activate-neurons [key])))) neuron-ids))
+  (map neural-processes/deactivate-neuron neuron-ids)
+  (log/log (str "Deactivated logic tree: " neuron-ids))
+  )
+
 
 (defn activate-all [neuron-ids]
   "takes a set of neurons and keeps them activated all the time"
+  (comment
   (map #(add-watch (:state (get @brain/neural-cluster %)) % (fn [key agent old-state new-state]
-                                                          (when (= @new-state 0) (neural-processes/activate-neurons [key])))) neuron-ids)
+                                                          (when (= @new-state 0) (neural-processes/activate-neurons [key])))) neuron-ids))
   (neural-processes/activate-neurons neuron-ids))
 
 (defn remove-watchers [neuron-ids]
@@ -29,6 +40,9 @@
   "take the set of neurons and then activate the entire concept hierarchy"
   (activate-all neuron-ids))
 
+(defn deactivate-concept-tree [neuron-ids]
+  "take the set of neurons and then deactivate the entire concept hierarchy"
+  (activate-all neuron-ids))
 (defn filter-dendrites [neuron-id]
   "get dendrites of the same concept level"
   (filter (fn [x] (if (= (Math/round (utility/concept-level? x)) (Math/round (utility/concept-level? neuron-id))) true false))
@@ -62,34 +76,41 @@
 
 (defn expand-logic-thread [logic-thread]
   "Given the logic threads find the lower concept representations i.e the byte representation of the concepts"
-  "sample multiple times and prepare a list of outcome vs frequency"
-  (let [concept-level (int (Math/floor (utility/concept-level? (first logic-thread))))]
-    (println (str "Concept level " concept-level))
-    (map #(keyword (utility/dec2base32 %)) (apply merge (map #(utility/de-compress [(utility/base32todec (name %))]
-                                                                                   concept-level)logic-thread)))))
+  "all the neurons are at the same concept level"
+  (let [concept-level (mapv #(int (Math/floor (utility/concept-level? %))) logic-thread)]
+    (println (str "Concept levels "  concept-level))
+    (mapv #(keyword (utility/dec2base32 %)) (flatten (map #(utility/de-compress [(utility/base32todec (name %))] (first concept-level)) logic-thread)))))
 
 (defn logical-inference [neuron-ids]
   "logically infer everything from the data"
   (let [inferred-concepts (infer-concept-neurons neuron-ids), outcome-list {}]
+    (println (str "inferred neurons: " inferred-concepts))
     "filter the dendrites of each concept in inferred-concepts and start the logic thread for each concept"
     (let [report (atom [])]
       (doseq [concept inferred-concepts]
         "activate all the nodes in the logic thread"
         (let [logic-thread (start-logic-thread concept)]
+          (println (str "logic thread: " concept))
           (activate-concept-tree @logic-thread)
           "calculate the reward for each logic-thread"
           (let [thread-table (merge outcome-list (zipmap [:logic-thread :reward] [logic-thread (reward-moderator/calc-reward)]))]
-            "remove the watchers"
-            (remove-watchers logic-thread)
 
+            (comment "remove the watchers"
+            (remove-watchers logic-thread))
+
+            "deactivate logic thread"
+              (deactivate-all @logic-thread)
+
+              (println (str "Calculated reward: " @logic-thread))
             (swap! report (fn [_] (conj @report thread-table)))
             )))
+            (log/log "Logical inference report generated")
             report))
-  (log/log "Logical inference report generated"))
+  )
 
 (defn sample-spontaneous-mode []
   "This is called when the mode is for the AI to come up with something"
-  (spit "neural_network_output.txt" (vec (map #(logical-inference [%]) (keys (neural-processes/get-active-neurons)))))
+   (spit "neural_network_output.txt" (mapv #(logical-inference [%]) (keys (neural-processes/get-active-neurons))))
   (log/log "Response obtained for active neurons.")
   )
 

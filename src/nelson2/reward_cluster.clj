@@ -9,8 +9,8 @@
 
 (defrecord reward-neurons [state connections] :load-ns true)
 (def personality (atom {}))
-(def params {:number-of-reward-neurons (atom 100), :base-neuron-interest (atom 1),
-             :reward-neuron-sleep (atom 1000), :manager-latency (atom 2000)})
+(def params {:number-of-reward-neurons (atom 10000), :base-neuron-interest (atom 0.5),
+             :reward-neuron-sleep (atom 100), :manager-latency (atom 2000)})
 
 (defn get-random-weights []
   (rand))
@@ -74,12 +74,31 @@
   (doseq [neuron-key (keys @personality)] (mutate (deref (:connections (get @personality neuron-key)))) )
   (reward-log/log "New personality generated."))
 
+
+(defn connect-residual-neurons [neuron-id]
+  "takes the neuron-id and appends to it the new concept neurons"
+
+  (let [old-connections (:connections (get @personality neuron-id))]
+    "we have the old connections now scan for new neurons"
+    (println "here buddy")
+    (filter (fn [x] (if (not= nil (find old-connections x))
+                     (do (println "in here")
+                         true
+                         ))) (keys @brain/neural-cluster))
+    )
+
+
+  )
 (defn connect-reward-center-to-brain [neuron-key]
   "connect to the neurons in the brain"
-  (swap! (:connections (get @personality neuron-key)) (fn [_]
-                                                       (apply merge (merge (map #(hash-map % (atom 0))
-                                                                                (keys @brain/neural-cluster))
-                                                                           @(:connections (get @personality neuron-key))))))
+  (if (= nil (:connections (get @personality neuron-key)))
+    (swap! (:connections (get @personality neuron-key)) (fn [_]
+                                                          (apply merge (merge (map #(hash-map % (atom 0))
+                                                                                   (keys @brain/neural-cluster))
+                                                                              @(:connections (get @personality neuron-key))))))
+    (connect-residual-neurons neuron-key)
+    )
+
   (reward-log/log (str "Connected to brain : " neuron-key)))
 
 (defn connect-to-brain []
@@ -94,15 +113,20 @@
 
 (defn deactivate-neuron [neuron-id]
   "Deactivate the supplied neuron"
-  (when (not= nil (get @personality (keyword neuron-id))) (swap! (get (get @personality (keyword neuron-id)) :state) (fn [_] 0)))
-  (reward-log/log (str "Deactivated " (keyword neuron-id))))
+  (when (not= nil (get @personality neuron-id)) (swap! (get (get @personality neuron-id) :state) (fn [_] 0)))
+  (reward-log/log (str "Deactivated " neuron-id))
+  (println "Reward neuron deactivated :- " (key neuron-id))
+  )
 
 (defn activate-neurons [neuron-ids]
   "Activate the supplied neurons"
-  (doseq [key neuron-ids] (when (not= nil (key @personality)) (if (= 0 @(:state (key @personality)))
-                                                                ((swap! (:state (key @personality)) (fn [_] 1))
-                                                                 (reward-log/log (str "Activated " (vec key)))
-                                                                 ))))
+  (println "activate " neuron-ids)
+  (doseq [key neuron-ids]
+    (when (not= nil (get @personality key))
+      (if (= 0 @(:state (get @personality key)))
+        ((swap! (:state (get @personality key)) (fn [_] 1))
+        (reward-log/log (str "Activated " (vec key)))
+        ))))
   (reward-log/log (str "Activated " neuron-ids)))
 
 (defn validate-neuron-id [id]

@@ -7,8 +7,20 @@
 "calculates the total pleasure obtained from` the orgy"
   (/ (count (cluster/get-live-neurons)) (count @cluster/personality))
   )
-(defn moderate-reward [old-val, new-val]
-  "decide whether to give a positive or negative feedback"
+(defn maximize-reward [iteration-number]
+  "given the neural pattern maximize the reward center"
+  (let [reward (calc-reward), temp @cluster/personality]
+    (if (= iteration-number 0)
+      (calc-reward)
+      (do
+        (if (< reward (do (cluster/mutate-cluster) (calc-reward)))
+          (println "swapping ")
+          (swap! cluster/personality (fn [_] temp))
+        )
+      (println "iteration = " iteration-number "reward = " (calc-reward))
+      (maximize-reward (dec iteration-number)))
+      )
+    )
   )
 
 

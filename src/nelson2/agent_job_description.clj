@@ -30,8 +30,9 @@
   (cluster/flush (key manager))
   (Thread/sleep @(:reward-neuron-sleep cluster/params))
 
-  (if (== 1 (:state (get @(cluster/personality) (key manager))))
-    (println "Reward Manager deactivated :- " (key manager))
+  (if (= 1 (:state (get @(cluster/personality) (key manager))))
     (neural-processes/deactivate-neuron (key manager))
     )
+  (cluster/connect-to-brain)
+
   )

@@ -14,6 +14,7 @@
        (= command "@dump-all") (cluster/save-neurons @cluster/personality)
        (= command "@count-threads") (println (str "The number of threads running are :- " (Thread/activeCount)))
        (= command "@load-all") (cluster/load-reward-neurons)
+       (= command "@maximize-reward") (do (print "Enter max iteration number : ") (flush) (moderator/maximize-reward (Integer/parseInt (read-line))))
        (= command "@create-neurons") (do (print "Enter the names of the neurons : ") (flush) (cluster/create-neuron (read-line)))
        (= command "@create-cluster" )(cluster/create-reward-cluster)
        (= command "@activate-neuron") (do (print "Enter the name of the neuron : ") (flush) (cluster/activate-neurons [(keyword (read-line))]))
