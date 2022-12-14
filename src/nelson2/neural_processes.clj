@@ -101,6 +101,25 @@
 (defn get-reward-neuron-files []
   (map #(apply str (filter (fn [_] (ends-with? % ".neuron")) (when (.isFile %) (.getName %)))) (file-seq (clojure.java.io/file "reward-neuron/"))))
 
+(defn remove-neuron [neuron-id]
+  "Removes the neuron from the brain"
+
+  (swap! brain/neural-cluster (fn [_] (dissoc @brain/neural-cluster neuron-id)))
+  (println (str "Deleted neuron " neuron-id))
+  (log/log (str "Neuron deleted " neuron-id))
+  )
+(defn isLonely? [neuron]
+  "takes a neuron and checks if the dendrites are strong enough"
+  (let [dendrites (vals @(:dendrites (into {} (vals (apply array-map neuron)))))]
+    (> @(:dendrite-strength-threshold brain/params) (utility/average (map #(deref %) dendrites)))
+      )
+  )
+(defn collect-garbage []
+  "Deletes isolated neurons"
+  (doseq [list  (filter (fn [x] (isLonely? x)) @brain/neural-cluster)]
+    (remove-neuron (get list 0)))
+    (println "Garbage collection completed")
+  )
 (defn get-reward-neurons []
   "Loads all the neurons and returns a set of neurons"
   (map  (fn [neuron-file] (slurp (str "reward-neuron/" neuron-file))) (remove empty? (set (get-reward-neuron-files))) )

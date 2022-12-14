@@ -3,7 +3,8 @@
             [nelson2.log :as log]
             [clojure.edn :as edn]) (:gen-class))
 
-(def params {:background-recruiting-latency (atom 3000), :tuple-sample-latency (atom 10), :recruiting-latency (atom 1000),
+(def params {:background-recruiting-latency (atom 3000),
+             :dendrite-strength-threshold (atom 0.1), :tuple-sample-latency (atom 10), :recruiting-latency (atom 1000),
              :number-of-concept-engineers (atom 4), :neuron-latency (atom 500),
              :concept-engineer-latency (atom 300), :encoding-base (atom 256),
              :concept-cap (atom 10),:base-excitation-probability (atom 0.5),

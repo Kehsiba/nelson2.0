@@ -5961,3 +5961,726 @@
 28.144404889532314: Activated :38
 28.14440488953291: Neural map created
 28.14440488953291: New neural map created for string: sdfgh
+28.144456999030556: Neural map created using : [:31]
+28.14445699903235: Created file 31
+28.14445699903235: Activated :31
+28.14445699903235: Neural map created
+28.14445699903235: New neural map created for string: a
+28.144457033105496: New neurons :- [:32]
+28.144457033106093: Neural map created using : [:31 :32]
+28.144457033106693: Created file 32
+28.144457033106693: Activated :32
+28.14445703310729: Neural map created
+28.144457033107887: New neural map created for string: ab
+28.144457069054734: Neural map created using : [:31 :32]
+28.14445706905653: Created file 31
+28.14445706905713: Created file 32
+28.14445706905713: Activated :31
+28.14445706905713: Activated :32
+28.14445706905713: Neural map created
+28.14445706905713: New neural map created for string: ab
+28.14445708926152: Neural map created using : [:31 :32]
+28.144457089263312: Created file 31
+28.144457089263312: Created file 32
+28.144457089263312: Activated :31
+28.144457089263913: Activated :32
+28.144457089263913: Neural map created
+28.144457089263913: New neural map created for string: ab
+28.14445710337024: Neural map created using : [:31 :32]
+28.144457103372037: Created file 31
+28.144457103372037: Created file 32
+28.144457103372634: Activated :31
+28.144457103372634: Activated :32
+28.144457103372634: Neural map created
+28.144457103372634: New neural map created for string: ab
+28.144457172018008: Neural map created using : [:31 :32]
+28.144457172019806: Created file 31
+28.144457172020402: Created file 32
+28.144457172020402: Activated :31
+28.144457172020402: Activated :32
+28.144457172020402: Neural map created
+28.144457172021003: New neural map created for string: ab
+28.14445719927257: Neural map created using : [:31 :32]
+28.144457199274363: Created file 31
+28.144457199274964: Created file 32
+28.144457199274964: Activated :31
+28.144457199274964: Activated :32
+28.14445719927556: Neural map created
+28.14445719927556: New neural map created for string: ab
+28.14445722560135: Neural map created using : [:31 :32]
+28.144457225603144: Created file 31
+28.144457225603144: Created file 32
+28.144457225603745: Activated :31
+28.144457225603745: Activated :32
+28.144457225603745: Neural map created
+28.144457225603745: New neural map created for string: ab
+28.1444574316643: Neural map created using : [:31 :32]
+28.144457431666098: Created file 31
+28.144457431666694: Created file 32
+28.144457431666694: Activated :31
+28.144457431666694: Activated :32
+28.14445743166729: Neural map created
+28.14445743166729: New neural map created for string: ab
+28.14445746155975: Neural map created using : [:31 :32]
+28.144457461562144: Created file 31
+28.144457461562144: Created file 32
+28.144457461562745: Activated :31
+28.144457461562745: Activated :32
+28.144457461562745: Neural map created
+28.144457461562745: New neural map created for string: ab
+28.14445748160555: Neural map created using : [:31 :32]
+28.144457481607343: Created file 31
+28.144457481607343: Created file 32
+28.14445748160794: Activated :31
+28.14445748160794: Activated :32
+28.14445748160794: Neural map created
+28.14445748160794: New neural map created for string: ab
+28.14445751167634: Neural map created using : [:31 :32]
+28.144457511677533: Created file 31
+28.144457511678134: Created file 32
+28.144457511678134: Activated :31
+28.144457511678134: Activated :32
+28.14445751167873: Neural map created
+28.14445751167873: New neural map created for string: ab
+28.14445762122894: Neural map created using : [:31 :32]
+28.14445762123014: Created file 31
+28.144457621230735: Created file 32
+28.144457621230735: Activated :31
+28.144457621230735: Activated :32
+28.144457621230735: Neural map created
+28.144457621230735: New neural map created for string: ab
+28.14445764983416: Neural map created using : [:31 :32]
+28.144457649835953: Created file 31
+28.144457649835953: Created file 32
+28.144457649835953: Activated :31
+28.144457649835953: Activated :32
+28.144457649836554: Neural map created
+28.144457649836554: New neural map created for string: ab
+28.144457680201167: Neural map created using : [:31 :32]
+28.144457680202965: Created file 31
+28.144457680202965: Created file 32
+28.144457680203562: Activated :31
+28.144457680203562: Activated :32
+28.144457680203562: Neural map created
+28.144457680203562: New neural map created for string: ab
+28.144457844154523: Neural map created using : [:31 :32]
+28.14445784415572: Created file 31
+28.14445784415572: Created file 32
+28.14445784415572: Activated :31
+28.144457844156317: Activated :32
+28.144457844156317: Neural map created
+28.144457844156317: New neural map created for string: ab
+28.144457862118358: Neural map created using : [:31 :32]
+28.144457862120152: Created file 31
+28.144457862120152: Created file 32
+28.14445786212075: Activated :31
+28.14445786212075: Activated :32
+28.14445786212135: Neural map created
+28.14445786212135: New neural map created for string: ab
+28.144457878025367: Neural map created using : [:31 :32]
+28.144457878026564: Created file 31
+28.14445787802716: Created file 32
+28.14445787802716: Activated :31
+28.14445787802716: Activated :32
+28.14445787802776: Neural map created
+28.14445787802776: New neural map created for string: ab
+28.14445795195607: Neural map created using : [:31]
+28.144457951957865: Created file 31
+28.14445795195846: Activated :31
+28.14445795195846: Neural map created
+28.14445795195846: New neural map created for string: a
+28.14445804153465: Neural map created using : [:31]
+28.144458041536446: Created file 31
+28.144458041537046: Activated :31
+28.144458041537046: Neural map created
+28.144458041537046: New neural map created for string: a
+28.144458050414233: New neurons :- [:32]
+28.14445805041483: Neural map created using : [:31 :32]
+28.14445805041483: Created file 32
+28.14445805041543: Activated :32
+28.14445805041543: Neural map created
+28.14445805041543: New neural map created for string: ab
+28.144458103440982: Neural map created using : [:31 :32]
+28.14445810344218: Created file 31
+28.144458103442776: Created file 32
+28.144458103442776: Activated :31
+28.144458103442776: Activated :32
+28.144458103443377: Neural map created
+28.144458103443377: New neural map created for string: ab
+28.144458125011578: Neural map created using : [:31 :32]
+28.144458125013372: Created file 31
+28.144458125013973: Created file 32
+28.144458125013973: Activated :31
+28.144458125013973: Activated :32
+28.14445812501457: Neural map created
+28.14445812501457: New neural map created for string: ab
+28.144458204906268: Neural map created using : [:31 :32]
+28.14445820490866: Created file 31
+28.14445820490866: Created file 32
+28.14445820490926: Activated :31
+28.14445820490926: Activated :32
+28.14445820490926: Neural map created
+28.14445820490926: New neural map created for string: ab
+28.144458222728264: Neural map created using : [:31 :32]
+28.14445822272946: Created file 31
+28.14445822273006: Created file 32
+28.14445822273006: Activated :31
+28.14445822273006: Activated :32
+28.14445822273066: Neural map created
+28.14445822273066: New neural map created for string: ab
+28.14445823687108: Neural map created using : [:31 :32]
+28.144458236873476: Created file 31
+28.144458236873476: Created file 32
+28.144458236874076: Activated :31
+28.144458236874076: Activated :32
+28.144458236874076: Neural map created
+28.144458236874076: New neural map created for string: ab
+28.144458280960194: Neural map created using : [:31 :32 :3e]
+28.144458280961388: Created file 31
+28.144458280961988: Created file 32
+28.144458280961988: Created file 3e
+28.144458280961988: Activated :31
+28.144458280961988: Activated :32
+28.144458280961988: Activated :3e
+28.144458280962585: Neural map created
+28.144458280962585: New neural map created for string: abn
+28.144458302830603: Neural map created using : [:31 :32]
+28.144458302832398: Created file 31
+28.144458302832994: Created file 32
+28.144458302833595: Activated :31
+28.144458302833595: Activated :32
+28.144458302833595: Neural map created
+28.144458302833595: New neural map created for string: ab
+28.144458324124717: Neural map created using : [:31 :32]
+28.144458324125914: Created file 31
+28.144458324125914: Created file 32
+28.144458324126514: Activated :31
+28.144458324126514: Activated :32
+28.144458324126514: Neural map created
+28.144458324126514: New neural map created for string: ab
+28.144458347846086: Neural map created using : [:31 :32]
+28.14445834784788: Created file 31
+28.14445834784788: Created file 32
+28.14445834784848: Activated :31
+28.14445834784848: Activated :32
+28.144458347849078: Neural map created
+28.144458347849078: New neural map created for string: ab
+28.144458362155266: Neural map created using : [:31 :32]
+28.144458362157064: Created file 31
+28.14445836215766: Created file 32
+28.14445836215766: Activated :31
+28.14445836215766: Activated :32
+28.14445836215766: Neural map created
+28.14445836215766: New neural map created for string: ab
+28.14445839306444: Neural map created using : [:31 :32]
+28.144458393066234: Created file 31
+28.144458393066234: Created file 32
+28.144458393066234: Activated :31
+28.144458393066234: Activated :32
+28.14445839306683: Neural map created
+28.14445839306683: New neural map created for string: ab
+28.14445840549274: Neural map created using : [:31 :32]
+28.144458405494532: Created file 31
+28.144458405494532: Created file 32
+28.144458405494532: Activated :31
+28.144458405494532: Activated :32
+28.144458405495133: Neural map created
+28.144458405495133: New neural map created for string: ab
+28.144458443428732: Neural map created using : [:31 :32]
+28.144458443430526: Created file 31
+28.144458443430526: Created file 32
+28.144458443431127: Activated :31
+28.144458443431127: Activated :32
+28.144458443431724: Neural map created
+28.144458443431724: New neural map created for string: ab
+28.144458466432575: Neural map created using : [:31 :32]
+28.144458466433772: Created file 31
+28.14445846643437: Created file 32
+28.14445846643437: Activated :31
+28.14445846643437: Activated :32
+28.14445846643437: Neural map created
+28.14445846643437: New neural map created for string: ab
+28.144458478859676: Neural map created using : [:31 :32]
+28.14445847886207: Created file 31
+28.14445847886207: Created file 32
+28.144458478862667: Activated :31
+28.144458478862667: Activated :32
+28.144458478863264: Neural map created
+28.144458478863264: New neural map created for string: ab
+28.144458495424953: Neural map created using : [:31 :32]
+28.14445849542675: Created file 31
+28.14445849542675: Created file 32
+28.144458495427347: Activated :31
+28.144458495427347: Activated :32
+28.144458495427347: Neural map created
+28.144458495427347: New neural map created for string: ab
+28.144458517881827: Neural map created using : [:31 :32]
+28.14445851788362: Created file 31
+28.14445851788362: Created file 32
+28.14445851788362: Activated :31
+28.14445851788362: Activated :32
+28.144458517884217: Neural map created
+28.144458517884217: New neural map created for string: ab
+28.144458535915064: Neural map created using : [:31 :32]
+28.144458535917458: Created file 31
+28.144458535917458: Created file 32
+28.144458535918055: Activated :31
+28.144458535918055: Activated :32
+28.144458535918055: Neural map created
+28.144458535918055: New neural map created for string: ab
+28.144458551287663: Neural map created using : [:31 :32]
+28.144458551289457: Created file 31
+28.144458551289457: Created file 32
+28.144458551289457: Activated :31
+28.144458551289457: Activated :32
+28.144458551290054: Neural map created
+28.144458551290054: New neural map created for string: ab
+28.144458570933086: Neural map created using : [:31 :32]
+28.144458570935477: Created file 31
+28.144458570936077: Created file 32
+28.144458570936077: Activated :31
+28.144458570936077: Activated :32
+28.144458570936077: Neural map created
+28.144458570936077: New neural map created for string: ab
+28.14445858589575: Neural map created using : [:31 :32]
+28.14445858589695: Created file 31
+28.14445858589755: Created file 32
+28.14445858589755: Activated :31
+28.14445858589755: Activated :32
+28.14445858589755: Neural map created
+28.14445858589755: New neural map created for string: ab
+28.1444586135614: Neural map created using : [:31 :32]
+28.144458613563195: Created file 31
+28.144458613563195: Created file 32
+28.144458613563195: Activated :31
+28.144458613563195: Activated :32
+28.144458613563796: Neural map created
+28.144458613563796: New neural map created for string: ab
+28.14445863183042: Neural map created using : [:31 :32]
+28.14445863183162: Created file 31
+28.144458631832215: Created file 32
+28.144458631832215: Activated :31
+28.144458631832215: Activated :32
+28.144458631832215: Neural map created
+28.144458631832215: New neural map created for string: ab
+28.144458665277547: Neural map created using : [:31 :32]
+28.144458665278744: Created file 31
+28.14445866527934: Created file 32
+28.14445866527934: Activated :31
+28.14445866527934: Activated :32
+28.14445866527994: Neural map created
+28.14445866527994: New neural map created for string: ab
+28.144458690265196: Neural map created using : [:31 :32]
+28.14445869026699: Created file 31
+28.14445869026699: Created file 32
+28.144458690267587: Activated :31
+28.144458690267587: Activated :32
+28.144458690267587: Neural map created
+28.144458690267587: New neural map created for string: ab
+28.144458702898753: Neural map created using : [:31 :32]
+28.14445870289995: Created file 31
+28.144458702900547: Created file 32
+28.144458702900547: Activated :31
+28.144458702900547: Activated :32
+28.144458702901147: Neural map created
+28.144458702901147: New neural map created for string: ab
+28.144458717981706: Neural map created using : [:31 :32]
+28.144458717982904: Created file 31
+28.144458717982904: Created file 32
+28.1444587179835: Activated :31
+28.1444587179835: Activated :32
+28.1444587179835: Neural map created
+28.1444587179835: New neural map created for string: ab
+28.1444587337361: Neural map created using : [:31 :32]
+28.1444587337373: Created file 31
+28.144458733737896: Created file 32
+28.144458733737896: Activated :31
+28.144458733737896: Activated :32
+28.144458733738496: Neural map created
+28.144458733738496: New neural map created for string: ab
+28.144458794311472: Neural map created using : [:31 :32]
+28.144458794313266: Created file 31
+28.144458794313863: Created file 32
+28.144458794313863: Activated :31
+28.144458794313863: Activated :32
+28.144458794314463: Neural map created
+28.144458794314463: New neural map created for string: aab
+28.144458843953434: Neural map created using : [:31 :32]
+28.144458843954627: Created file 31
+28.144458843955228: Created file 32
+28.144458843955228: Activated :31
+28.144458843955228: Activated :32
+28.144458843955228: Neural map created
+28.144458843955228: New neural map created for string: ab
+28.1444589209283: Neural map created using : [:31 :32]
+28.144458920929498: Created file 31
+28.144458920930095: Created file 32
+28.144458920930095: Activated :31
+28.144458920930095: Activated :32
+28.144458920930692: Neural map created
+28.144458920930692: New neural map created for string: ab
+28.144458963186768: Neural map created using : [:31 :32]
+28.144458963187965: Created file 31
+28.144458963188562: Created file 32
+28.144458963188562: Activated :31
+28.144458963188562: Activated :32
+28.144458963189162: Neural map created
+28.144458963189162: New neural map created for string: ab
+28.144459046152555: Neural map created using : [:31 :32]
+28.144459046153752: Created file 31
+28.144459046154353: Created file 32
+28.144459046154353: Activated :31
+28.144459046154353: Activated :32
+28.14445904615495: Neural map created
+28.14445904615495: New neural map created for string: ab
+28.14445907106539: Neural map created using : [:31 :32]
+28.14445907106659: Created file 31
+28.144459071067185: Created file 32
+28.144459071067185: Activated :31
+28.144459071067185: Activated :32
+28.144459071067185: Neural map created
+28.144459071067786: New neural map created for string: aab
+28.144459099024257: Neural map created using : [:31 :32]
+28.14445909902605: Created file 31
+28.14445909902605: Created file 32
+28.14445909902605: Activated :31
+28.14445909902605: Activated :32
+28.14445909902665: Neural map created
+28.14445909902665: New neural map created for string: aab
+28.14445911596295: Neural map created using : [:31 :32]
+28.144459115964743: Created file 31
+28.144459115964743: Created file 32
+28.144459115964743: Activated :31
+28.144459115964743: Activated :32
+28.144459115965343: Neural map created
+28.144459115965343: New neural map created for string: ab
+28.14445917583753: Neural map created using : [:31 :32]
+28.144459175839323: Created file 31
+28.144459175839323: Created file 32
+28.144459175839323: Activated :31
+28.144459175839323: Activated :32
+28.14445917583992: Neural map created
+28.14445917583992: New neural map created for string: ab
+28.144459206054286: Neural map created using : [:31 :32]
+28.14445920605608: Created file 31
+28.14445920605608: Created file 32
+28.14445920605608: Activated :31
+28.144459206056677: Activated :32
+28.144459206056677: Neural map created
+28.144459206056677: New neural map created for string: aab
+28.144459233412917: Neural map created using : [:31 :32]
+28.144459233414114: Created file 31
+28.14445923341471: Created file 32
+28.14445923341471: Activated :31
+28.14445923341471: Activated :32
+28.14445923341471: Neural map created
+28.14445923341471: New neural map created for string: ab
+28.144459394076424: Neural map created using : [:31 :32]
+28.14445939407762: Created file 31
+28.14445939407822: Created file 32
+28.14445939407822: Activated :31
+28.14445939407822: Activated :32
+28.144459394078815: Neural map created
+28.144459394078815: New neural map created for string: ab
+28.14445949135254: Neural map created using : [:31 :32]
+28.144459491353736: Created file 31
+28.144459491354333: Created file 32
+28.144459491354333: Activated :31
+28.144459491354333: Activated :32
+28.14445949135493: Neural map created
+28.14445949135493: New neural map created for string: ab
+28.144459597296365: Neural map created using : [:31 :32]
+28.14445959729876: Created file 31
+28.144459597299356: Created file 32
+28.144459597299356: Activated :31
+28.144459597299356: Activated :32
+28.144459597299956: Neural map created
+28.144459597299956: New neural map created for string: ab
+28.14445961459052: Neural map created using : [:31 :32]
+28.14445961459291: Created file 31
+28.14445961459291: Created file 32
+28.14445961459351: Activated :31
+28.14445961459351: Activated :32
+28.14445961459411: Neural map created
+28.14445961459411: New neural map created for string: ab
+28.144459650278748: Neural map created using : [:31 :32]
+28.14445965028054: Created file 31
+28.144459650281142: Created file 32
+28.144459650281142: Activated :31
+28.144459650281142: Activated :32
+28.144459650281142: Neural map created
+28.144459650281142: New neural map created for string: ab
+28.144459670380755: Neural map created using : [:31 :32]
+28.14445967038195: Created file 31
+28.14445967038195: Created file 32
+28.14445967038255: Activated :31
+28.14445967038255: Activated :32
+28.14445967038255: Neural map created
+28.14445967038255: New neural map created for string: ab
+28.144459700448486: Neural map created using : [:31 :32]
+28.144459700449683: Created file 31
+28.14445970045028: Created file 32
+28.14445970045028: Activated :31
+28.14445970045028: Activated :32
+28.14445970045028: Neural map created
+28.14445970045088: New neural map created for string: ab
+28.144459713517094: Neural map created using : [:31 :32]
+28.144459713518888: Created file 31
+28.14445971351949: Created file 32
+28.14445971351949: Activated :31
+28.14445971351949: Activated :32
+28.14445971351949: Neural map created
+28.14445971351949: New neural map created for string: ab
+28.144459965110194: Neural map created using : [:31 :32]
+28.14445996511199: Created file 31
+28.14445996511199: Created file 32
+28.14445996511199: Activated :31
+28.14445996511199: Activated :32
+28.14445996511259: Neural map created
+28.14445996511259: New neural map created for string: ab
+28.144460067520818: Neural map created using : [:31 :32]
+28.144460067523212: Created file 31
+28.144460067523212: Created file 32
+28.14446006752381: Activated :31
+28.14446006752381: Activated :32
+28.14446006752381: Neural map created
+28.14446006752381: New neural map created for string: ab
+28.14446010910181: Neural map created using : [:31 :32]
+28.144460109103008: Created file 31
+28.144460109103605: Created file 32
+28.144460109103605: Activated :31
+28.144460109103605: Activated :32
+28.144460109104205: Neural map created
+28.144460109104205: New neural map created for string: ab
+28.14446019686096: Neural map created using : [:31 :32]
+28.144460196862756: Created file 31
+28.144460196862756: Created file 32
+28.144460196863353: Activated :31
+28.144460196863353: Activated :32
+28.144460196863353: Neural map created
+28.144460196863353: New neural map created for string: ab
+28.144460204394047: New neurons :- []
+28.144460204394644: Neural map created using : [:31 :31 :32]
+28.14446020439644: Neural map created
+28.14446020439644: New neural map created for string: aab
+28.14446022438832: New neurons :- []
+28.144460224388922: Neural map created using : [:31 :31 :31 :31 :31 :32]
+28.144460224388922: Neural map created
+28.144460224388922: New neural map created for string: aaaaab
+28.14446035080031: Neural map created using : [:31 :32]
+28.1444603508027: Created file 31
+28.1444603508027: Created file 32
+28.1444603508033: Activated :31
+28.1444603508033: Activated :32
+28.1444603508033: Neural map created
+28.1444603508033: New neural map created for string: ab
+28.144460492265278: Neural map created using : [:31 :32]
+28.144460492266475: Created file 31
+28.144460492267076: Created file 32
+28.144460492267076: Activated :31
+28.144460492267076: Activated :32
+28.144460492267076: Neural map created
+28.144460492267672: New neural map created for string: ab
+28.14446054929841: Neural map created using : [:31 :32]
+28.144460549300206: Created file 31
+28.144460549300206: Created file 32
+28.144460549300806: Activated :31
+28.144460549300806: Activated :32
+28.144460549300806: Neural map created
+28.144460549300806: New neural map created for string: ab
+28.14446061368809: Neural map created using : [:31 :32]
+28.144460613689283: Created file 31
+28.144460613689283: Created file 32
+28.144460613689883: Activated :31
+28.144460613689883: Activated :32
+28.144460613689883: Neural map created
+28.144460613689883: New neural map created for string: ab
+28.1444606578896: Neural map created using : [:31 :32]
+28.14446065789259: Created file 31
+28.14446065789259: Created file 32
+28.144460657893188: Activated :31
+28.144460657893188: Activated :32
+28.144460657893188: Neural map created
+28.144460657893188: New neural map created for string: ab
+28.14446103009913: Neural map created using : [:31 :32]
+28.144461030100327: Created file 31
+28.144461030100327: Created file 32
+28.144461030100928: Activated :31
+28.144461030100928: Activated :32
+28.144461030100928: Neural map created
+28.144461030100928: New neural map created for string: ab
+28.14446114472068: Neural map created using : [:31 :32]
+28.144461144721877: Created file 31
+28.144461144722474: Created file 32
+28.144461144722474: Activated :31
+28.144461144722474: Activated :32
+28.14446114472307: Neural map created
+28.14446114472307: New neural map created for string: ab
+28.144461253530828: Neural map created using : [:31 :32]
+28.14446125353202: Created file 31
+28.144461253532622: Created file 32
+28.144461253532622: Activated :31
+28.144461253532622: Activated :32
+28.144461253532622: Neural map created
+28.144461253532622: New neural map created for string: ab
+28.144461268562274: Neural map created using : [:31 :32]
+28.14446126856347: Created file 31
+28.14446126856407: Created file 32
+28.14446126856407: Activated :31
+28.14446126856407: Activated :32
+28.14446126856407: Neural map created
+28.14446126856467: New neural map created for string: ab
+28.144461475005: Neural map created using : [:31 :32]
+28.144461475006192: Created file 31
+28.144461475006192: Created file 32
+28.144461475006793: Activated :31
+28.144461475006793: Activated :32
+28.144461475006793: Neural map created
+28.144461475006793: New neural map created for string: ab
+28.14446157945193: Neural map created using : [:31 :32]
+28.14446157945373: Created file 31
+28.144461579454326: Created file 32
+28.144461579454326: Activated :31
+28.144461579454326: Activated :32
+28.144461579454926: Neural map created
+28.144461579454926: New neural map created for string: ab
+28.14446162322971: Neural map created using : [:31 :32]
+28.144461623230907: Created file 31
+28.144461623231507: Created file 32
+28.144461623231507: Activated :31
+28.144461623231507: Activated :32
+28.144461623232104: Neural map created
+28.144461623232104: New neural map created for string: ab
+28.144461688088487: Neural map created using : [:31 :32]
+28.144461688089685: Created file 31
+28.144461688090285: Created file 32
+28.144461688090285: Activated :31
+28.144461688090285: Activated :32
+28.144461688090882: Neural map created
+28.144461688090882: New neural map created for string: ab
+28.144461716721715: Neural map created using : [:31 :32]
+28.144461716723512: Created file 31
+28.144461716723512: Created file 32
+28.14446171672411: Activated :31
+28.14446171672411: Activated :32
+28.14446171672411: Neural map created
+28.14446171672411: New neural map created for string: ab
+28.144461719487076: Neuron deleted [:32 #nelson2.brain.skeleton{:state #object[clojure.lang.Atom 0x3900fa71 {:status :ready, :val 1}], :dendrites #object[clojure.lang.Atom 0x26722665 {:status :ready, :val {}}], :coordinate #nelson2.brain.coord{:x #object[clojure.lang.Atom 0x7d0614f {:status :ready, :val 39.684402121569775}], :y #object[clojure.lang.Atom 0x627d8516 {:status :ready, :val 33.76430877014576}], :z #object[clojure.lang.Atom 0x5c10285a {:status :ready, :val 1.7884391493616147}]}}]
+28.144461857048274: Neural map created using : [:31 :32]
+28.14446185705007: Created file 31
+28.14446185705067: Created file 32
+28.144461857051265: Activated :31
+28.144461857051265: Activated :32
+28.144461857051265: Neural map created
+28.144461857051866: New neural map created for string: ab
+28.14446185987946: Neuron deleted [:32 #nelson2.brain.skeleton{:state #object[clojure.lang.Atom 0x3900fa71 {:status :ready, :val 1}], :dendrites #object[clojure.lang.Atom 0x26722665 {:status :ready, :val {}}], :coordinate #nelson2.brain.coord{:x #object[clojure.lang.Atom 0x7d0614f {:status :ready, :val 7.252452250927494}], :y #object[clojure.lang.Atom 0x627d8516 {:status :ready, :val 7.9426142610031505}], :z #object[clojure.lang.Atom 0x5c10285a {:status :ready, :val 11.53261704308709}]}}]
+28.144461962736322: Neural map created using : [:31 :32]
+28.144461962737516: Created file 31
+28.144461962738117: Created file 32
+28.144461962738117: Activated :31
+28.144461962738117: Activated :32
+28.144461962738713: Neural map created
+28.144461962738713: New neural map created for string: ab
+28.144461990368363: Neural map created using : [:31 :32]
+28.14446199036956: Created file 31
+28.144461990370157: Created file 32
+28.144461990370157: Activated :31
+28.144461990370157: Activated :32
+28.144461990370754: Neural map created
+28.144461990370754: New neural map created for string: ab
+28.144461993390447: Neuron deleted [:32 #nelson2.brain.skeleton{:state #object[clojure.lang.Atom 0x43034809 {:status :ready, :val 1}], :dendrites #object[clojure.lang.Atom 0x39e67516 {:status :ready, :val {}}], :coordinate #nelson2.brain.coord{:x #object[clojure.lang.Atom 0x77010a30 {:status :ready, :val 12.19229689847955}], :y #object[clojure.lang.Atom 0x4bb003e9 {:status :ready, :val 16.919480474321773}], :z #object[clojure.lang.Atom 0x12aa4996 {:status :ready, :val 40.21829774563038}]}}]
+28.144462019114087: Neuron deleted :32
+28.144462069566764: Neural map created using : [:31 :32]
+28.14446206956796: Created file 31
+28.144462069568558: Created file 32
+28.144462069568558: Activated :31
+28.144462069568558: Activated :32
+28.144462069568558: Neural map created
+28.144462069568558: New neural map created for string: ab
+28.144462094399334: Neural map created using : [:31 :32]
+28.14446209440053: Created file 31
+28.144462094401128: Created file 32
+28.144462094401128: Activated :31
+28.144462094401128: Activated :32
+28.144462094401128: Neural map created
+28.144462094401128: New neural map created for string: ab
+28.144462097411843: Neuron deleted :32
+28.14446212124144: Neural map created using : [:31 :32]
+28.144462121243233: Created file 31
+28.144462121243834: Created file 32
+28.14446212124443: Activated :31
+28.14446212124443: Activated :32
+28.14446212124443: Neural map created
+28.14446212124443: New neural map created for string: ab
+28.144462125178528: Neuron deleted :32
+28.144462153963147: Neural map created using : [:31 :32 :33]
+28.14446215396554: Created file 31
+28.14446215396614: Created file 32
+28.14446215396614: Created file 33
+28.14446215396674: Activated :31
+28.14446215396674: Activated :32
+28.14446215396674: Activated :33
+28.14446215396674: Neural map created
+28.14446215396674: New neural map created for string: abc
+28.144462157209045: Neuron deleted :33
+28.14446216629565: New neurons :- [:36 :3j :3k :3l :3n :34 :36 :3l :3k :3n :35 :36 :37 :3l :3p :37 :36 :3i :35]
+28.144462166296247: Neural map created using : [:31 :36 :3j :3k :3l :3n :31 :34 :36 :3l :3k :3n :35 :36 :37 :3l :3p :32 :37 :36 :3i :35 :32]
+28.144462166298045: Created file 37
+28.144462166298045: Created file 3n
+28.14446216629864: Created file 3i
+28.14446216629864: Created file 3j
+28.144462166299242: Created file 35
+28.144462166299242: Created file 36
+28.14446216629984: Created file 3p
+28.14446216629984: Created file 3k
+28.14446216630044: Created file 3l
+28.14446216630044: Created file 34
+28.144462166301036: Activated :36
+28.144462166301036: Activated :3j
+28.144462166301036: Activated :3k
+28.144462166301036: Activated :3l
+28.144462166301633: Activated :3n
+28.144462166301633: Activated :34
+28.144462166301633: Activated :35
+28.144462166301633: Activated :37
+28.144462166301633: Activated :3p
+28.144462166302233: Activated :3i
+28.14446216630283: Neural map created
+28.14446216630283: New neural map created for string: afstuwadfutwefguybgfreb
+28.144462184076882: All agents shutdown
+28.144462229767225: Neural map created using : [:31 :32]
+28.14446222976962: Created file 31
+28.14446222976962: Created file 32
+28.144462229770216: Activated :31
+28.144462229770216: Activated :32
+28.144462229770216: Neural map created
+28.144462229770216: New neural map created for string: aab
+28.144462233345852: Neuron deleted :32
+28.144462244284604: New neurons :- [:3j :34 :36 :37 :38 :3a :3b :3c :39 :3l :3p]
+28.144462244285204: Neural map created using : [:3j :34 :36 :37 :38 :3a :3b :3c :39 :3l :3p]
+28.1444622442864: Created file 39
+28.144462244287: Created file 37
+28.144462244287: Created file 3j
+28.1444622442876: Created file 38
+28.1444622442876: Created file 3a
+28.144462244288196: Created file 36
+28.144462244288196: Created file 3p
+28.144462244288796: Created file 3c
+28.144462244289393: Created file 3l
+28.144462244289393: Created file 34
+28.144462244289393: Created file 3b
+28.14446224428999: Activated :3j
+28.14446224428999: Activated :34
+28.14446224428999: Activated :36
+28.14446224428999: Activated :37
+28.14446224428999: Activated :38
+28.14446224429059: Activated :3a
+28.14446224429059: Activated :3b
+28.14446224429059: Activated :3c
+28.14446224429059: Activated :39
+28.14446224429059: Activated :3l
+28.14446224429059: Activated :3p
+28.144462244291187: Neural map created
+28.144462244291187: New neural map created for string: sdfghjkliuy
+28.144462248078668: Neuron deleted :3p
+28.144462263914395: All agents shutdown

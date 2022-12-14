@@ -23,6 +23,10 @@
 (defn de-compress [byte-array n]
   (if (= n 0) byte-array (de-compress (vec (flatten [(quot (get byte-array 0) 257) (- (get byte-array 0) (* 257 (quot (get byte-array 0) 257))) (rest byte-array)])) (dec n)))
   )
+(defn average [coll]
+  "Finds the average of the collection"
+  (if (empty? coll) -1 (/ (apply + coll) (count coll)))
+  )
 (defn concept-level? [neuron-id]
   "Calculate the concept level of the neuron"
   (/ (Math/log (base32todec (name neuron-id))) (Math/log 256))
