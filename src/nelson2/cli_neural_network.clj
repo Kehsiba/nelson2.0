@@ -12,10 +12,13 @@
 
 (defn neural-interaction [text]
 
-    "converting string into neural map"
-  (text-interface/parse-text text)
+
   "log it in the file"
   (log/log (str "New neural map created for string: " text))
+
+    "converting string into neural map"
+  (text-interface/parse-text text)
+
   )
 (defn neural-command [command]
   (cond
@@ -55,7 +58,7 @@
     (= command "@quit") (do (shutdown-agents)(log/log "All agents shutdown"))
     ;;(= command "@set focus") (println "Focus ou little piece of shit")
     (= command "@set-concept-cap") (do (print "Enter the cap ~~ ") (flush) (swap! (get brain/params :concept-cap) (fn [_] (let [val (Integer/parseInt (read-line))] val))) (log/log (str "Updated params : " brain/params)))
-    ;;(= command "@mode=") (println "Dont know...ran out of ideas")
+    (= command "@connect-residual-neurons") (nelson2.reward-cluster/connect-residual-neurons)
     (= command "@set-latency") (do (print "Enter the latency ~~ ") (flush) (swap! (get brain/params :latency) (fn [_] (let [val (Double/parseDouble (read-line))] val))))
     (= command "@set-timestep") (do (print "Enter the time step size ~~ ") (flush) (swap! (get brain/params :time-interval) (fn [_] (let [val (Double/parseDouble (read-line))] val))))
     (= command "@set-learning-time-scale") (do (print "Enter the learning time scale ~~ ") (flush) (swap! (get brain/params :learning-timescale) (fn [_] (let [val (Double/parseDouble (read-line))] val))))

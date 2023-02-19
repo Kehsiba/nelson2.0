@@ -9,7 +9,7 @@
 
 (defrecord reward-neurons [state connections] :load-ns true)
 (def personality (atom {}))
-(def params {:number-of-reward-neurons (atom 10000), :base-neuron-interest (atom 0.5),
+(def params {:number-of-reward-neurons (atom 10), :base-neuron-interest (atom 0.5),
              :reward-neuron-sleep (atom 100), :manager-latency (atom 2000)})
 
 (defn get-random-weights []
@@ -75,31 +75,42 @@
   (reward-log/log "New personality generated."))
 
 
-(defn connect-residual-neurons [neuron-id]
-  "takes the neuron-id and appends to it the new concept neurons"
-
-  (let [old-connections (:connections (get @personality neuron-id))]
-    "we have the old connections now scan for new neurons"
-    (println "here buddy")
-    (filter (fn [x] (if (not= nil (find old-connections x))
-                     (do (println "in here")
-                         true
-                         ))) (keys @brain/neural-cluster))
+(defn connect-neurons-to-reward-cluster [neuron-id reward-id]
+  (println "connecting " neuron-id "with " reward-id)
+  (let  [new-connection-list (merge (hash-map neuron-id (atom (rand))) @(:connections (get @personality reward-id)))]
+    (swap! (:connections (get @personality reward-id)) (fn [_] new-connection-list)))
+  (reward-log/log (str "Connecting " neuron-id "with " reward-id))
+  )
+(defn seq-of-residual-neurons []
+  "send a sequence of residual neurons to connect-residual-neurons"
+  (let [brain-keys (keys @brain/neural-cluster) reward-connection-keys-set (set (keys @(:connections (get @personality :reward-1))))]
+    (filter (fn [x] (not (contains? reward-connection-keys-set x))) brain-keys)
     )
+  )
+(defn connect-neurons-to-reward-cluster-prestep [neuron-id]
+  (doall (map #(connect-neurons-to-reward-cluster neuron-id %) (keys @personality)))
+
+  )
+(defn connect-residual-neurons []
+  "detect the residual concept neurons"
+
+  (doall (map #(connect-neurons-to-reward-cluster-prestep %) (seq-of-residual-neurons)))
+  "sequence of new neurons obtained"
+
+
 
 
   )
 (defn connect-reward-center-to-brain [neuron-key]
   "connect to the neurons in the brain"
-  (if (= nil (:connections (get @personality neuron-key)))
+  (if (not= nil (get @personality neuron-key))
     (swap! (:connections (get @personality neuron-key)) (fn [_]
                                                           (apply merge (merge (map #(hash-map % (atom 0))
                                                                                    (keys @brain/neural-cluster))
                                                                               @(:connections (get @personality neuron-key))))))
-    (connect-residual-neurons neuron-key)
     )
 
-  (reward-log/log (str "Connected to brain : " neuron-key)))
+  (reward-log/log (str "Connected to brain : " neuron-key)) )
 
 (defn connect-to-brain []
   "connect all the neurons to the brain"
@@ -113,21 +124,21 @@
 
 (defn deactivate-neuron [neuron-id]
   "Deactivate the supplied neuron"
-  (when (not= nil (get @personality neuron-id)) (swap! (get (get @personality neuron-id) :state) (fn [_] 0)))
-  (reward-log/log (str "Deactivated " neuron-id))
-  (println "Reward neuron deactivated :- " (key neuron-id))
-  )
+  (when (not= nil (get @personality neuron-id))
+    (if (= 1 @(:state (get @personality neuron-id)))
+      (swap! (:state (get @personality neuron-id)) (fn [_] 0))))
+  (reward-log/log (str "Deactivated " neuron-id)))
 
-(defn activate-neurons [neuron-ids]
-  "Activate the supplied neurons"
-  (println "activate " neuron-ids)
-  (doseq [key neuron-ids]
-    (when (not= nil (get @personality key))
-      (if (= 0 @(:state (get @personality key)))
-        ((swap! (:state (get @personality key)) (fn [_] 1))
-        (reward-log/log (str "Activated " (vec key)))
-        ))))
-  (reward-log/log (str "Activated " neuron-ids)))
+(defn activate-neuron [neuron-id]
+  "Activate the supplied neuron"
+    (when (not= nil (get @personality neuron-id))
+      (if (= 0 @(:state (get @personality neuron-id)))
+        (swap! (:state (get @personality neuron-id)) (fn [_] 1)))
+
+      (reward-log/log (str "Activated " neuron-id))
+
+      )
+  )
 
 (defn validate-neuron-id [id]
   "checks if the neuron belongs to the neural cluster or the reward cluster"
@@ -157,7 +168,7 @@
 (defn flush [neuron-id]
   "Flush the given neuron"
   (let [state (random-sample (if (= 0 (count (get-live-neurons))) (deref (:base-neuron-interest params)) (calc-interest-of-neuron neuron-id)) [1])]
-    (when (= (first state) 1) (activate-neurons [neuron-id]))
+    (when (= (first state) 1) (activate-neuron neuron-id))
     )
   (reward-log/log (str "Flushed neuron :- " neuron-id))
   )
