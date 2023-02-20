@@ -77,6 +77,26 @@
 
     )
   )
+(defn gradual-forget-dendrite [dendrite]
+  "update the weight of the dendrite"
+
+  (if (< 0 @(first (vals dendrite)))
+    (when (not= nil dendrite)
+      (swap! (first (vals dendrite)) (fn [_] (weight-update/forget-update @(first (vals dendrite)) brain/params)   )) )
+     (reset! (first (vals dendrite)) 0)
+    )
+  (when (not= nil dendrite)
+    (swap! (first (vals dendrite)) (fn [_] (weight-update/forget-update @(first (vals dendrite)) brain/params)   )) )
+  )
+(defn gradual-forgetting [neuron-id]
+  "gradually forget the weights"
+  "list all dendrites"
+  (let [dendrites @(:dendrites (get @brain/neural-cluster neuron-id))]
+    "update each weight"
+
+    (doall (map #(gradual-forget-dendrite (apply assoc {} %)) dendrites)))
+  (log/log (str "Forgetting : " neuron-id))
+  )
 (defn forget-weight [parent child]
   "Forget the connection between the parent and child"
   (swap! (get (get (get @brain/neural-cluster (keyword parent)) :dendrites) (keyword child)) (fn [_] 0))

@@ -76,7 +76,6 @@
 
 
 (defn connect-neurons-to-reward-cluster [neuron-id reward-id]
-  (println "connecting " neuron-id "with " reward-id)
   (let  [new-connection-list (merge (hash-map neuron-id (atom (rand))) @(:connections (get @personality reward-id)))]
     (swap! (:connections (get @personality reward-id)) (fn [_] new-connection-list)))
   (reward-log/log (str "Connecting " neuron-id "with " reward-id))
@@ -87,20 +86,15 @@
     (filter (fn [x] (not (contains? reward-connection-keys-set x))) brain-keys)
     )
   )
-(defn connect-neurons-to-reward-cluster-prestep [neuron-id]
-  (doall (map #(connect-neurons-to-reward-cluster neuron-id %) (keys @personality)))
 
-  )
+(defn connect-neurons-to-reward-cluster-prestep [neuron-id]
+  (doall (map #(connect-neurons-to-reward-cluster neuron-id %) (keys @personality))))
+
 (defn connect-residual-neurons []
   "detect the residual concept neurons"
-
   (doall (map #(connect-neurons-to-reward-cluster-prestep %) (seq-of-residual-neurons)))
-  "sequence of new neurons obtained"
+  "sequence of new neurons obtained")
 
-
-
-
-  )
 (defn connect-reward-center-to-brain [neuron-key]
   "connect to the neurons in the brain"
   (if (not= nil (get @personality neuron-key))

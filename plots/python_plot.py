@@ -215,7 +215,7 @@ def animate_conceptGraph(i):
 
 
     if i % 100 ==0:
-        plt.savefig("/home/abhishek/IdeaProjects/nelson2.0/plots/"+str(i/100)+".png")
+        plt.savefig("/home/abhishek/IdeaProjects/nelson2.0/plots/after optimization/"+str(i/100)+".png")
         print("Figure saved")
     plt.autoscale()
 

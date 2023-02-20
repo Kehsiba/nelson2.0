@@ -14,6 +14,8 @@
           (neural-processes/deactivate-neuron (key manager))
           )
         )
+  (cluster/connect-residual-neurons)
+  (neural-processes/gradual-forgetting (key manager))
   ;(neural-processes/deactivate-neuron (key manager))
   ;(println "done")
   ;;(log/log (str "Neuron-manager reporting. ID - " (key manager)))

@@ -34,6 +34,7 @@
     (= command "@load-all") (neural-processes/load-neurons)
     (= command "@extract-concept") (extract-data-features/get-structure (neural-processes/select-random-tuple) (neural-processes/get-focus))
     (= command "@weight") (println "You are never alone...loneliness will never leave your side")
+    (= command "@gradually-forget") (do (print "Enter neuron ID (without :) : ") (flush) (neural-processes/gradual-forgetting (keyword (read-line))))
     (= command "@excite") (do (print "Enter the neuron ID (without :) :- ") (flush) (neural-processes/flush-neuron (read-line)))
     (= command "@summary") (do (println (str "Concept cap           : " @(get brain/params :concept-cap)))
                                (println (str "Time step size        : " @(get brain/params :time-interval)))

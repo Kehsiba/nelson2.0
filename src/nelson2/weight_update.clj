@@ -4,7 +4,7 @@
 ;;(refer ('cli :only params))
 
 (defn forget-update [weight params]
-  (let [parameters params] (- weight (* (get parameters :time-interval) (Math/pow weight (get parameters :forgetting-timescale))))))
+  (let [parameters params] (- weight (* @(get parameters :time-interval) (Math/pow weight @(get parameters :forgetting-timescale))))))
 
 (defn forget [weights child-key params]
   (swap! (get weights child-key) (fn [_] (forget-update @(get weights child-key) params))))
