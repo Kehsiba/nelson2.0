@@ -5,8 +5,8 @@
 "Take the brain and the reward center"
 "Given a fixed set of neurons which remain excited- make all possible conclusions"
 "extract the concept neurons of the given neurons first"
-(def params {:logic-thread-timeout (atom 1000) :logic-thread-count-sup (atom 10)})
-
+(def params {:logic-thread-timeout (atom 1000) :logic-thread-count-sup (atom 10) :temporal-correlation-delay (atom 5000)})
+(def agent1 (agent 0))
 (defn deactivate-all [neuron-ids]
   "takes a set of neurons and deactivates them"
   (comment
@@ -95,17 +95,41 @@
           "calculate the reward for each logic-thread"
           (let [thread-table (merge outcome-list (zipmap [:logic-thread :reward] [logic-thread (reward-moderator/calc-reward)]))]
 
-            (comment "remove the watchers"
-            (remove-watchers logic-thread))
-
             "deactivate logic thread"
-              (deactivate-all @logic-thread)
+            (deactivate-all @logic-thread)
 
-              (println (str "Calculated reward: " @logic-thread))
+            (println (str "Calculated reward: " @logic-thread))
             (swap! report (fn [_] (conj @report thread-table)))
             )))
-            (log/log "Logical inference report generated")
-            report))
+      (log/log "Logical inference report generated"
+               )
+      report))
+  )
+(defn causal-correlate-delay-regulator []
+  "control the time delay for temporal correlation"
+  (rand 10)
+  )
+(defn causally-correlate [time-interval]
+  "Correlate causal events separated by time-interval"
+  (let [initial-excitation (vec (keys (neural-processes/get-active-neurons)))]
+    (Thread/sleep time-interval)
+    (let [final-excitation (vec (keys (neural-processes/get-active-neurons)))]
+      "connect initial-excitation to final-excitation"
+      (neural-processes/create-neural-map (flatten (conj initial-excitation final-excitation)))
+      (log/log (str "Causally correlating : " (doall (flatten (conj initial-excitation final-excitation)))))
+      )
+
+    )
+  )
+
+(defn auto-temporal-corr []
+  (causally-correlate (causal-correlate-delay-regulator))
+  (Thread/sleep @(:temporal-correlation-delay params))
+  (pcalls auto-temporal-corr)
+  )
+(defn auto-temporal-corr1 []
+  (auto-temporal-corr)
+
   )
 
 (defn sample-spontaneous-mode []

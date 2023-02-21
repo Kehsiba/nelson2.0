@@ -27,6 +27,7 @@
     (= command "@cli-logic") (logic-cli/introduce-logic)
     (= command "@cli-reward") (do (print (str (char 27) "[2J")) (reward-cli/introduce))
     (= command "@generate-personality") (pcalls handler/reward-cluster-engineer)
+    (= command "@enable-auto-correlation") (do (nelson2.logic_process/auto-temporal-corr1) (println "Temporal auto-correlation enabled"))
     (= command "@live-neurons") (println (keys (neural-processes/get-active-neurons)))
     (= command "@forget") (do (print "Enter parent neuron ID ~~ ") (flush) (let [parent (read-line)] (do (print "Enter child neuron ID ~~ ")
                                                                                  (flush) (neural-processes/forget-weight parent (read-line)))) (println "connection erased"))

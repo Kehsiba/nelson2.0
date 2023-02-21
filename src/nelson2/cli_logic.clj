@@ -13,6 +13,7 @@
                                          (println (str "logic retrieved : " @(logic-process/start-logic-thread
                                                                          (keyword (read-line)))))
                                           )
+    (= command "@time-corr") (do (print "Enter time interval (integers only): ") (flush) (logic-process/causally-correlate (Double/parseDouble (read-line))))
     (= command "@expand-logic-thread") (do (print "Enter the logic thread :- ") (flush)
                                            (println  (str "Expanded thread : " (logic-process/expand-logic-thread (mapv #(keyword %) (edn/read-string(read-line)))))))
     (= command "@infer") (do (print "Enter the initial logic thread :- ") (flush)
