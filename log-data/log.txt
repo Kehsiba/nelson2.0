@@ -1,474 +1,694 @@
-28.14799832614321: New neural map created for string: hi
-28.14799832615156: Neural map created using : [:39 :38]
-28.147998326152152: Created file 39
-28.14799832615275: Created file 38
-28.14799832615275: Activated :38
-28.14799832615275: Activated :39
-28.147998326153346: Neural map created
-28.147998346678097: excitation probability calculated for :39 to be 0.5
-28.147998346685252: Neural map created using : [:q6h]
-28.147998346685252: Neural map created using : [:q6h]
-28.147998346685252: Created file q6h
-28.147998346685252: Created file q6h
-28.147998346685252: concepts connected [:38 :38]
-28.147998346685252: concepts connected [:38 :38]
-28.147998346685252: Activated :q6h
-28.14799834668585: Neural map created using : [:q6h]
-28.14799834668585: Neural map created using : [:q6g]
-28.14799834668585: Concept created with [:38 :39]
-28.14799834668585: Concept created with [:38 :39]
-28.14799834668585: Created file q6g
-28.14799834668585: Activated :q6g
-28.147998346686446: Concept created with [:38 :38]
-28.147998346686446: concepts connected [:38 :38]
-28.14799834697745: Deactivated :39
-28.147998347275013: excitation probability calculated for :38 to be 0.2142857142857143
-28.14799834757377: Deactivated :38
-28.14799834847302: Neural map created using : [:q6h]
-28.147998348473617: Activated :38
-28.147998348473617: Activated :39
-28.147998348473617: Concept created with [:38 :39]
-28.147998348473617: Neural map created using : [:q6g]
-28.147998348473617: Concept created with [:38 :38]
-28.147998348474214: concepts connected [:38 :38]
-28.147998348474214: Neural map created using : [:q6g]
-28.147998348474214: Concept created with [:38 :38]
-28.147998348474214: concepts connected [:38 :38]
-28.147998350256017: excitation probability calculated for :39 to be 0.5
-28.14799835026258: Neural map created using : [:q6g]
-28.14799835026258: concepts connected [:q6h :q6h]
-28.14799835026258: Neural map created using : [:q6g]
-28.14799835026258: Concept created with [:38 :38]
-28.147998350263176: Concept created with [:38 :38]
-28.147998350263176: concepts connected [:38 :38]
-28.147998350263176: concepts connected [:38 :38]
-28.147998350554776: Deactivated :39
-28.147998350852937: excitation probability calculated for :38 to be 0.2142857142857143
-28.147998351151692: Deactivated :38
-28.147998351449257: excitation probability calculated for :q6h to be 0.2142857142857143
-28.14799835174801: Deactivated :q6h
-28.147998352046173: excitation probability calculated for :q6g to be 0.0
-28.147998352050944: Neural map created using : [:q6g]
-28.14799835205154: Activated :38
-28.14799835205154: Concept created with [:38 :38]
-28.14799835205154: concepts connected [:38 :38]
-28.147998352344334: Deactivated :q6g
-28.1479983538405: Activated :q6h
-28.1479983538405: Activated :q6g
-28.147998353841096: Neural map created using : [:q6g]
-28.147998353841096: Neural map created using : [:6j8l2]
-28.147998353841096: concepts connected [:q6g :q6g]
-28.147998353841096: concepts connected [:38 :q6h]
-28.147998353841096: Concept created with [:38 :38]
-28.147998353841693: Created file 6j8l2
-28.147998353841693: Neural map created using : [:6iehp]
-28.147998353841693: Activated :6j8l2
-28.147998353841693: concepts connected [:38 :38]
-28.147998353841693: Concept created with [:q6h :q6h]
-28.147998353841693: Created file 6iehp
-28.14799835384229: concepts connected [:q6h :q6h]
-28.14799835384229: Neural map created using : [:6iehp]
-28.147998353842887: Created file 6iehp
-28.147998353842887: Activated :6iehp
-28.147998353843484: Concept created with [:q6h :38]
-28.147998353843484: concepts connected [:q6h :38]
-28.147998355630058: Neural map created using : [:q6g]
-28.147998355630058: concepts connected [:38 :6j8l2]
-28.147998355630058: concepts connected [:6j8l2 :6iehp]
-28.147998355630655: concepts connected [:6j8l2 :38]
-28.147998355630655: Concept created with [:38 :38]
-28.147998355630655: concepts connected [:6iehp :6j8l2]
-28.147998355630655: concepts connected [:38 :38]
-28.147998355630655: concepts connected [:6j8l2 :6j8l2]
-28.147998357419617: concepts connected [:6iehp :6iehp]
-28.147998357419617: Neural map created using : [:6iehp]
-28.147998357419617: Neural map created using : [:6j8l2]
-28.147998357419617: Neural map created using : [:1l7bpq4]
-28.147998357419617: Neural map created using : [:6j8d0]
-28.147998357419617: Concept created with [:q6h :38]
-28.147998357419617: Concept created with [:q6h :q6h]
-28.14799835742021: Created file 1l7bpq4
-28.14799835742021: concepts connected [:q6h :38]
-28.14799835742021: concepts connected [:q6h :q6h]
-28.14799835742021: Activated :1l7bpq4
-28.147998357420807: Concept created with [:6j8l2 :6j8l2]
-28.147998357420807: Neural map created using : [:1k9p]
-28.147998357420807: Neural map created using : [:1l7bpq4]
-28.147998357420807: concepts connected [:6j8l2 :6j8l2]
-28.147998357420807: Created file 1k9p
-28.147998357420807: Concept created with [:6j8l2 :6j8l2]
-28.147998357421404: Activated :1k9p
-28.147998357421404: concepts connected [:6j8l2 :6j8l2]
-28.147998357421404: Created file 6j8d0
-28.147998357421404: Concept created with [:38 :q6h]
-28.147998357422: concepts connected [:38 :q6h]
-28.147998357421404: Neural map created using : [:6j8d0]
-28.147998357422: Created file 6j8d0
-28.147998357422598: Activated :6j8d0
-28.147998357422598: Concept created with [:q6g :q6g]
-28.147998357423194: concepts connected [:q6g :q6g]
-28.147998359202017: excitation probability calculated for :6j8l2 to be 0.4285714285714286
-28.147998359208575: concepts connected [:6j8d0 :6j8d0]
-28.147998359208575: Neural map created using : [:1l0q5er]
-28.147998359208575: Neural map created using : [:6iehp]
-28.147998359209172: Neural map created using : [:6j8d0]
-28.147998359209172: Concept created with [:q6h :38]
-28.147998359209172: Created file 1l0q5er
-28.14799835920977: concepts connected [:q6h :38]
-28.14799835920977: Activated :1l0q5er
-28.14799835920977: Concept created with [:q6g :q6g]
-28.14799835920977: Neural map created using : [:1k9p]
-28.14799835920977: Concept created with [:6iehp :6j8l2]
-28.147998359210366: concepts connected [:q6g :q6g]
-28.147998359210366: Concept created with [:38 :q6h]
-28.147998359210366: concepts connected [:6iehp :6j8l2]
-28.147998359210366: concepts connected [:38 :q6h]
-28.147998359210366: Neural map created using : [:1l7avmr]
-28.147998359210963: Created file 1l7avmr
-28.147998359210963: Activated :1l7avmr
-28.147998359210963: Concept created with [:6j8l2 :6iehp]
-28.14799835921156: concepts connected [:6j8l2 :6iehp]
-28.14799835950077: Deactivated :6j8l2
-28.147998360037462: Causally correlating : clojure.lang.LazySeq@dffdc241
-28.147998360998134: concepts connected [:1l7avmr :1l7avmr]
-28.147998360998134: concepts connected [:q6h :1l0q5er]
-28.147998360998134: Neural map created using : [:1lkf28k]
-28.147998360998134: Neural map created using : [:1l0pbbi]
-28.14799836099873: Neural map created using : [:1l7bpq4]
-28.14799836099873: Created file 1lkf28k
-28.14799836099873: Activated :6j8l2
-28.14799836099873: Created file 1l0pbbi
-28.14799836099873: Activated :1lkf28k
-28.147998360999328: Concept created with [:6j8l2 :6j8l2]
-28.147998360999328: Neural map created using : [:1l0pbbi]
-28.147998360999328: Concept created with [:1k9p :1l7avmr]
-28.147998360999328: concepts connected [:6j8l2 :6j8l2]
-28.147998360999328: Created file 1l0pbbi
-28.147998360999328: concepts connected [:1k9p :1l7avmr]
-28.147998360999924: Activated :1l0pbbi
-28.147998360999924: concepts connected [:1l7avmr :1k9p]
-28.147998360999924: Concept created with [:6iehp :6iehp]
-28.147998360999924: concepts connected [:6iehp :6iehp]
-28.147998361000518: Neural map created using : [:1l0pbbi]
-28.147998361000518: Concept created with [:6iehp :6iehp]
-28.147998361000518: concepts connected [:6iehp :6iehp]
-28.14799836278113: excitation probability calculated for :6j8l2 to be 0.4285714285714286
-28.147998362787096: concepts connected [:38 :q6g]
-28.147998362787096: Neural map created using : [:6ie9o]
-28.147998362788883: Created file 6ie9o
-28.147998362788883: Activated :6ie9o
-28.14799836278948: Concept created with [:q6g :38]
-28.14799836278948: concepts connected [:q6g :38]
-28.14799836302622: Causally correlating : clojure.lang.LazySeq@3081d1e1
-28.147998363079292: Deactivated :6j8l2
-28.147998364576058: concepts connected [:6ie9o :6ie9o]
-28.147998364576058: concepts connected [:1k9p :1k9p]
-28.147998364576058: concepts connected [:6j8d0 :6ie9o]
-28.147998364576058: Neural map created using : [:1l79oq0]
-28.14799836457665: Neural map created using : [:1l0najg]
-28.14799836457665: concepts connected [:6ie9o :6j8d0]
-28.14799836457665: Neural map created using : [:6j8d0]
-28.14799836457665: Created file 1l79oq0
-28.147998364577248: Activated :1l79oq0
-28.147998364577248: Created file 1l0najg
-28.147998364577248: Concept created with [:q6g :q6g]
-28.147998364577248: Concept created with [:6j8d0 :6j8d0]
-28.147998364577248: Neural map created using : [:1l0najg]
-28.147998364577248: concepts connected [:q6g :q6g]
-28.147998364577248: concepts connected [:6j8d0 :6j8d0]
-28.14799836457844: Created file 1l0najg
-28.14799836457844: Activated :1l0najg
-28.14799836457844: Concept created with [:6ie9o :6ie9o]
-28.14799836457844: concepts connected [:6ie9o :6ie9o]
-28.147998366013187: Causally correlating : clojure.lang.LazySeq@39b6a2d1
-28.147998366365613: concepts connected [:38 :1k9p]
-28.147998366365613: concepts connected [:1k9p :1lkf28k]
-28.147998366365613: concepts connected [:q6g :1l0pbbi]
-28.147998366365613: concepts connected [:1l0pbbi :q6g]
-28.14799836636621: Neural map created using : [:d42l1]
-28.14799836636621: Created file d42l1
-28.147998366366807: Activated :d42l1
-28.147998366366807: Concept created with [:1k9p :38]
-28.147998366367403: concepts connected [:1k9p :38]
-28.147998368154575: Neural map created using : [:1l7bpq4]
-28.14799836815517: Activated :6j8l2
-28.14799836815517: Concept created with [:6j8l2 :6j8l2]
-28.14799836815577: concepts connected [:6j8l2 :6j8l2]
-28.14799836815577: concepts connected [:d42l1 :d42l1]
-28.147998369001947: Causally correlating : clojure.lang.LazySeq@a7fdff81
-28.14799836993757: excitation probability calculated for :6j8l2 to be 0.42857142857142866
-28.147998369944133: concepts connected [:1l0najg :1l0najg]
-28.147998369944133: Neural map created using : [:1l0najg]
-28.147998369944133: concepts connected [:1l0q5er :1l0q5er]
-28.147998369944133: Neural map created using : [:1l7bpq4]
-28.147998369944133: concepts connected [:1l0pbbi :1l0pbbi]
-28.147998369944133: Neural map created using : [:1l79oq0]
-28.147998369944133: Concept created with [:6ie9o :6ie9o]
-28.147998369944133: Concept created with [:6j8l2 :6j8l2]
-28.147998369944727: concepts connected [:6ie9o :6ie9o]
-28.147998369944727: Concept created with [:6j8d0 :6j8d0]
-28.147998369944727: concepts connected [:6j8l2 :6j8l2]
-28.147998369945324: Neural map created using : [:1l0pbbi]
-28.147998369945324: concepts connected [:6j8d0 :6j8d0]
-28.147998369945324: Neural map created using : [:6j8l2]
-28.147998369945324: Concept created with [:6iehp :6iehp]
-28.147998369945324: Concept created with [:q6h :q6h]
-28.147998369945324: concepts connected [:6iehp :6iehp]
-28.14799836994592: concepts connected [:q6h :q6h]
-28.14799837023633: Deactivated :6j8l2
-28.147998371732495: Neural map created using : [:q6g]
-28.147998371732495: Neural map created using : [:1l0najg]
-28.147998371732495: Neural map created using : [:6iehp]
-28.147998371732495: concepts connected [:1lkf28k :1lkf28k]
-28.14799837173309: Neural map created using : [:6j8d0]
-28.14799837173309: Concept created with [:38 :38]
-28.14799837173309: Concept created with [:6ie9o :6ie9o]
-28.14799837173309: Concept created with [:q6h :38]
-28.14799837173309: concepts connected [:38 :38]
-28.14799837173309: concepts connected [:6ie9o :6ie9o]
-28.14799837173309: concepts connected [:q6h :38]
-28.14799837173309: Concept created with [:q6g :q6g]
-28.14799837173309: Neural map created using : [:1k9p]
-28.14799837173309: concepts connected [:q6g :q6g]
-28.14799837173309: Concept created with [:38 :q6h]
-28.14799837173309: concepts connected [:38 :q6h]
-28.147998371984144: Causally correlating : clojure.lang.LazySeq@a63af701
-28.147998373522054: Neural map created using : [:q6g]
-28.147998373522054: Concept created with [:38 :38]
-28.147998373522054: concepts connected [:38 :1l79oq0]
-28.147998373522054: concepts connected [:1l79oq0 :38]
-28.147998373522054: concepts connected [:38 :38]
-28.14799837497171: Causally correlating : clojure.lang.LazySeq@a63af701
-28.147998375311612: Neural map created using : [:1l0najg]
-28.147998375311612: Neural map created using : [:q6h]
-28.147998375311612: concepts connected [:1l7avmr :d42l1]
-28.147998375311612: Activated :39
-28.147998375311612: Concept created with [:6ie9o :6ie9o]
-28.147998375311612: concepts connected [:d42l1 :1l7avmr]
-28.14799837531221: Concept created with [:38 :39]
-28.14799837531221: concepts connected [:6ie9o :6ie9o]
-28.14799837531221: Neural map created using : [:6j8l2]
-28.147998375312802: Activated :6j8l2
-28.1479983753134: Concept created with [:q6h :q6h]
-28.1479983753134: concepts connected [:q6h :q6h]
-28.147998377094012: excitation probability calculated for :6j8l2 to be 0.42857142857142866
-28.14799837710057: concepts connected [:q6g :1lkf28k]
-28.14799837710057: concepts connected [:1k9p :q6g]
-28.147998377101167: concepts connected [:q6g :1k9p]
-28.147998377101167: concepts connected [:1lkf28k :q6g]
-28.14799837739277: Deactivated :6j8l2
-28.14799837769033: excitation probability calculated for :39 to be 0.5
-28.14799837795629: Causally correlating : clojure.lang.LazySeq@501ac5bb
-28.14799837798909: Deactivated :39
-28.147998378287248: excitation probability calculated for :1l0najg to be 0.4285714285714286
-28.14799837858541: Deactivated :1l0najg
-28.14799837888357: excitation probability calculated for :1k9p to be 0.42857142857142866
-28.147998378889532: Neural map created using : [:1l0pbbi]
-28.147998378889532: Activated :1l0najg
-28.147998378889532: Neural map created using : [:1l0pbbi]
-28.147998378889532: concepts connected [:6ie9o :1l0najg]
-28.147998378889532: Concept created with [:6iehp :6iehp]
-28.147998378889532: Concept created with [:6iehp :6iehp]
-28.14799837889013: concepts connected [:6iehp :6iehp]
-28.14799837889013: concepts connected [:6iehp :6iehp]
-28.14799837889013: Activated :39
-28.14799837889013: concepts connected [:39 :39]
-28.14799837889013: Neural map created using : [:1l7bpq4]
-28.14799837889013: Activated :6j8l2
-28.14799837889013: Concept created with [:6j8l2 :6j8l2]
-28.14799837889013: concepts connected [:6j8l2 :6j8l2]
-28.14799837918173: Deactivated :1k9p
-28.147998379480487: excitation probability calculated for :1l7avmr to be 0.3571428571428572
-28.147998379778645: Deactivated :1l7avmr
-28.147998380076807: excitation probability calculated for :1l79oq0 to be 0.4285714285714286
-28.14799838037497: Deactivated :1l79oq0
-28.14799838067253: excitation probability calculated for :6j8l2 to be 0.3571428571428572
-28.147998380673126: excitation probability calculated for :q6g to be 0.3571428571428572
-28.14799838067909: Neural map created using : [:1l79oq0]
-28.14799838067909: Neural map created using : [:6k2g9]
-28.147998380679688: Activated :1l79oq0
-28.147998380679688: Created file 6k2g9
-28.147998380679688: Concept created with [:6j8d0 :6j8d0]
-28.147998380679688: Activated :6k2g9
-28.147998380680285: Activated :1k9p
-28.147998380680285: concepts connected [:6j8d0 :6j8d0]
-28.147998380680285: Concept created with [:q6g :1k9p]
-28.147998380680285: concepts connected [:q6g :1k9p]
-28.14799838068088: Neural map created using : [:d4so9]
-28.147998380681475: Created file d4so9
-28.147998380682072: Activated :d4so9
-28.147998380682072: Concept created with [:1k9p :q6g]
-28.147998380682072: concepts connected [:1k9p :q6g]
-28.14799838094326: Causally correlating : clojure.lang.LazySeq@7eaa19d
-28.147998380971288: Deactivated :6j8l2
-28.147998380971288: Deactivated :q6g
-28.14799838126945: excitation probability calculated for :39 to be 0.4285714285714286
-28.147998381270043: excitation probability calculated for :6iehp to be 0.3571428571428572
-28.147998381567607: Deactivated :39
-28.147998381568204: Deactivated :6iehp
-28.14799838186577: excitation probability calculated for :1l0najg to be 0.4285714285714286
-28.147998381866365: excitation probability calculated for :1lkf28k to be 0.32142857142857145
-28.147998382164523: Deactivated :1l0najg
-28.147998382164523: Deactivated :1lkf28k
-28.147998382465666: excitation probability calculated for :1l0pbbi to be 0.2142857142857143
-28.147998382465666: excitation probability calculated for :1k9p to be 0.2142857142857143
-28.147998382468053: Neural map created using : [:6j8d0]
-28.147998382468053: Activated :q6g
-28.147998382468646: Concept created with [:q6g :q6g]
-28.147998382468646: concepts connected [:q6g :q6g]
-28.147998382468646: concepts connected [:1l7bpq4 :1l7bpq4]
-28.14799838247163: Activated :6j8l2
-28.14799838247163: concepts connected [:6j8l2 :1l0q5er]
-28.14799838247163: concepts connected [:1l0q5er :6j8l2]
-28.147998382764424: Deactivated :1l0pbbi
-28.147998382764424: Deactivated :1k9p
-28.147998383062582: excitation probability calculated for :38 to be 0.3333333333333334
-28.14799838336134: Deactivated :38
-28.147998383658905: excitation probability calculated for :6ie9o to be 0.3673469387755103
-28.147998383929036: Causally correlating : clojure.lang.LazySeq@3ae381e1
-28.14799838395766: Deactivated :6ie9o
-28.14799838425105: excitation probability calculated for :6j8l2 to be 0.1904761904761905
-28.14799838425582: excitation probability calculated for :d42l1 to be 0.2142857142857143
-28.14799838425701: Activated :1l0najg
-28.14799838425701: Activated :1l7avmr
-28.14799838425701: concepts connected [:d42l1 :1l0najg]
-28.14799838425761: concepts connected [:6j8l2 :1l7avmr]
-28.14799838425761: concepts connected [:1l0najg :d42l1]
-28.147998384549805: Deactivated :6j8l2
-28.14799838455398: Deactivated :d42l1
-28.14799838485214: excitation probability calculated for :1l0q5er to be 0.2142857142857143
-28.147998385150895: Deactivated :1l0q5er
-28.14799838544846: excitation probability calculated for :q6h to be 0.2142857142857143
-28.14799838574722: Deactivated :q6h
-28.147998386045376: excitation probability calculated for :1l7bpq4 to be 0.28571428571428575
-28.14799838604657: concepts connected [:1l0najg :q6g]
-28.14799838604657: concepts connected [:q6g :1l0najg]
-28.147998386343538: Deactivated :1l7bpq4
-28.1479983866417: excitation probability calculated for :6j8d0 to be 0.1836734693877551
-28.147998386912427: Causally correlating : clojure.lang.LazySeq@a9aa0741
-28.147998386939857: Deactivated :6j8d0
-28.147998387835532: Neural map created using : [:1l0q5er]
-28.147998387835532: Neural map created using : [:1l0pbbi]
-28.147998387835532: Neural map created using : [:d5mri]
-28.147998387835532: concepts connected [:6k2g9 :6k2g9]
-28.147998387835532: Activated :1l0q5er
-28.147998387835532: Activated :1l0pbbi
-28.14799838783613: Activated :6iehp
-28.14799838783613: Activated :6j8l2
-28.14799838783613: Created file d5mri
-28.14799838783613: Concept created with [:6iehp :6iehp]
-28.14799838783613: Concept created with [:6iehp :6j8l2]
-28.14799838783613: Activated :d5mri
-28.14799838783613: Activated :1k9p
-28.14799838783613: concepts connected [:6iehp :6iehp]
-28.14799838783613: concepts connected [:6iehp :6j8l2]
-28.14799838783613: Concept created with [:1k9p :1k9p]
-28.14799838783613: Neural map created using : [:1l7avmr]
-28.14799838783613: concepts connected [:1k9p :1k9p]
-28.14799838783613: Neural map created using : [:1l0pbbi]
-28.14799838783613: Concept created with [:6j8l2 :6iehp]
-28.14799838783613: Concept created with [:6iehp :6iehp]
-28.14799838783613: concepts connected [:6iehp :6iehp]
-28.14799838783613: concepts connected [:6j8l2 :6iehp]
-28.14799838961853: excitation probability calculated for :6j8l2 to be 0.3000000000000001
-28.14799838962449: concepts connected [:1l79oq0 :d4so9]
-28.14799838962449: Neural map created using : [:1lds78i]
-28.14799838962449: Activated :1l7bpq4
-28.147998389625087: concepts connected [:1l7bpq4 :d4so9]
-28.14799838962449: Neural map created using : [:1l0pbbi]
-28.147998389625087: concepts connected [:d4so9 :1l79oq0]
-28.147998389625087: Created file 1lds78i
-28.147998389625087: concepts connected [:d4so9 :1l7bpq4]
-28.147998389625087: Concept created with [:6iehp :6iehp]
-28.147998389625087: Activated :1lds78i
-28.147998389625087: concepts connected [:6iehp :6iehp]
-28.147998389625087: Concept created with [:6k2g9 :6k2g9]
-28.147998389625087: concepts connected [:6k2g9 :6k2g9]
-28.147998389625087: Neural map created using : [:1l0pbbi]
-28.147998389625087: Concept created with [:6iehp :6iehp]
-28.147998389625684: concepts connected [:6iehp :6iehp]
-28.147998389897605: Causally correlating : clojure.lang.LazySeq@a243f1ab
-28.14799838991669: Deactivated :6j8l2
-28.147998391408088: excitation probability calculated for :1lds78i to be 0.2142857142857143
-28.14799839141405: concepts connected [:6iehp :1l7bpq4]
-28.14799839141405: Neural map created using : [:1l79oq0]
-28.14799839141405: Activated :6j8d0
-28.147998391414646: concepts connected [:1l7bpq4 :6iehp]
-28.147998391414646: Concept created with [:6j8d0 :6j8d0]
-28.147998391414646: concepts connected [:6j8d0 :6j8d0]
-28.147998391414646: Neural map created using : [:1l7bpq4]
-28.147998391415243: Activated :6j8l2
-28.147998391415243: Concept created with [:6j8l2 :6j8l2]
-28.147998391415243: concepts connected [:6j8l2 :6j8l2]
-28.147998391706246: Deactivated :1lds78i
-28.147998392004407: excitation probability calculated for :6j8l2 to be 0.3000000000000001
-28.147998392303162: Deactivated :6j8l2
-28.147998392882787: Causally correlating : clojure.lang.LazySeq@2a922181
-28.147998393203608: Neural map created using : [:q6g]
-28.147998393203608: Neural map created using : [:q6g]
-28.147998393203608: concepts connected [:1l0pbbi :6k2g9]
-28.147998393203608: Activated :38
-28.147998393203608: Activated :38
-28.147998393203608: Concept created with [:38 :38]
-28.147998393204205: Concept created with [:38 :38]
-28.147998393204205: concepts connected [:38 :38]
-28.147998393204205: Neural map created using : [:d5mri]
-28.147998393204205: concepts connected [:38 :38]
-28.147998393204205: Concept created with [:1k9p :1k9p]
-28.147998393204205: concepts connected [:1k9p :1k9p]
-28.147998394992566: Neural map created using : [:q6g]
-28.147998394993163: Concept created with [:38 :38]
-28.147998394993163: concepts connected [:38 :38]
-28.147998394993163: Neural map created using : [:1lds78i]
-28.147998394993163: Activated :1lds78i
-28.14799839499376: Concept created with [:6k2g9 :6k2g9]
-28.14799839499376: concepts connected [:6k2g9 :6k2g9]
-28.147998395869756: Causally correlating : clojure.lang.LazySeq@c6fa3e21
-28.147998396775566: excitation probability calculated for :1lds78i to be 0.28571428571428575
-28.147998396781528: Activated :6ie9o
-28.147998396781528: Neural map created using : [:1l0o4up]
-28.147998396781528: concepts connected [:6ie9o :d5mri]
-28.147998396782125: concepts connected [:d5mri :6ie9o]
-28.147998396782125: Created file 1l0o4up
-28.147998396782125: Activated :1l0o4up
-28.147998396782125: Activated :39
-28.147998396782125: Concept created with [:39 :1l0najg]
-28.147998396782125: concepts connected [:39 :1l0najg]
-28.147998396782125: concepts connected [:1l0najg :39]
-28.147998397073724: Deactivated :1lds78i
-28.14799839857049: Activated :1lds78i
-28.14799839857049: Neural map created using : [:1l0najg]
-28.14799839857049: Neural map created using : [:1k9p]
-28.14799839857049: Neural map created using : [:6j8l2]
-28.14799839857049: Activated :6j8l2
-28.14799839857049: Activated :q6h
-28.14799839857049: concepts connected [:1lds78i :1lds78i]
-28.14799839857049: Concept created with [:6ie9o :6ie9o]
-28.14799839857049: Concept created with [:q6h :q6h]
-28.14799839857049: Concept created with [:38 :q6h]
-28.14799839857049: concepts connected [:q6h :q6h]
-28.14799839857049: concepts connected [:38 :q6h]
-28.14799839857049: concepts connected [:6ie9o :6ie9o]
-28.147998398571087: Neural map created using : [:6iehp]
-28.147998398571087: Neural map created using : [:1lds78i]
-28.147998398571087: Concept created with [:q6h :38]
-28.147998398571087: Concept created with [:6k2g9 :6k2g9]
-28.147998398571087: concepts connected [:q6h :38]
-28.147998398571087: concepts connected [:6k2g9 :6k2g9]
-28.14799839885374: Causally correlating : clojure.lang.LazySeq@b6352d9f
-28.147998400354084: excitation probability calculated for :1lds78i to be 0.4285714285714286
-28.14799840036005: concepts connected [:1l7bpq4 :38]
-28.14799840036005: Neural map created using : [:6ie9o]
-28.14799840036005: concepts connected [:38 :1l7bpq4]
-28.147998400360642: Concept created with [:q6g :38]
-28.147998400360642: concepts connected [:q6g :38]
-28.147998400360642: Neural map created using : [:1k9o]
-28.14799840036124: Created file 1k9o
-28.14799840036124: Activated :1k9o
-28.14799840036124: Concept created with [:38 :q6g]
-28.14799840036124: concepts connected [:38 :q6g]
-28.147998400652245: Deactivated :1lds78i
-28.147998400950403: excitation probability calculated for :6j8l2 to be 0.4285714285714287
-28.147998401248564: Deactivated :6j8l2
-28.147998401546726: excitation probability calculated for :39 to be 0.4285714285714286
-28.147998401837132: Causally correlating : clojure.lang.LazySeq@4c93d5c1
+28.14799853823526: New neural map created for string: asdfgh
+28.147998538245997: Neural map created using : [:37 :31 :3j :38 :36 :34]
+28.147998538246593: Created file 37
+28.147998538246593: Created file 31
+28.147998538246593: Created file 3j
+28.147998538247187: Created file 38
+28.147998538247187: Created file 36
+28.147998538247187: Created file 34
+28.147998538247187: Activated :31
+28.147998538247784: Activated :3j
+28.147998538247784: Activated :34
+28.147998538247784: Activated :36
+28.147998538247784: Activated :37
+28.147998538247784: Activated :38
+28.147998538247784: Neural map created
+28.14799854149296: excitation probability calculated for :37 to be 0.4285714285714286
+28.147998541500115: concepts connected [:37 :37]
+28.147998541500115: concepts connected [:3j :3j]
+28.147998541500115: concepts connected [:37 :37]
+28.147998541500712: Neural map created using : [:pue]
+28.147998541500712: Created file pue
+28.147998541500712: Activated :pue
+28.14799854150131: Concept created with [:37 :37]
+28.14799854150131: concepts connected [:37 :37]
+28.147998541791715: Deactivated :37
+28.14799854208928: excitation probability calculated for :31 to be 0.4285714285714286
+28.147998542388034: Deactivated :31
+28.147998542686196: excitation probability calculated for :3j to be 0.4285714285714286
+28.147998542984954: Deactivated :3j
+28.147998543282515: excitation probability calculated for :38 to be 0.5
+28.147998543287883: concepts connected [:36 :36]
+28.147998543287883: concepts connected [:34 :34]
+28.14799854328848: Neural map created using : [:sv6]
+28.14799854328848: Neural map created using : [:pmc]
+28.14799854328848: Created file sv6
+28.147998543289077: Created file pmc
+28.147998543289077: Activated :sv6
+28.147998543289077: Activated :3j
+28.147998543289077: Neural map created using : [:pmc]
+28.147998543289077: Concept created with [:3j :3j]
+28.147998543289674: concepts connected [:3j :3j]
+28.147998543290267: Created file pmc
+28.147998543290267: Activated :pmc
+28.147998543290864: Concept created with [:36 :36]
+28.147998543290864: concepts connected [:36 :36]
+28.147998543581274: Deactivated :38
+28.14799854387943: excitation probability calculated for :36 to be 0.2142857142857143
+28.147998544177593: Deactivated :36
+28.147998544475755: excitation probability calculated for :34 to be 0.2142857142857143
+28.14799854477451: Deactivated :34
+28.147998545076845: Activated :31
+28.147998545076845: Activated :31
+28.14799854507744: Neural map created using : [:sv6]
+28.14799854507744: concepts connected [:31 :31]
+28.14799854507744: concepts connected [:31 :sv6]
+28.14799854507744: Concept created with [:3j :3j]
+28.147998545078035: concepts connected [:sv6 :31]
+28.147998545078035: concepts connected [:3j :3j]
+28.147998545078632: Neural map created using : [:sv6]
+28.147998545078632: Concept created with [:3j :3j]
+28.14799854507923: concepts connected [:3j :3j]
+28.1479985468664: concepts connected [:sv6 :sv6]
+28.1479985468664: concepts connected [:sv6 :sv6]
+28.1479985468664: concepts connected [:pue :pue]
+28.1479985468664: concepts connected [:sv6 :sv6]
+28.147998546866997: concepts connected [:pmc :pmc]
+28.147998546866997: Neural map created using : [:6h7cs]
+28.147998546866997: Neural map created using : [:pmc]
+28.147998546866997: Neural map created using : [:pmc]
+28.147998546866997: Activated :36
+28.147998546867594: Created file 6h7cs
+28.147998546867594: Concept created with [:36 :36]
+28.147998546867594: Concept created with [:36 :36]
+28.147998546867594: Activated :6h7cs
+28.147998546867594: concepts connected [:36 :36]
+28.147998546867594: concepts connected [:36 :36]
+28.147998546867594: Concept created with [:pue :pue]
+28.14799854686819: concepts connected [:pue :pue]
+28.147998548655362: concepts connected [:36 :pue]
+28.147998548655362: Neural map created using : [:sv6]
+28.14799854865596: concepts connected [:pue :36]
+28.14799854865596: Concept created with [:3j :3j]
+28.147998548656556: concepts connected [:3j :3j]
+28.147998548656556: Neural map created using : [:pmc]
+28.147998548656556: Concept created with [:36 :36]
+28.14799854865715: concepts connected [:36 :36]
+28.147998550444917: Neural map created using : [:sv6]
+28.147998550444917: Neural map created using : [:6h7cs]
+28.147998550444917: Neural map created using : [:oe2]
+28.147998550444917: Neural map created using : [:pmc]
+28.147998550445514: Concept created with [:3j :3j]
+28.147998550445514: Concept created with [:36 :36]
+28.147998550445514: Concept created with [:pue :pue]
+28.147998550445514: Created file oe2
+28.14799855044611: concepts connected [:3j :3j]
+28.14799855044611: Activated :oe2
+28.14799855044611: concepts connected [:pue :pue]
+28.14799855044611: concepts connected [:36 :36]
+28.14799855044611: concepts connected [:6h7cs :6h7cs]
+28.14799855044611: Neural map created using : [:pmc]
+28.14799855044611: Neural map created using : [:6h7cs]
+28.14799855044611: Concept created with [:31 :31]
+28.147998550446708: Concept created with [:36 :36]
+28.147998550446708: Concept created with [:pue :pue]
+28.147998550446708: concepts connected [:31 :31]
+28.147998550446708: concepts connected [:36 :36]
+28.147998550446708: concepts connected [:pue :pue]
+28.14799855223388: Neural map created using : [:6h7cs]
+28.14799855223388: Activated :34
+28.14799855223388: Neural map created using : [:pue]
+28.147998552234476: Activated :37
+28.147998552234476: concepts connected [:34 :pue]
+28.147998552234476: Concept created with [:pue :pue]
+28.147998552235073: concepts connected [:pue :pue]
+28.147998552235073: Concept created with [:37 :37]
+28.147998552235073: concepts connected [:pue :34]
+28.147998552235073: Neural map created using : [:6f6co]
+28.147998552235073: concepts connected [:37 :37]
+28.14799855223567: concepts connected [:oe2 :oe2]
+28.14799855223567: Created file 6f6co
+28.14799855223567: Activated :6f6co
+28.14799855223567: Concept created with [:pmc :pmc]
+28.14799855223567: concepts connected [:pmc :pmc]
+28.147998554016876: excitation probability calculated for :37 to be 0.2142857142857143
+28.147998554023438: Neural map created using : [:p68]
+28.147998554023438: Created file p68
+28.14799855402403: Activated :p68
+28.14799855402403: Concept created with [:34 :34]
+28.14799855402403: concepts connected [:34 :34]
+28.14799855402463: Neural map created using : [:6f6co]
+28.14799855402463: Concept created with [:pmc :pmc]
+28.14799855402463: concepts connected [:pmc :pmc]
+28.147998554315038: Deactivated :37
+28.147998554326964: Forgetting : :37
+28.147998554613196: excitation probability calculated for :6f6co to be 0.4285714285714286
+28.147998554911954: Deactivated :6f6co
+28.147998554911954: Forgetting : :6f6co
+28.147998555210116: excitation probability calculated for :31 to be 0.4285714285714286
+28.147998555508273: Deactivated :31
+28.14799855550887: Forgetting : :31
+28.147998555806435: excitation probability calculated for :3j to be 0.4285714285714286
+28.147998555812396: Neural map created using : [:oe2]
+28.147998555812396: concepts connected [:34 :3j]
+28.147998555812993: Activated :31
+28.147998555812993: Concept created with [:31 :31]
+28.147998555812993: Neural map created using : [:sun]
+28.14799855581359: concepts connected [:31 :31]
+28.14799855581359: Created file sun
+28.14799855581359: Neural map created using : [:6h7cs]
+28.14799855581359: Activated :sun
+28.14799855581359: Concept created with [:3j :34]
+28.14799855581359: Neural map created using : [:6h7cs]
+28.147998555814187: concepts connected [:3j :34]
+28.147998555814187: Concept created with [:pue :pue]
+28.147998555814187: concepts connected [:pue :pue]
+28.14799855610519: Deactivated :3j
+28.147998556106383: Forgetting : :3j
+28.147998556402754: excitation probability calculated for :pmc to be 0.4285714285714286
+28.14799855670151: Deactivated :pmc
+28.14799855670151: Forgetting : :pmc
+28.147998557601955: Activated :3j
+28.147998557601955: Neural map created using : [:1kmtlpo]
+28.147998557601955: concepts connected [:sv6 :oe2]
+28.147998557601955: concepts connected [:pue :3j]
+28.147998557601955: concepts connected [:oe2 :sv6]
+28.147998557602552: concepts connected [:3j :pue]
+28.147998557602552: Created file 1kmtlpo
+28.147998557602552: Activated :1kmtlpo
+28.147998557602552: Concept created with [:6h7cs :6h7cs]
+28.14799855760315: concepts connected [:6h7cs :6h7cs]
+28.147998558470793: Causally correlating : [:31 :3j :oe2 :36 :6h7cs :1kmtlpo :p68 :sun :pue :sv6 :34 :31 :3j :oe2 :36 :6h7cs :1kmtlpo :p68 :sun :pue :sv6 :34]
+28.147998559390913: concepts connected [:oe2 :pue]
+28.14799855939151: Neural map created using : [:651c4]
+28.147998559390913: Neural map created using : [:oe2]
+28.147998559390913: concepts connected [:sun :sun]
+28.14799855939151: concepts connected [:pue :oe2]
+28.14799855939151: Created file 651c4
+28.14799855939151: Concept created with [:31 :31]
+28.14799855939151: Neural map created using : [:pue]
+28.14799855939151: Activated :37
+28.14799855939151: Activated :651c4
+28.147998559392107: concepts connected [:31 :31]
+28.147998559392107: Concept created with [:37 :37]
+28.147998559392107: Concept created with [:oe2 :oe2]
+28.147998559392107: concepts connected [:37 :37]
+28.147998559392107: concepts connected [:oe2 :oe2]
+28.147998559392704: Neural map created using : [:pue]
+28.147998559392704: Concept created with [:37 :37]
+28.1479985593933: concepts connected [:37 :37]
+28.147998561173914: excitation probability calculated for :37 to be 0.2142857142857143
+28.147998561180472: Neural map created using : [:1l9l]
+28.147998561180472: Neural map created using : [:pmc]
+28.147998561180472: Created file 1l9l
+28.147998561180472: Activated :pmc
+28.14799856118107: Activated :1l9l
+28.14799856118107: Concept created with [:36 :36]
+28.14799856118107: Concept created with [:3j :oe2]
+28.14799856118107: concepts connected [:36 :36]
+28.14799856118107: concepts connected [:3j :oe2]
+28.14799856118107: concepts connected [:oe2 :3j]
+28.14799856118107: concepts connected [:p68 :p68]
+28.14799856145478: Causally correlating : [:37 :651c4 :31 :3j :pmc :oe2 :36 :6h7cs :1kmtlpo :p68 :sun :pue :sv6 :1l9l :34 :37 :651c4 :31 :3j :pmc :oe2 :36 :6h7cs :1kmtlpo :p68 :sun :pue :sv6 :1l9l :34]
+28.14799856147267: Deactivated :37
+28.14799856147446: Forgetting : :37
+28.14799856177083: excitation probability calculated for :651c4 to be 0.4285714285714286
+28.147998562068988: Deactivated :651c4
+28.147998562069585: Forgetting : :651c4
+28.147998562969434: Neural map created using : [:651c4]
+28.147998562969434: Neural map created using : [:p68]
+28.147998562969434: Activated :651c4
+28.14799856297003: Concept created with [:34 :34]
+28.14799856297003: Concept created with [:oe2 :oe2]
+28.14799856297003: concepts connected [:34 :34]
+28.14799856297003: concepts connected [:oe2 :oe2]
+28.147998562970624: Neural map created using : [:651c4]
+28.147998562970624: Neural map created using : [:sv6]
+28.147998562970624: Concept created with [:oe2 :oe2]
+28.147998562970624: Concept created with [:3j :3j]
+28.147998562970624: concepts connected [:oe2 :oe2]
+28.147998562970624: concepts connected [:3j :3j]
+28.147998564442343: Causally correlating : [:651c4 :31 :3j :pmc :oe2 :36 :6h7cs :1kmtlpo :p68 :sun :pue :sv6 :1l9l :34 :651c4 :31 :3j :pmc :oe2 :36 :6h7cs :1kmtlpo :p68 :sun :pue :sv6 :1l9l :34]
+28.147998564758392: Neural map created using : [:6ab9c]
+28.147998564758392: Neural map created using : [:1hegqq6]
+28.14799856475899: concepts connected [:3j :sun]
+28.14799856475899: Neural map created using : [:79jec]
+28.14799856475899: Neural map created using : [:78iqa]
+28.14799856475899: Created file 1hegqq6
+28.14799856475899: Created file 79jec
+28.147998564759586: Activated :1hegqq6
+28.147998564759586: Created file 78iqa
+28.147998564759586: Neural map created using : [:79jec]
+28.147998564759586: Concept created with [:651c4 :oe2]
+28.147998564759586: Neural map created using : [:78iqa]
+28.147998564760183: Created file 78iqa
+28.147998564760183: concepts connected [:651c4 :oe2]
+28.147998564760183: Activated :78iqa
+28.147998564760183: concepts connected [:oe2 :651c4]
+28.147998564760183: Concept created with [:sun :3j]
+28.147998564760183: Created file 79jec
+28.147998564760183: Created file 6ab9c
+28.147998564760183: concepts connected [:sun :3j]
+28.14799856476078: Neural map created using : [:79jec]
+28.14799856476078: Neural map created using : [:6ab9c]
+28.14799856476078: Created file 79jec
+28.14799856476078: Created file 6ab9c
+28.14799856476078: Activated :79jec
+28.14799856476078: Neural map created using : [:6ab9c]
+28.147998564761377: Concept created with [:sv6 :sv6]
+28.147998564761377: concepts connected [:sv6 :sv6]
+28.147998564761377: Created file 6ab9c
+28.147998564761377: Activated :6f6co
+28.147998564761377: Activated :6ab9c
+28.147998564761377: concepts connected [:6f6co :6f6co]
+28.147998564761377: Concept created with [:p68 :34]
+28.14799856476197: concepts connected [:p68 :34]
+28.14799856476197: concepts connected [:34 :p68]
+28.14799856654795: Neural map created using : [:6f6co]
+28.14799856654795: Neural map created using : [:pue]
+28.14799856654795: concepts connected [:31 :34]
+28.14799856654795: Activated :37
+28.14799856654795: Neural map created using : [:p65]
+28.14799856654795: Concept created with [:pmc :pmc]
+28.14799856654795: Concept created with [:37 :37]
+28.14799856654795: Created file p65
+28.147998566548548: concepts connected [:pmc :pmc]
+28.147998566548548: concepts connected [:37 :37]
+28.147998566548548: Activated :p65
+28.147998566548548: Neural map created using : [:79jec]
+28.147998566548548: Neural map created using : [:1k6hipg]
+28.147998566548548: Concept created with [:34 :31]
+28.147998566548548: concepts connected [:34 :31]
+28.147998566548548: Concept created with [:sv6 :sv6]
+28.147998566548548: Created file 1k6hipg
+28.147998566548548: Activated :1k6hipg
+28.147998566548548: concepts connected [:sv6 :sv6]
+28.147998566549145: Concept created with [:6f6co :6f6co]
+28.147998566549145: concepts connected [:6f6co :6f6co]
+28.147998567428715: Causally correlating : [:37 :1hegqq6 :651c4 :6f6co :31 :3j :78iqa :pmc :oe2 :36 :6h7cs :p65 :79jec :1kmtlpo :p68 :sun :pue :sv6 :1k6hipg :1l9l :34 :6ab9c :37 :1hegqq6 :651c4 :6f6co :31 :3j :78iqa :pmc :oe2 :36 :6h7cs :p65 :79jec :1kmtlpo :p68 :sun :pue :sv6 :1k6hipg :1l9l :34 :6ab9c]
+28.147998568330948: excitation probability calculated for :37 to be 0.2051732722003282
+28.147998568336913: Neural map created using : [:pmc]
+28.147998568336913: Neural map created using : [:651c4]
+28.147998568336913: concepts connected [:3j :p68]
+28.147998568336913: concepts connected [:1k6hipg :sv6]
+28.147998568337506: Concept created with [:36 :36]
+28.147998568337506: Neural map created using : [:1kdq98m]
+28.147998568337506: Concept created with [:oe2 :oe2]
+28.147998568337506: concepts connected [:p68 :3j]
+28.147998568337506: concepts connected [:36 :36]
+28.147998568337506: concepts connected [:oe2 :oe2]
+28.147998568337506: Created file 1kdq98m
+28.147998568338103: concepts connected [:1kmtlpo :1kmtlpo]
+28.147998568338103: Activated :1kdq98m
+28.147998568338103: Neural map created using : [:1k6hipg]
+28.147998568338103: Concept created with [:sv6 :1k6hipg]
+28.147998568338103: Concept created with [:6f6co :6f6co]
+28.1479985683387: concepts connected [:sv6 :1k6hipg]
+28.1479985683387: concepts connected [:6f6co :6f6co]
+28.14799856862911: Deactivated :37
+28.147998568633877: Forgetting : :37
+28.147998568927267: excitation probability calculated for :1hegqq6 to be 0.4285714285714286
+28.147998569226026: Deactivated :1hegqq6
+28.147998569226623: Forgetting : :1hegqq6
+28.147998569523587: excitation probability calculated for :651c4 to be 0.4285714285714286
+28.147998569822345: Deactivated :651c4
+28.147998569822345: Forgetting : :651c4
+28.147998570120507: excitation probability calculated for :6f6co to be 0.4285714285714286
+28.147998570126468: concepts connected [:79jec :79jec]
+28.147998570126468: concepts connected [:pue :31]
+28.147998570126468: Neural map created using : [:p68]
+28.147998570126468: Neural map created using : [:1pqa]
+28.147998570126468: Neural map created using : [:pmc]
+28.147998570126468: concepts connected [:31 :pue]
+28.147998570126468: Concept created with [:34 :34]
+28.147998570126468: Created file 1pqa
+28.147998570126468: Concept created with [:36 :36]
+28.147998570126468: Activated :1pqa
+28.147998570126468: concepts connected [:34 :34]
+28.147998570126468: concepts connected [:36 :36]
+28.147998570126468: Concept created with [:3j :sun]
+28.147998570126468: concepts connected [:1k6hipg :1k6hipg]
+28.147998570127065: concepts connected [:3j :sun]
+28.147998570127065: Neural map created using : [:78iqa]
+28.147998570127065: Concept created with [:sun :3j]
+28.147998570127065: concepts connected [:sun :3j]
+28.147998570415087: Causally correlating : [:6f6co :31 :3j :78iqa :pmc :oe2 :1kdq98m :1pqa :36 :6h7cs :p65 :79jec :1kmtlpo :p68 :sun :pue :sv6 :1k6hipg :1l9l :34 :6ab9c :6f6co :31 :3j :78iqa :pmc :oe2 :1kdq98m :1pqa :36 :6h7cs :p65 :79jec :1kmtlpo :p68 :sun :pue :sv6 :1k6hipg :1l9l :34 :6ab9c]
+28.147998570418665: Deactivated :6f6co
+28.14799857041986: Forgetting : :6f6co
+28.147998570716826: excitation probability calculated for :31 to be 0.335567189188834
+28.147998571014984: Deactivated :31
+28.14799857101558: Forgetting : :31
+28.147998571313742: excitation probability calculated for :3j to be 0.37044377895730696
+28.1479985716119: Deactivated :3j
+28.147998571612497: Forgetting : :3j
+28.147998571910062: excitation probability calculated for :78iqa to be 0.4285714285714286
+28.14799857191543: concepts connected [:pue :1kdq98m]
+28.14799857191543: Neural map created using : [:6h5sg]
+28.14799857191543: Neural map created using : [:79jec]
+28.14799857191543: Neural map created using : [:pmc]
+28.147998571916027: concepts connected [:1kdq98m :pue]
+28.147998571916027: Concept created with [:sv6 :sv6]
+28.147998571916027: Created file 6h5sg
+28.147998571916027: Concept created with [:36 :36]
+28.147998571916027: Activated :6h5sg
+28.147998571916027: concepts connected [:sv6 :sv6]
+28.147998571916027: concepts connected [:36 :36]
+28.147998571916027: Concept created with [:pue :oe2]
+28.14799857191662: concepts connected [:1l9l :1l9l]
+28.14799857191662: concepts connected [:1l9l :1l9l]
+28.14799857191662: concepts connected [:pue :oe2]
+28.14799857191662: Neural map created using : [:652sg]
+28.14799857191662: Created file 652sg
+28.14799857191662: Activated :652sg
+28.14799857191662: Concept created with [:oe2 :pue]
+28.147998571917217: concepts connected [:oe2 :pue]
+28.147998572208223: Deactivated :78iqa
+28.14799857221001: Forgetting : :78iqa
+28.14799857250638: excitation probability calculated for :pmc to be 0.4285714285714286
+28.14799857280514: Deactivated :pmc
+28.147998572805736: Forgetting : :pmc
+28.147998573402056: Causally correlating : [:652sg :oe2 :1kdq98m :1pqa :36 :6h7cs :p65 :79jec :1kmtlpo :p68 :6h5sg :sun :pue :sv6 :1k6hipg :1l9l :34 :6ab9c :652sg :oe2 :1kdq98m :1pqa :36 :6h7cs :p65 :79jec :1kmtlpo :p68 :6h5sg :sun :pue :sv6 :1k6hipg :1l9l :34 :6ab9c]
+28.147998573698427: excitation probability calculated for :652sg to be 0.4285714285714286
+28.14799857370439: Neural map created using : [:dc2l8]
+28.147998573704985: Neural map created using : [:1k6hipg]
+28.147998573704985: concepts connected [:6ab9c :6ab9c]
+28.147998573704985: concepts connected [:p65 :p65]
+28.147998573704985: Created file dc2l8
+28.147998573704985: Activated :6f6co
+28.147998573704985: Neural map created using : [:6h7cs]
+28.147998573704985: Activated :dc2l8
+28.147998573705582: Neural map created using : [:79fle]
+28.147998573705582: Activated :3j
+28.147998573705582: Concept created with [:6f6co :6f6co]
+28.147998573705582: Neural map created using : [:6h7cs]
+28.147998573705582: Concept created with [:1l9l :3j]
+28.147998573705582: Created file 79fle
+28.147998573705582: concepts connected [:6f6co :6f6co]
+28.147998573705582: Concept created with [:pue :pue]
+28.147998573705582: concepts connected [:1l9l :3j]
+28.147998573705582: Neural map created using : [:79fle]
+28.147998573705582: Neural map created using : [:79fle]
+28.147998573705582: concepts connected [:pue :pue]
+28.14799857370618: concepts connected [:3j :1l9l]
+28.14799857370618: Created file 79fle
+28.14799857370618: Created file 79fle
+28.14799857370618: Activated :79fle
+28.14799857370618: Neural map created using : [:79fle]
+28.14799857370618: Concept created with [:sun :sun]
+28.14799857370618: Concept created with [:sun :sun]
+28.14799857370618: concepts connected [:sun :sun]
+28.14799857370618: concepts connected [:sun :sun]
+28.14799857399659: Deactivated :652sg
+28.14799857399778: Forgetting : :652sg
+28.147998576390215: Causally correlating : [:6f6co :3j :oe2 :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :6h5sg :79fle :sun :pue :sv6 :1k6hipg :1l9l :34 :6ab9c :6f6co :3j :oe2 :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :6h5sg :79fle :sun :pue :sv6 :1k6hipg :1l9l :34 :6ab9c]
+28.14799857728291: concepts connected [:6h7cs :34]
+28.14799857728291: Neural map created using : [:1k6hipg]
+28.14799857728291: Neural map created using : [:651c4]
+28.14799857728291: Neural map created using : [:1qbvv0m]
+28.147998577283502: Activated :651c4
+28.147998577283502: concepts connected [:34 :6h7cs]
+28.147998577283502: Created file 1qbvv0m
+28.147998577283502: Concept created with [:6f6co :6f6co]
+28.147998577283502: Concept created with [:oe2 :oe2]
+28.147998577283502: Activated :1qbvv0m
+28.1479985772841: Activated :78iqa
+28.1479985772841: Activated :pmc
+28.1479985772841: concepts connected [:6f6co :6f6co]
+28.1479985772841: concepts connected [:oe2 :oe2]
+28.1479985772841: Concept created with [:78iqa :pmc]
+28.1479985772841: concepts connected [:78iqa :78iqa]
+28.1479985772841: concepts connected [:6h5sg :6h5sg]
+28.147998577284696: concepts connected [:78iqa :pmc]
+28.147998577284696: concepts connected [:pmc :78iqa]
+28.147998579072464: Neural map created using : [:ddnra]
+28.147998579072464: Created file ddnra
+28.14799857907306: Activated :ddnra
+28.14799857907306: Concept created with [:1l9l :1l9l]
+28.14799857907306: concepts connected [:1l9l :1l9l]
+28.147998579377184: Causally correlating : [:1qbvv0m :651c4 :6f6co :3j :78iqa :pmc :oe2 :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :6h5sg :79fle :sun :pue :ddnra :sv6 :1k6hipg :1l9l :34 :6ab9c :1qbvv0m :651c4 :6f6co :3j :78iqa :pmc :oe2 :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :6h5sg :79fle :sun :pue :ddnra :sv6 :1k6hipg :1l9l :34 :6ab9c]
+28.147998580861426: Neural map created using : [:1qrepso]
+28.147998580861426: concepts connected [:3j :1kdq98m]
+28.147998580861426: concepts connected [:pmc :sv6]
+28.147998580862023: concepts connected [:1kdq98m :3j]
+28.147998580862023: concepts connected [:sv6 :pmc]
+28.147998580862023: Created file 1qrepso
+28.147998580862616: Activated :1qrepso
+28.147998580862616: Concept created with [:79jec :79jec]
+28.147998580862616: concepts connected [:79jec :79jec]
+28.147998580863213: Neural map created using : [:sv6]
+28.147998580863213: Concept created with [:3j :3j]
+28.147998580863213: concepts connected [:3j :3j]
+28.147998582364153: Causally correlating : [:1qbvv0m :651c4 :6f6co :3j :78iqa :pmc :oe2 :1qrepso :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :6h5sg :79fle :sun :pue :ddnra :sv6 :1k6hipg :1l9l :34 :6ab9c :1qbvv0m :651c4 :6f6co :3j :78iqa :pmc :oe2 :1qrepso :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :6h5sg :79fle :sun :pue :ddnra :sv6 :1k6hipg :1l9l :34 :6ab9c]
+28.147998582650384: concepts connected [:sv6 :6h7cs]
+28.147998582650384: concepts connected [:6h7cs :sv6]
+28.147998584439943: Neural map created using : [:p68]
+28.147998584439943: Neural map created using : [:6h7cs]
+28.147998584439943: Neural map created using : [:6b4cg]
+28.147998584439943: Neural map created using : [:6h7cs]
+28.14799858444054: Concept created with [:pue :pue]
+28.14799858444054: Concept created with [:34 :34]
+28.14799858444054: Concept created with [:pue :pue]
+28.14799858444054: Created file 6b4cg
+28.14799858444054: Activated :6b4cg
+28.14799858444054: concepts connected [:34 :34]
+28.14799858444054: concepts connected [:pue :pue]
+28.14799858444054: concepts connected [:pue :pue]
+28.14799858444054: Concept created with [:p68 :p68]
+28.14799858444054: Activated :652sg
+28.147998584441137: Neural map created using : [:6b3ka]
+28.147998584441137: concepts connected [:p68 :p68]
+28.147998584441137: concepts connected [:652sg :652sg]
+28.147998584441137: Neural map created using : [:1qrepso]
+28.147998584441137: Created file 6b3ka
+28.14799858444173: Activated :6b3ka
+28.14799858444173: Concept created with [:79jec :79jec]
+28.14799858444173: Concept created with [:p65 :p65]
+28.14799858444173: concepts connected [:79jec :79jec]
+28.14799858444173: concepts connected [:p65 :p65]
+28.147998585350525: Causally correlating : [:652sg :1qbvv0m :651c4 :6f6co :3j :78iqa :pmc :6b3ka :oe2 :1qrepso :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :6h5sg :79fle :sun :pue :ddnra :sv6 :1k6hipg :1l9l :34 :6b4cg :6ab9c :652sg :1qbvv0m :651c4 :6f6co :3j :78iqa :pmc :6b3ka :oe2 :1qrepso :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :6h5sg :79fle :sun :pue :ddnra :sv6 :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.14799858622294: excitation probability calculated for :652sg to be 0.2735643629337709
+28.147998586228905: Activated :31
+28.147998586228905: Neural map created using : [:6b3ka]
+28.147998586228905: concepts connected [:79fle :79fle]
+28.147998586229498: concepts connected [:1k6hipg :31]
+28.147998586229498: Neural map created using : [:79jec]
+28.147998586229498: Concept created with [:p65 :p65]
+28.147998586229498: concepts connected [:31 :1k6hipg]
+28.147998586229498: Concept created with [:sv6 :sv6]
+28.147998586229498: concepts connected [:p65 :p65]
+28.147998586229498: concepts connected [:sv6 :sv6]
+28.147998586229498: Neural map created using : [:sv6]
+28.147998586230095: Concept created with [:3j :3j]
+28.147998586230095: concepts connected [:3j :3j]
+28.1479985865211: Deactivated :652sg
+28.147998586523485: Forgetting : :652sg
+28.14799858681926: excitation probability calculated for :1qbvv0m to be 0.4285714285714286
+28.147998587118018: Deactivated :1qbvv0m
+28.147998587118018: Forgetting : :1qbvv0m
+28.14799858801846: Activated :1hegqq6
+28.14799858801846: Neural map created using : [:1i9f]
+28.14799858801846: concepts connected [:1hegqq6 :1hegqq6]
+28.14799858801846: Created file 1i9f
+28.14799858801846: Neural map created using : [:p68]
+28.14799858801846: Activated :1i9f
+28.14799858801846: Neural map created using : [:p68]
+28.147998588019057: Concept created with [:31 :pue]
+28.147998588019057: Concept created with [:34 :34]
+28.147998588019057: concepts connected [:31 :pue]
+28.147998588019057: concepts connected [:34 :34]
+28.147998588019057: Neural map created using : [:6gdhf]
+28.147998588019057: Created file 6gdhf
+28.147998588019654: Activated :6gdhf
+28.147998588019654: Concept created with [:pue :31]
+28.147998588019654: concepts connected [:pue :31]
+28.14799858833451: Causally correlating : [:1hegqq6 :651c4 :6f6co :31 :3j :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1k6hipg :1l9l :34 :6b4cg :6ab9c :1hegqq6 :651c4 :6f6co :31 :3j :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.147998589807422: concepts connected [:1i9f :1i9f]
+28.147998589807422: concepts connected [:6gdhf :6gdhf]
+28.147998589807422: Neural map created using : [:6b3ka]
+28.147998589807422: Neural map created using : [:6b4cg]
+28.147998589808612: Neural map created using : [:1kmhfp0]
+28.147998589808612: concepts connected [:1qrepso :1qrepso]
+28.147998589808612: Concept created with [:p68 :p68]
+28.147998589808612: Concept created with [:p65 :p65]
+28.147998589808612: concepts connected [:p68 :p68]
+28.147998589808612: Created file 1kmhfp0
+28.14799858980921: concepts connected [:p65 :p65]
+28.14799858980921: Activated :1kmhfp0
+28.14799858980921: Neural map created using : [:pue]
+28.14799858980921: Activated :37
+28.14799858980921: Neural map created using : [:1kmtlpo]
+28.14799858980921: Concept created with [:6h5sg :6h5sg]
+28.14799858980921: Concept created with [:37 :37]
+28.14799858980921: Concept created with [:6h7cs :6h7cs]
+28.14799858980921: concepts connected [:6h5sg :6h5sg]
+28.14799858980921: concepts connected [:37 :37]
+28.147998589809806: concepts connected [:6h7cs :6h7cs]
+28.1479985913179: Causally correlating : [:37 :1hegqq6 :651c4 :6f6co :31 :3j :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1k6hipg :1l9l :34 :6b4cg :6ab9c :37 :1hegqq6 :651c4 :6f6co :31 :3j :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.14799859430606: Causally correlating : [:37 :1hegqq6 :651c4 :6f6co :31 :3j :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1k6hipg :1l9l :34 :6b4cg :6ab9c :37 :1hegqq6 :651c4 :6f6co :31 :3j :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.1479985951749: Neural map created using : [:6f6co]
+28.147998595175494: concepts connected [:pue :6h5sg]
+28.1479985951749: Neural map created using : [:6f6co]
+28.147998595175494: Neural map created using : [:1ivjsm4]
+28.147998595175494: Neural map created using : [:1kg13qu]
+28.147998595175494: Concept created with [:pmc :pmc]
+28.147998595175494: Concept created with [:pmc :pmc]
+28.147998595175494: Created file 1ivjsm4
+28.147998595175494: concepts connected [:pmc :pmc]
+28.147998595175494: concepts connected [:pmc :pmc]
+28.14799859517609: Activated :1ivjsm4
+28.14799859517609: Created file 1kg13qu
+28.14799859517609: Neural map created using : [:1kmtlpo]
+28.14799859517609: Neural map created using : [:79fle]
+28.14799859517609: Neural map created using : [:1kg13qu]
+28.14799859517609: Concept created with [:6ab9c :6f6co]
+28.14799859517609: concepts connected [:6ab9c :6f6co]
+28.14799859517609: Concept created with [:sun :sun]
+28.14799859517609: Concept created with [:6h7cs :6h7cs]
+28.14799859517609: Created file 1kg13qu
+28.14799859517609: concepts connected [:sun :sun]
+28.14799859517609: Activated :1kg13qu
+28.14799859517609: concepts connected [:6h7cs :6h7cs]
+28.14799859517609: concepts connected [:6f6co :6ab9c]
+28.147998595176688: Concept created with [:6h5sg :pue]
+28.147998595176688: concepts connected [:6h5sg :pue]
+28.147998596965053: concepts connected [:1kmhfp0 :1kmhfp0]
+28.147998596965053: concepts connected [:dc2l8 :sv6]
+28.147998596965053: Neural map created using : [:pue]
+28.147998596965053: concepts connected [:sv6 :dc2l8]
+28.147998596965053: Concept created with [:37 :37]
+28.147998596965053: concepts connected [:37 :37]
+28.147998597291835: Causally correlating : [:37 :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c :37 :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.147998598753418: concepts connected [:6h5sg :1kg13qu]
+28.147998598753418: concepts connected [:1ivjsm4 :1ivjsm4]
+28.1479986002794: Causally correlating : [:37 :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c :37 :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.147998600542973: concepts connected [:1kdq98m :1kdq98m]
+28.147998600542973: Activated :652sg
+28.147998600542973: concepts connected [:ddnra :ddnra]
+28.147998600542973: concepts connected [:oe2 :652sg]
+28.147998600542973: Neural map created using : [:p68]
+28.147998600542973: Neural map created using : [:1hesvai]
+28.14799860054357: Concept created with [:34 :34]
+28.14799860054357: Created file 1hesvai
+28.14799860054357: concepts connected [:34 :34]
+28.147998600547147: Activated :1hesvai
+28.147998600547147: Concept created with [:652sg :oe2]
+28.147998600547147: concepts connected [:652sg :oe2]
+28.147998602325377: excitation probability calculated for :652sg to be 0.13070722007662805
+28.147998602331338: concepts connected [:6b4cg :6b4cg]
+28.147998602331338: Neural map created using : [:6b4cg]
+28.147998602331338: Neural map created using : [:79fle]
+28.147998602331935: Neural map created using : [:1ivf1io]
+28.147998602331935: Concept created with [:sun :sun]
+28.147998602331935: Concept created with [:p68 :p68]
+28.147998602331935: concepts connected [:sun :sun]
+28.147998602331935: concepts connected [:p68 :p68]
+28.147998602331935: Created file 1ivf1io
+28.147998602331935: Neural map created using : [:1k6hipg]
+28.147998602331935: concepts connected [:6b3ka :6b3ka]
+28.147998602331935: Concept created with [:6f6co :6f6co]
+28.147998602331935: Activated :1ivf1io
+28.147998602331935: concepts connected [:6f6co :6f6co]
+28.147998602331935: Concept created with [:6ab9c :6ab9c]
+28.147998602331935: concepts connected [:6ab9c :6ab9c]
+28.147998602623534: Deactivated :652sg
+28.147998602627112: Forgetting : :652sg
+28.147998603262195: Causally correlating : [:37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.147998604120897: Neural map created using : [:p68]
+28.147998604120897: concepts connected [:1pqa :1pqa]
+28.147998604120897: Concept created with [:34 :34]
+28.147998604120897: concepts connected [:34 :34]
+28.147998604120897: Neural map created using : [:p68]
+28.147998604120897: Concept created with [:34 :34]
+28.14799860412149: concepts connected [:34 :34]
+28.147998605909855: Activated :1qbvv0m
+28.147998605910452: Neural map created using : [:1qrepso]
+28.147998605910452: concepts connected [:1qbvv0m :1qbvv0m]
+28.147998605910452: Concept created with [:79jec :79jec]
+28.147998605910452: Neural map created using : [:sv6]
+28.147998605910452: concepts connected [:79jec :79jec]
+28.147998605910452: Concept created with [:3j :3j]
+28.14799860591105: concepts connected [:3j :3j]
+28.14799860624797: Causally correlating : [:1qbvv0m :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c :1qbvv0m :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.147998607699414: concepts connected [:1ivf1io :1ivf1io]
+28.147998607699414: Neural map created using : [:6h7cs]
+28.147998607699414: Concept created with [:pue :pue]
+28.14799860770001: concepts connected [:pue :pue]
+28.147998609231358: Causally correlating : [:1qbvv0m :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c :1qbvv0m :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.14799861127793: Neural map created using : [:79jec]
+28.14799861127793: Neural map created using : [:1ivf1io]
+28.14799861127793: Concept created with [:sv6 :sv6]
+28.14799861127793: Concept created with [:6ab9c :6ab9c]
+28.14799861127793: concepts connected [:sv6 :sv6]
+28.147998611278528: concepts connected [:6ab9c :6ab9c]
+28.147998611278528: Neural map created using : [:1qj7o4k]
+28.147998611278528: Neural map created using : [:oe2]
+28.147998611278528: Created file 1qj7o4k
+28.147998611278528: Activated :1qj7o4k
+28.147998611278528: Concept created with [:31 :31]
+28.147998611278528: Concept created with [:78iqa :78iqa]
+28.147998611278528: concepts connected [:78iqa :78iqa]
+28.147998611278528: concepts connected [:31 :31]
+28.14799861221773: Causally correlating : [:1qbvv0m :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1qj7o4k :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c :1qbvv0m :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1qj7o4k :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.147998614343017: Neural map created using : [:pmc]
+28.147998614343614: Concept created with [:36 :36]
+28.147998614343614: concepts connected [:36 :36]
+28.147998614343614: Neural map created using : [:1k6hipg]
+28.147998614343614: Concept created with [:6f6co :6f6co]
+28.147998614343614: concepts connected [:6f6co :6f6co]
+28.147998614691268: Causally correlating : [:1qbvv0m :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1qj7o4k :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c :1qbvv0m :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6b3ka :oe2 :1qrepso :6gdhf :1qj7o4k :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.147998616132572: concepts connected [:6h7cs :36]
+28.147998616132572: Neural map created using : [:pmc]
+28.147998616132572: Neural map created using : [:6i102]
+28.147998616132572: Concept created with [:36 :36]
+28.147998616132572: Created file 6i102
+28.147998616132572: concepts connected [:36 :36]
+28.147998616132572: Activated :6i102
+28.14799861613317: Concept created with [:36 :6h7cs]
+28.14799861613317: concepts connected [:36 :6h7cs]
+28.14799861767883: Causally correlating : [:1qbvv0m :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6i102 :6b3ka :oe2 :1qrepso :6gdhf :1qj7o4k :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c :1qbvv0m :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6i102 :6b3ka :oe2 :1qrepso :6gdhf :1qj7o4k :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.147998617921534: concepts connected [:1qj7o4k :1qj7o4k]
+28.147998617921534: Neural map created using : [:1kmtlpo]
+28.147998617921534: Neural map created using : [:1kmhfp0]
+28.147998617921534: Concept created with [:6h7cs :6h7cs]
+28.147998617921534: concepts connected [:6h7cs :6h7cs]
+28.147998617921534: Concept created with [:6h5sg :6h5sg]
+28.147998617921534: concepts connected [:6h5sg :6h5sg]
+28.14799861971109: Neural map created using : [:6f6co]
+28.14799861971109: Concept created with [:pmc :pmc]
+28.14799861971109: concepts connected [:pmc :pmc]
+28.14799861971109: Neural map created using : [:79jec]
+28.147998619711686: Concept created with [:sv6 :sv6]
+28.147998619711686: concepts connected [:sv6 :sv6]
+28.14799862066222: Causally correlating : [:1qbvv0m :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6i102 :6b3ka :oe2 :1qrepso :6gdhf :1qj7o4k :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c :1qbvv0m :37 :1ivf1io :1hegqq6 :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6i102 :6b3ka :oe2 :1qrepso :6gdhf :1qj7o4k :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.147998621499454: Neural map created using : [:65r7b]
+28.147998621499454: Neural map created using : [:1qqgaqs]
+28.147998621499454: Neural map created using : [:1k6hipg]
+28.14799862150005: Created file 65r7b
+28.14799862150005: Created file 1qqgaqs
+28.14799862150005: Concept created with [:6f6co :6f6co]
+28.14799862150005: Activated :1qqgaqs
+28.14799862150005: concepts connected [:6f6co :6f6co]
+28.14799862150005: Neural map created using : [:65r7b]
+28.14799862150005: Concept created with [:79fle :79fle]
+28.14799862150005: Neural map created using : [:6b3ka]
+28.14799862150005: concepts connected [:79fle :79fle]
+28.14799862150005: Created file 65r7b
+28.14799862150005: Concept created with [:p65 :p65]
+28.14799862150005: Neural map created using : [:6b4cg]
+28.14799862150005: Activated :65r7b
+28.14799862150005: concepts connected [:p65 :p65]
+28.14799862150005: Neural map created using : [:6b4cg]
+28.14799862150005: Concept created with [:37 :651c4]
+28.14799862150005: Concept created with [:p68 :p68]
+28.14799862150005: concepts connected [:p68 :p68]
+28.14799862328245: excitation probability calculated for :1qqgaqs to be 0.4285714285714286
+28.147998623289013: concepts connected [:pmc :79jec]
+28.147998623289013: concepts connected [:79jec :pmc]
+28.14799862358121: Deactivated :1qqgaqs
+28.147998623581806: Forgetting : :1qqgaqs
+28.147998623646206: Causally correlating : [:1qbvv0m :37 :1ivf1io :1hegqq6 :65r7b :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6i102 :6b3ka :oe2 :1qrepso :6gdhf :1qj7o4k :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c :1qbvv0m :37 :1ivf1io :1hegqq6 :65r7b :651c4 :6f6co :1kg13qu :31 :3j :1hesvai :78iqa :pmc :6i102 :6b3ka :oe2 :1qrepso :6gdhf :1qj7o4k :1kdq98m :1pqa :36 :6h7cs :p65 :dc2l8 :79jec :1kmtlpo :p68 :1kmhfp0 :6h5sg :79fle :sun :pue :ddnra :sv6 :1i9f :1ivjsm4 :1k6hipg :1l9l :34 :6b4cg :6ab9c]
+28.147998625077378: Neural map created using : [:1hl19p0]
+28.147998625077378: Neural map created using : [:6b4cg]
+28.147998625077378: Neural map created using : [:pmc]
+28.14799862507797: Concept created with [:36 :36]
+28.14799862507797: Concept created with [:p68 :p68]
+28.14799862507797: Created file 1hl19p0
+28.14799862507797: concepts connected [:36 :36]
+28.14799862507797: concepts connected [:p68 :p68]
+28.14799862507797: Activated :1hl19p0
+28.14799862507797: Activated :652sg
+28.14799862507797: Concept created with [:652sg :652sg]
+28.14799862507797: concepts connected [:652sg :652sg]
+28.14799862507797: Neural map created using : [:651c4]
+28.14799862507797: Concept created with [:oe2 :oe2]
+28.14799862507797: concepts connected [:oe2 :oe2]

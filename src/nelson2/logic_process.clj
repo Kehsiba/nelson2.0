@@ -116,7 +116,7 @@
     (let [final-excitation (vec (keys (neural-processes/get-active-neurons)))]
       "connect initial-excitation to final-excitation"
       (neural-processes/create-neural-map (flatten (conj initial-excitation final-excitation)))
-      (log/log (str "Causally correlating : " (doall (flatten (conj initial-excitation final-excitation)))))
+      (log/log (str "Causally correlating : " (vec (flatten (conj initial-excitation final-excitation)))))
       )
 
     )

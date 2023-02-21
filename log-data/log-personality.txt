@@ -1,0 +1,1904 @@
+28.147998545301657: Created neuron : reward-1
+28.147998545302254: Created neuron : reward-2
+28.14799854530285: Created neuron : reward-3
+28.14799854530285: Created neuron : reward-4
+28.14799854530285: Created neuron : reward-5
+28.14799854530285: Created neuron : reward-6
+28.147998545303444: Created neuron : reward-7
+28.147998545303444: Created neuron : reward-8
+28.147998545303444: Created neuron : reward-9
+28.14799854530404: Reward center created.
+28.147998545304638: Reward cluster created.
+28.147998545304638: Connected to brain : :reward-9
+28.147998545305235: Connected to brain : :reward-3
+28.147998545305235: Connected to brain : :reward-4
+28.147998545305235: Connected to brain : :reward-8
+28.147998545305832: Connected to brain : :reward-2
+28.147998545305832: Connected to brain : :reward-7
+28.147998545305832: Connected to brain : :reward-1
+28.147998545305832: Connected to brain : :reward-6
+28.14799854530643: Connected to brain : :reward-5
+28.14799854530643: All neurons connected to brain
+28.14799854530643: Reward cluster connected to brain.
+28.147998545307022: New personality generated.
+28.14799854530762: Flushed neuron :- :reward-5
+28.14799854530762: Flushed neuron :- :reward-1
+28.14799854530762: Flushed neuron :- :reward-8
+28.14799854530762: Flushed neuron :- :reward-9
+28.14799854530762: Flushed neuron :- :reward-4
+28.14799854530762: Activated :reward-7
+28.14799854530762: Flushed neuron :- :reward-7
+28.147998545308216: interest calculated for :reward-3 to be = 0.10720754654932366
+28.147998545308216: interest calculated for :reward-6 to be = 0.11851854824213616
+28.147998545308216: interest calculated for :reward-2 to be = 0.20342102357500833
+28.147998545308216: Flushed neuron :- :reward-3
+28.147998545308216: Flushed neuron :- :reward-6
+28.147998545308216: Flushed neuron :- :reward-2
+28.147998545367848: Deactivated :reward-7
+28.14799854650026: Activated :reward-3
+28.14799854650026: Flushed neuron :- :reward-8
+28.14799854650026: Flushed neuron :- :reward-9
+28.14799854650026: Flushed neuron :- :reward-4
+28.147998546500858: Flushed neuron :- :reward-3
+28.147998546500858: interest calculated for :reward-2 to be = 0.18152158343794184
+28.14799854650145: interest calculated for :reward-1 to be = 0.2593053408267908
+28.14799854650145: interest calculated for :reward-7 to be = 0.12112388278282127
+28.14799854650145: interest calculated for :reward-6 to be = 0.14828352712416604
+28.14799854650145: Flushed neuron :- :reward-2
+28.14799854650145: interest calculated for :reward-5 to be = 0.1609582436970369
+28.14799854650145: Flushed neuron :- :reward-1
+28.14799854650145: Activated :reward-7
+28.14799854650145: Activated :reward-6
+28.14799854650145: Flushed neuron :- :reward-7
+28.14799854650145: Activated :reward-5
+28.14799854650145: Flushed neuron :- :reward-6
+28.14799854650145: Flushed neuron :- :reward-5
+28.147998546561084: Deactivated :reward-3
+28.147998546561084: Deactivated :reward-7
+28.147998546561084: Deactivated :reward-6
+28.14799854656168: Deactivated :reward-5
+28.147998547693497: Flushed neuron :- :reward-9
+28.147998547693497: Flushed neuron :- :reward-4
+28.147998547693497: Flushed neuron :- :reward-3
+28.147998547693497: Flushed neuron :- :reward-2
+28.147998547693497: Flushed neuron :- :reward-8
+28.147998547694094: Activated :reward-7
+28.147998547694094: Flushed neuron :- :reward-7
+28.147998547694094: interest calculated for :reward-6 to be = 0.17536883724535848
+28.147998547694094: interest calculated for :reward-1 to be = 0.29901357894116076
+28.147998547694094: Flushed neuron :- :reward-1
+28.147998547694094: Flushed neuron :- :reward-6
+28.147998547694094: interest calculated for :reward-5 to be = 0.19014340552715725
+28.147998547694094: Flushed neuron :- :reward-5
+28.147998547753726: Deactivated :reward-7
+28.14799854888614: Flushed neuron :- :reward-9
+28.147998548886733: Flushed neuron :- :reward-3
+28.147998548886733: Flushed neuron :- :reward-4
+28.147998548886733: Flushed neuron :- :reward-2
+28.147998548886733: Flushed neuron :- :reward-8
+28.147998548886733: Flushed neuron :- :reward-7
+28.147998548886733: Activated :reward-1
+28.14799854888733: Flushed neuron :- :reward-1
+28.14799854888733: interest calculated for :reward-5 to be = 0.2154150651397519
+28.14799854888733: interest calculated for :reward-6 to be = 0.1687141284658755
+28.14799854888733: Flushed neuron :- :reward-6
+28.14799854888733: Flushed neuron :- :reward-5
+28.147998548946962: Deactivated :reward-1
+28.147998550079375: Flushed neuron :- :reward-3
+28.147998550079375: Activated :reward-2
+28.147998550079375: Flushed neuron :- :reward-8
+28.147998550079375: Activated :reward-9
+28.147998550079375: Activated :reward-4
+28.147998550079972: Flushed neuron :- :reward-9
+28.147998550079972: Flushed neuron :- :reward-2
+28.147998550079972: Flushed neuron :- :reward-4
+28.147998550079972: interest calculated for :reward-1 to be = 0.30446340770215824
+28.147998550079972: interest calculated for :reward-7 to be = 0.24966483946634904
+28.147998550079972: Flushed neuron :- :reward-7
+28.147998550079972: Flushed neuron :- :reward-1
+28.147998550079972: interest calculated for :reward-6 to be = 0.25263851133374576
+28.147998550079972: interest calculated for :reward-5 to be = 0.23679612539413936
+28.14799855008057: Flushed neuron :- :reward-6
+28.14799855008057: Flushed neuron :- :reward-5
+28.147998550139604: Deactivated :reward-2
+28.147998550139604: Deactivated :reward-4
+28.147998550139604: Deactivated :reward-9
+28.14799855127261: Flushed neuron :- :reward-9
+28.14799855127261: Activated :reward-3
+28.14799855127261: Flushed neuron :- :reward-3
+28.14799855127261: interest calculated for :reward-4 to be = 0.23522559653338104
+28.147998551273208: interest calculated for :reward-7 to be = 0.13464692085206392
+28.147998551273208: interest calculated for :reward-1 to be = 0.3087257577350245
+28.147998551273208: interest calculated for :reward-6 to be = 0.20513381612738843
+28.147998551273208: Flushed neuron :- :reward-7
+28.147998551273208: Activated :reward-4
+28.147998551273208: Flushed neuron :- :reward-6
+28.147998551273208: Flushed neuron :- :reward-1
+28.14799855127261: interest calculated for :reward-8 to be = 0.08501947973268173
+28.147998551273208: Flushed neuron :- :reward-8
+28.147998551273208: Flushed neuron :- :reward-4
+28.147998551273208: interest calculated for :reward-5 to be = 0.21618764325907872
+28.147998551273208: interest calculated for :reward-2 to be = 0.1970952485310499
+28.147998551273805: Flushed neuron :- :reward-5
+28.147998551273805: Activated :reward-2
+28.147998551273805: Flushed neuron :- :reward-2
+28.14799855133284: Deactivated :reward-3
+28.147998551333437: Deactivated :reward-4
+28.147998551333437: Deactivated :reward-2
+28.147998552465253: Activated :reward-9
+28.147998552465847: interest calculated for :reward-3 to be = 0.2887941680000403
+28.147998552465847: interest calculated for :reward-4 to be = 0.2798983553873272
+28.147998552465847: interest calculated for :reward-8 to be = 0.2178156293903834
+28.147998552465847: interest calculated for :reward-7 to be = 0.24684847797421186
+28.147998552465847: interest calculated for :reward-1 to be = 0.31564267567155385
+28.147998552465847: interest calculated for :reward-6 to be = 0.27292691020154375
+28.147998552466444: Flushed neuron :- :reward-3
+28.147998552466444: Activated :reward-8
+28.147998552466444: Activated :reward-4
+28.147998552466444: Activated :reward-1
+28.147998552466444: Activated :reward-6
+28.147998552466444: Flushed neuron :- :reward-9
+28.147998552466444: Flushed neuron :- :reward-7
+28.147998552466444: Flushed neuron :- :reward-4
+28.147998552466444: Flushed neuron :- :reward-8
+28.147998552465847: interest calculated for :reward-2 to be = 0.31367298469691135
+28.147998552466444: Flushed neuron :- :reward-1
+28.147998552466444: Flushed neuron :- :reward-6
+28.147998552466444: Flushed neuron :- :reward-2
+28.147998552466444: interest calculated for :reward-5 to be = 0.3922177447468059
+28.14799855246704: Flushed neuron :- :reward-5
+28.147998552526076: Deactivated :reward-9
+28.147998552526076: Deactivated :reward-4
+28.147998552526076: Deactivated :reward-1
+28.147998552526076: Deactivated :reward-6
+28.147998552526076: Deactivated :reward-8
+28.14799855365849: Activated :reward-9
+28.14799855365849: Flushed neuron :- :reward-9
+28.14799855365849: interest calculated for :reward-2 to be = 0.31367298469691135
+28.14799855365849: interest calculated for :reward-3 to be = 0.2887941680000403
+28.14799855365849: interest calculated for :reward-4 to be = 0.2798983553873272
+28.147998553659086: interest calculated for :reward-7 to be = 0.24684847797421186
+28.147998553659086: interest calculated for :reward-1 to be = 0.31564267567155385
+28.147998553659086: Flushed neuron :- :reward-2
+28.147998553659086: Flushed neuron :- :reward-4
+28.147998553659086: Flushed neuron :- :reward-7
+28.147998553659086: Flushed neuron :- :reward-1
+28.147998553659086: interest calculated for :reward-6 to be = 0.27292691020154375
+28.147998553659086: interest calculated for :reward-8 to be = 0.2178156293903834
+28.147998553659086: Flushed neuron :- :reward-6
+28.147998553659086: Flushed neuron :- :reward-8
+28.147998553659086: interest calculated for :reward-5 to be = 0.23844111600749934
+28.147998553659086: Flushed neuron :- :reward-5
+28.147998553659086: Flushed neuron :- :reward-3
+28.14799855371872: Deactivated :reward-9
+28.147998554315635: Connecting :6f6cowith :reward-9
+28.14799855431623: Connecting :6f6cowith :reward-3
+28.14799855431623: Connecting :6f6cowith :reward-4
+28.14799855431623: Connecting :6f6cowith :reward-8
+28.14799855431623: Connecting :6f6cowith :reward-2
+28.14799855431623: Connecting :6f6cowith :reward-7
+28.147998554316825: Connecting :6f6cowith :reward-1
+28.147998554316825: Connecting :6f6cowith :reward-6
+28.147998554316825: Connecting :6f6cowith :reward-5
+28.147998554316825: Connecting :oe2with :reward-9
+28.14799855431742: Connecting :oe2with :reward-3
+28.14799855431742: Connecting :oe2with :reward-4
+28.14799855431742: Connecting :oe2with :reward-8
+28.14799855431742: Connecting :oe2with :reward-2
+28.14799855431742: Connecting :oe2with :reward-7
+28.14799855431802: Connecting :oe2with :reward-1
+28.14799855431802: Connecting :oe2with :reward-6
+28.14799855431802: Connecting :oe2with :reward-5
+28.14799855431802: Connecting :6h7cswith :reward-9
+28.147998554318615: Connecting :6h7cswith :reward-3
+28.147998554318615: Connecting :6h7cswith :reward-4
+28.147998554318615: Connecting :6h7cswith :reward-8
+28.147998554324577: Connecting :6h7cswith :reward-2
+28.147998554325174: Connecting :6h7cswith :reward-7
+28.147998554325174: Connecting :6h7cswith :reward-1
+28.147998554325174: Connecting :6h7cswith :reward-6
+28.147998554325174: Connecting :6h7cswith :reward-5
+28.147998554325174: Connecting :p68with :reward-9
+28.147998554325174: Connecting :p68with :reward-3
+28.147998554325174: Connecting :p68with :reward-4
+28.147998554325174: Connecting :p68with :reward-8
+28.147998554325174: Connecting :p68with :reward-2
+28.147998554325174: Connecting :p68with :reward-7
+28.147998554325174: Connecting :p68with :reward-1
+28.147998554325174: Connecting :p68with :reward-6
+28.147998554325174: Connecting :p68with :reward-5
+28.147998554851725: Flushed neuron :- :reward-9
+28.147998554851725: Flushed neuron :- :reward-3
+28.147998554851725: Activated :reward-4
+28.147998554851725: Flushed neuron :- :reward-4
+28.147998554851725: interest calculated for :reward-8 to be = 0.19753409508490247
+28.147998554851725: interest calculated for :reward-2 to be = 0.35366134915681313
+28.147998554851725: interest calculated for :reward-7 to be = 0.30663380111487204
+28.14799855485232: Flushed neuron :- :reward-8
+28.14799855485232: Flushed neuron :- :reward-2
+28.14799855485232: interest calculated for :reward-1 to be = 0.31653299550179964
+28.14799855485232: interest calculated for :reward-6 to be = 0.30238669641638083
+28.14799855485232: Flushed neuron :- :reward-7
+28.14799855485232: Activated :reward-1
+28.14799855485232: Activated :reward-6
+28.14799855485232: Flushed neuron :- :reward-1
+28.14799855485232: interest calculated for :reward-5 to be = 0.3809392792195299
+28.14799855485232: Flushed neuron :- :reward-6
+28.14799855485232: Activated :reward-5
+28.14799855485232: Flushed neuron :- :reward-5
+28.147998554911954: Deactivated :reward-4
+28.147998554911954: Deactivated :reward-1
+28.147998554911954: Deactivated :reward-6
+28.14799855491255: Deactivated :reward-5
+28.14799855604496: Flushed neuron :- :reward-9
+28.14799855604496: Activated :reward-3
+28.14799855604496: interest calculated for :reward-4 to be = 0.31736922422989483
+28.14799855604496: interest calculated for :reward-7 to be = 0.2507353839458045
+28.14799855604496: Flushed neuron :- :reward-3
+28.14799855604496: interest calculated for :reward-8 to be = 0.1669905244507803
+28.14799855604496: interest calculated for :reward-2 to be = 0.29041126499522585
+28.14799855604496: Flushed neuron :- :reward-4
+28.14799855604496: Activated :reward-7
+28.14799855604496: Flushed neuron :- :reward-8
+28.14799855604496: Flushed neuron :- :reward-2
+28.147998556045557: Flushed neuron :- :reward-7
+28.147998556045557: interest calculated for :reward-6 to be = 0.29919155128114444
+28.147998556045557: interest calculated for :reward-1 to be = 0.3697985260999386
+28.147998556045557: Flushed neuron :- :reward-6
+28.147998556045557: Flushed neuron :- :reward-1
+28.147998556045557: interest calculated for :reward-5 to be = 0.2942879533663939
+28.147998556045557: Flushed neuron :- :reward-5
+28.14799855610519: Deactivated :reward-3
+28.14799855610519: Deactivated :reward-7
+28.14799855610519: Connecting :sunwith :reward-9
+28.147998556105787: Connecting :sunwith :reward-3
+28.147998556105787: Connecting :sunwith :reward-4
+28.147998556105787: Connecting :sunwith :reward-8
+28.147998556105787: Connecting :sunwith :reward-2
+28.147998556105787: Connecting :sunwith :reward-7
+28.147998556105787: Connecting :sunwith :reward-1
+28.147998556106383: Connecting :sunwith :reward-6
+28.147998556106383: Connecting :sunwith :reward-5
+28.147998557237603: Activated :reward-9
+28.1479985572382: Flushed neuron :- :reward-9
+28.1479985572382: interest calculated for :reward-8 to be = 0.19461281793837976
+28.1479985572382: interest calculated for :reward-3 to be = 0.26910048743446435
+28.1479985572382: interest calculated for :reward-2 to be = 0.278725985002603
+28.1479985572382: interest calculated for :reward-7 to be = 0.26732996314188573
+28.1479985572382: Flushed neuron :- :reward-8
+28.1479985572382: interest calculated for :reward-1 to be = 0.26731751489960226
+28.1479985572382: Flushed neuron :- :reward-3
+28.1479985572382: interest calculated for :reward-4 to be = 0.2611187638576618
+28.1479985572382: Flushed neuron :- :reward-7
+28.1479985572382: interest calculated for :reward-6 to be = 0.28445291484180457
+28.1479985572382: Flushed neuron :- :reward-1
+28.147998557238797: Flushed neuron :- :reward-4
+28.147998557238797: Flushed neuron :- :reward-6
+28.147998557238797: interest calculated for :reward-5 to be = 0.2574252956567654
+28.1479985572382: Flushed neuron :- :reward-2
+28.147998557238797: Flushed neuron :- :reward-5
+28.14799855729843: Deactivated :reward-9
+28.14799855843084: Activated :reward-9
+28.14799855843084: Flushed neuron :- :reward-9
+28.14799855843084: interest calculated for :reward-8 to be = 0.21711728974598918
+28.14799855843084: interest calculated for :reward-3 to be = 0.275582550398106
+28.14799855843084: interest calculated for :reward-2 to be = 0.291933018750612
+28.14799855843084: interest calculated for :reward-4 to be = 0.30346541918073006
+28.147998558431436: interest calculated for :reward-1 to be = 0.2932045852411908
+28.147998558431436: interest calculated for :reward-7 to be = 0.2753583935300357
+28.147998558431436: Flushed neuron :- :reward-8
+28.147998558431436: Flushed neuron :- :reward-3
+28.147998558431436: Activated :reward-2
+28.147998558431436: Activated :reward-4
+28.147998558431436: Flushed neuron :- :reward-1
+28.147998558431436: Flushed neuron :- :reward-7
+28.147998558431436: Flushed neuron :- :reward-2
+28.147998558431436: Flushed neuron :- :reward-4
+28.147998558431436: interest calculated for :reward-5 to be = 0.295840502130066
+28.147998558431436: interest calculated for :reward-6 to be = 0.32772423696624214
+28.147998558432032: Activated :reward-6
+28.147998558432032: Flushed neuron :- :reward-5
+28.147998558432032: Flushed neuron :- :reward-6
+28.147998558491068: Deactivated :reward-9
+28.147998558491068: Deactivated :reward-2
+28.147998558491665: Deactivated :reward-4
+28.147998558491665: Deactivated :reward-6
+28.147998559624078: Activated :reward-9
+28.147998559624078: interest calculated for :reward-8 to be = 0.2608807267415089
+28.147998559624078: Flushed neuron :- :reward-9
+28.147998559624078: interest calculated for :reward-4 to be = 0.30447802910360444
+28.147998559624078: interest calculated for :reward-2 to be = 0.3324618134052479
+28.147998559624078: interest calculated for :reward-1 to be = 0.32667740934811385
+28.147998559624078: interest calculated for :reward-7 to be = 0.30159355283553846
+28.147998559624078: Flushed neuron :- :reward-8
+28.147998559624078: interest calculated for :reward-3 to be = 0.32009244487922756
+28.147998559624078: Activated :reward-4
+28.147998559624078: Flushed neuron :- :reward-2
+28.147998559624078: Flushed neuron :- :reward-7
+28.147998559624078: Activated :reward-3
+28.147998559624078: Flushed neuron :- :reward-4
+28.147998559624078: interest calculated for :reward-6 to be = 0.3325580504683273
+28.147998559624078: Flushed neuron :- :reward-3
+28.147998559624078: interest calculated for :reward-5 to be = 0.3042807126469333
+28.147998559624078: Flushed neuron :- :reward-1
+28.14799855962467: Activated :reward-6
+28.14799855962467: Flushed neuron :- :reward-5
+28.14799855962467: Flushed neuron :- :reward-6
+28.147998559683707: Deactivated :reward-9
+28.147998559684304: Deactivated :reward-4
+28.147998559684304: Deactivated :reward-3
+28.147998559684304: Deactivated :reward-6
+28.147998560816717: Activated :reward-9
+28.147998560816717: interest calculated for :reward-4 to be = 0.30447802910360444
+28.147998560817314: Flushed neuron :- :reward-9
+28.147998560817314: interest calculated for :reward-7 to be = 0.30159355283553846
+28.147998560817314: interest calculated for :reward-2 to be = 0.3324618134052479
+28.147998560817314: interest calculated for :reward-1 to be = 0.32667740934811385
+28.147998560817314: interest calculated for :reward-8 to be = 0.2608807267415089
+28.147998560817314: Flushed neuron :- :reward-4
+28.147998560817314: Flushed neuron :- :reward-1
+28.147998560817314: Activated :reward-7
+28.147998560817314: interest calculated for :reward-6 to be = 0.31033376529934725
+28.147998560817314: Activated :reward-8
+28.147998560817314: Flushed neuron :- :reward-7
+28.147998560817314: Activated :reward-6
+28.147998560816717: interest calculated for :reward-3 to be = 0.32009244487922756
+28.147998560817314: interest calculated for :reward-5 to be = 0.37575195035315345
+28.147998560817314: Flushed neuron :- :reward-8
+28.147998560817314: Flushed neuron :- :reward-6
+28.147998560817314: Flushed neuron :- :reward-5
+28.147998560817314: Flushed neuron :- :reward-3
+28.147998560817314: Activated :reward-2
+28.14799856081791: Flushed neuron :- :reward-2
+28.147998560876946: Deactivated :reward-9
+28.147998560876946: Deactivated :reward-7
+28.147998560876946: Deactivated :reward-8
+28.147998560877543: Deactivated :reward-6
+28.147998560877543: Deactivated :reward-2
+28.14799856147267: Connecting :651c4with :reward-9
+28.14799856147267: Connecting :651c4with :reward-3
+28.14799856147267: Connecting :651c4with :reward-4
+28.14799856147267: Connecting :651c4with :reward-8
+28.14799856147267: Connecting :651c4with :reward-2
+28.14799856147267: Connecting :651c4with :reward-7
+28.147998561473266: Connecting :651c4with :reward-1
+28.147998561473266: Connecting :651c4with :reward-6
+28.147998561473266: Connecting :651c4with :reward-5
+28.147998561473266: Connecting :1kmtlpowith :reward-9
+28.147998561473266: Connecting :1kmtlpowith :reward-3
+28.147998561473266: Connecting :1kmtlpowith :reward-4
+28.147998561473266: Connecting :1kmtlpowith :reward-8
+28.147998561473266: Connecting :1kmtlpowith :reward-2
+28.147998561473266: Connecting :1kmtlpowith :reward-7
+28.147998561473862: Connecting :1kmtlpowith :reward-1
+28.147998561473862: Connecting :1kmtlpowith :reward-6
+28.147998561473862: Connecting :1kmtlpowith :reward-5
+28.147998561473862: Connecting :1l9lwith :reward-9
+28.147998561473862: Connecting :1l9lwith :reward-3
+28.147998561473862: Connecting :1l9lwith :reward-4
+28.147998561473862: Connecting :1l9lwith :reward-8
+28.147998561473862: Connecting :1l9lwith :reward-2
+28.147998561473862: Connecting :1l9lwith :reward-7
+28.147998561473862: Connecting :1l9lwith :reward-1
+28.147998561473862: Connecting :1l9lwith :reward-6
+28.14799856147446: Connecting :1l9lwith :reward-5
+28.147998562009953: Flushed neuron :- :reward-3
+28.147998562009953: Flushed neuron :- :reward-9
+28.147998562009953: Activated :reward-4
+28.147998562009953: Flushed neuron :- :reward-4
+28.147998562009953: interest calculated for :reward-8 to be = 0.23927555197571426
+28.147998562009953: interest calculated for :reward-2 to be = 0.33226778426830533
+28.147998562009953: interest calculated for :reward-1 to be = 0.3301896001163229
+28.147998562009953: Flushed neuron :- :reward-8
+28.147998562009953: Flushed neuron :- :reward-2
+28.147998562009953: interest calculated for :reward-7 to be = 0.32294517985206544
+28.147998562009953: Flushed neuron :- :reward-1
+28.147998562009953: interest calculated for :reward-5 to be = 0.29317385994801204
+28.147998562009953: interest calculated for :reward-6 to be = 0.31865139338672255
+28.14799856201055: Activated :reward-7
+28.14799856201055: Flushed neuron :- :reward-5
+28.14799856201055: Flushed neuron :- :reward-6
+28.14799856201055: Flushed neuron :- :reward-7
+28.147998562069585: Deactivated :reward-4
+28.147998562070182: Deactivated :reward-7
+28.147998563202595: Activated :reward-9
+28.147998563202595: interest calculated for :reward-3 to be = 0.34527854657594703
+28.147998563203192: Flushed neuron :- :reward-9
+28.147998563203192: interest calculated for :reward-8 to be = 0.26944401260892026
+28.147998563203192: interest calculated for :reward-4 to be = 0.3724719716989053
+28.147998563203192: Flushed neuron :- :reward-3
+28.147998563203192: Flushed neuron :- :reward-8
+28.147998563203192: Flushed neuron :- :reward-4
+28.147998563203192: interest calculated for :reward-2 to be = 0.34355926690824573
+28.147998563203192: interest calculated for :reward-7 to be = 0.31724981446520073
+28.147998563203192: Flushed neuron :- :reward-2
+28.147998563203192: interest calculated for :reward-1 to be = 0.328253140922281
+28.147998563203192: Activated :reward-7
+28.147998563203192: interest calculated for :reward-6 to be = 0.3223734767548412
+28.147998563203785: Flushed neuron :- :reward-7
+28.147998563203785: Flushed neuron :- :reward-1
+28.147998563203785: interest calculated for :reward-5 to be = 0.30477833618373723
+28.147998563203785: Activated :reward-6
+28.147998563203785: Flushed neuron :- :reward-6
+28.147998563203785: Flushed neuron :- :reward-5
+28.14799856326282: Deactivated :reward-9
+28.147998563263418: Deactivated :reward-7
+28.147998563263418: Deactivated :reward-6
+28.14799856439583: Flushed neuron :- :reward-9
+28.14799856439583: Flushed neuron :- :reward-3
+28.14799856439583: Flushed neuron :- :reward-4
+28.14799856439583: Activated :reward-8
+28.14799856439583: Flushed neuron :- :reward-8
+28.14799856439583: interest calculated for :reward-2 to be = 0.31850139101089825
+28.14799856439583: interest calculated for :reward-7 to be = 0.3255184063005676
+28.14799856439583: interest calculated for :reward-1 to be = 0.35796462711257576
+28.14799856439583: interest calculated for :reward-6 to be = 0.3229960541648497
+28.147998564396428: Flushed neuron :- :reward-2
+28.147998564396428: Flushed neuron :- :reward-7
+28.147998564396428: Flushed neuron :- :reward-1
+28.147998564396428: Flushed neuron :- :reward-6
+28.147998564396428: interest calculated for :reward-5 to be = 0.3127929413609283
+28.147998564396428: Flushed neuron :- :reward-5
+28.14799856445606: Deactivated :reward-8
+28.14799856558847: Flushed neuron :- :reward-9
+28.14799856558847: Activated :reward-3
+28.14799856558847: interest calculated for :reward-4 to be = 0.3947603848396368
+28.14799856558847: Flushed neuron :- :reward-3
+28.14799856558847: Flushed neuron :- :reward-4
+28.14799856558847: interest calculated for :reward-8 to be = 0.25728826707285846
+28.14799856558847: Flushed neuron :- :reward-8
+28.14799856558847: interest calculated for :reward-2 to be = 0.35451851851340854
+28.14799856558847: interest calculated for :reward-7 to be = 0.32755321553895916
+28.14799856558847: Flushed neuron :- :reward-2
+28.14799856558847: Flushed neuron :- :reward-7
+28.14799856558847: interest calculated for :reward-1 to be = 0.3886628637527016
+28.14799856558847: interest calculated for :reward-6 to be = 0.3273690295852107
+28.14799856558847: interest calculated for :reward-5 to be = 0.3219657159692773
+28.147998565589067: Flushed neuron :- :reward-1
+28.147998565589067: Activated :reward-6
+28.147998565589067: Flushed neuron :- :reward-5
+28.147998565589067: Flushed neuron :- :reward-6
+28.147998565649296: Deactivated :reward-3
+28.1479985656487: Deactivated :reward-6
+28.14799856678171: Flushed neuron :- :reward-9
+28.14799856678171: Flushed neuron :- :reward-3
+28.14799856678171: Flushed neuron :- :reward-4
+28.14799856678171: Activated :reward-8
+28.14799856678171: Flushed neuron :- :reward-8
+28.14799856678171: interest calculated for :reward-2 to be = 0.39185713277739626
+28.14799856678171: interest calculated for :reward-7 to be = 0.3743866995438653
+28.14799856678171: Flushed neuron :- :reward-2
+28.14799856678171: Flushed neuron :- :reward-7
+28.14799856678171: interest calculated for :reward-1 to be = 0.4103511671063702
+28.14799856678171: interest calculated for :reward-5 to be = 0.3460296139442247
+28.14799856678171: interest calculated for :reward-6 to be = 0.33730001883883326
+28.147998566782306: Flushed neuron :- :reward-5
+28.147998566782306: Activated :reward-1
+28.147998566782306: Activated :reward-6
+28.147998566782306: Flushed neuron :- :reward-1
+28.147998566782306: Flushed neuron :- :reward-6
+28.14799856684134: Deactivated :reward-8
+28.147998566841938: Deactivated :reward-1
+28.147998566841938: Deactivated :reward-6
+28.147998567974348: Flushed neuron :- :reward-9
+28.147998567974348: Activated :reward-4
+28.147998567974348: Activated :reward-3
+28.147998567974945: Flushed neuron :- :reward-4
+28.147998567974945: Flushed neuron :- :reward-3
+28.147998567974945: interest calculated for :reward-8 to be = 0.30452647230014096
+28.147998567974945: interest calculated for :reward-1 to be = 0.421311113315407
+28.147998567974945: Flushed neuron :- :reward-8
+28.147998567974945: Activated :reward-1
+28.147998567974945: interest calculated for :reward-6 to be = 0.35987901588795873
+28.147998567974945: interest calculated for :reward-5 to be = 0.36910048658785904
+28.147998567974945: interest calculated for :reward-2 to be = 0.40759014262565857
+28.147998567974945: Flushed neuron :- :reward-1
+28.147998567974945: Activated :reward-6
+28.147998567974945: Flushed neuron :- :reward-5
+28.147998567974945: Flushed neuron :- :reward-6
+28.147998567974945: Flushed neuron :- :reward-2
+28.147998567974945: interest calculated for :reward-7 to be = 0.42574928867756645
+28.147998567974945: Flushed neuron :- :reward-7
+28.147998568034577: Deactivated :reward-4
+28.147998568034577: Deactivated :reward-3
+28.147998568034577: Deactivated :reward-1
+28.147998568034577: Deactivated :reward-6
+28.147998568629706: Connecting :1hegqq6with :reward-9
+28.147998568629706: Connecting :1hegqq6with :reward-3
+28.147998568629706: Connecting :1hegqq6with :reward-4
+28.147998568629706: Connecting :1hegqq6with :reward-8
+28.147998568629706: Connecting :1hegqq6with :reward-2
+28.147998568629706: Connecting :1hegqq6with :reward-7
+28.147998568629706: Connecting :1hegqq6with :reward-1
+28.147998568629706: Connecting :1hegqq6with :reward-6
+28.1479985686303: Connecting :1hegqq6with :reward-5
+28.1479985686303: Connecting :78iqawith :reward-9
+28.1479985686303: Connecting :78iqawith :reward-3
+28.1479985686303: Connecting :78iqawith :reward-4
+28.1479985686303: Connecting :78iqawith :reward-8
+28.1479985686303: Connecting :78iqawith :reward-2
+28.1479985686303: Connecting :78iqawith :reward-7
+28.1479985686303: Connecting :78iqawith :reward-1
+28.1479985686303: Connecting :78iqawith :reward-6
+28.147998568630896: Connecting :78iqawith :reward-5
+28.147998568630896: Connecting :1kdq98mwith :reward-9
+28.147998568630896: Connecting :1kdq98mwith :reward-3
+28.147998568630896: Connecting :1kdq98mwith :reward-4
+28.147998568630896: Connecting :1kdq98mwith :reward-8
+28.147998568630896: Connecting :1kdq98mwith :reward-2
+28.147998568631493: Connecting :1kdq98mwith :reward-7
+28.147998568631493: Connecting :1kdq98mwith :reward-1
+28.147998568631493: Connecting :1kdq98mwith :reward-6
+28.147998568631493: Connecting :1kdq98mwith :reward-5
+28.147998568631493: Connecting :p65with :reward-9
+28.147998568631493: Connecting :p65with :reward-3
+28.147998568631493: Connecting :p65with :reward-4
+28.14799856863209: Connecting :p65with :reward-8
+28.14799856863209: Connecting :p65with :reward-2
+28.14799856863209: Connecting :p65with :reward-7
+28.14799856863209: Connecting :p65with :reward-1
+28.14799856863209: Connecting :p65with :reward-6
+28.14799856863209: Connecting :p65with :reward-5
+28.14799856863209: Connecting :79jecwith :reward-9
+28.14799856863209: Connecting :79jecwith :reward-3
+28.147998568632687: Connecting :79jecwith :reward-4
+28.147998568632687: Connecting :79jecwith :reward-8
+28.147998568632687: Connecting :79jecwith :reward-2
+28.147998568632687: Connecting :79jecwith :reward-7
+28.147998568632687: Connecting :79jecwith :reward-1
+28.147998568632687: Connecting :79jecwith :reward-6
+28.147998568632687: Connecting :79jecwith :reward-5
+28.147998568632687: Connecting :1k6hipgwith :reward-9
+28.147998568633284: Connecting :1k6hipgwith :reward-3
+28.147998568633284: Connecting :1k6hipgwith :reward-4
+28.147998568633284: Connecting :1k6hipgwith :reward-8
+28.147998568633284: Connecting :1k6hipgwith :reward-2
+28.147998568633284: Connecting :1k6hipgwith :reward-7
+28.147998568633284: Connecting :1k6hipgwith :reward-1
+28.147998568633284: Connecting :1k6hipgwith :reward-6
+28.147998568633284: Connecting :1k6hipgwith :reward-5
+28.147998568633284: Connecting :6ab9cwith :reward-9
+28.147998568633284: Connecting :6ab9cwith :reward-3
+28.147998568633284: Connecting :6ab9cwith :reward-4
+28.147998568633877: Connecting :6ab9cwith :reward-8
+28.147998568633877: Connecting :6ab9cwith :reward-2
+28.147998568633877: Connecting :6ab9cwith :reward-7
+28.147998568633877: Connecting :6ab9cwith :reward-1
+28.147998568633877: Connecting :6ab9cwith :reward-6
+28.147998568633877: Connecting :6ab9cwith :reward-5
+28.147998569167587: Activated :reward-9
+28.147998569167587: Flushed neuron :- :reward-9
+28.147998569167587: interest calculated for :reward-4 to be = 0.39838097514176685
+28.147998569167587: interest calculated for :reward-3 to be = 0.39539993004358154
+28.147998569167587: interest calculated for :reward-2 to be = 0.417035113639342
+28.147998569167587: interest calculated for :reward-8 to be = 0.31903458294172227
+28.147998569167587: Activated :reward-4
+28.147998569167587: Flushed neuron :- :reward-4
+28.147998569167587: interest calculated for :reward-7 to be = 0.38403599063368143
+28.147998569167587: Activated :reward-3
+28.147998569167587: Flushed neuron :- :reward-2
+28.147998569167587: Flushed neuron :- :reward-8
+28.147998569167587: interest calculated for :reward-1 to be = 0.37742691443172316
+28.147998569167587: Flushed neuron :- :reward-3
+28.147998569167587: Flushed neuron :- :reward-7
+28.147998569167587: Flushed neuron :- :reward-1
+28.14799856916818: interest calculated for :reward-6 to be = 0.3778359494567195
+28.14799856916818: Activated :reward-6
+28.14799856916818: interest calculated for :reward-5 to be = 0.35364234846772385
+28.14799856916818: Flushed neuron :- :reward-6
+28.14799856916818: Flushed neuron :- :reward-5
+28.147998569227216: Deactivated :reward-9
+28.147998569227216: Deactivated :reward-4
+28.147998569227216: Deactivated :reward-3
+28.147998569227813: Deactivated :reward-6
+28.147998570360226: Flushed neuron :- :reward-9
+28.147998570360226: Flushed neuron :- :reward-3
+28.147998570360226: Flushed neuron :- :reward-8
+28.147998570360226: interest calculated for :reward-5 to be = 0.2958458342191742
+28.147998570360226: interest calculated for :reward-6 to be = 0.3132724948296906
+28.147998570360226: Flushed neuron :- :reward-4
+28.147998570360823: Flushed neuron :- :reward-5
+28.147998570360226: Flushed neuron :- :reward-2
+28.147998570360823: Activated :reward-6
+28.147998570360226: Activated :reward-7
+28.147998570360226: interest calculated for :reward-1 to be = 0.34263203184961605
+28.147998570360823: Flushed neuron :- :reward-6
+28.147998570360823: Flushed neuron :- :reward-7
+28.147998570360823: Activated :reward-1
+28.147998570360823: Flushed neuron :- :reward-1
+28.14799857041926: Connecting :1pqawith :reward-9
+28.14799857041926: Connecting :1pqawith :reward-3
+28.14799857041926: Connecting :1pqawith :reward-4
+28.14799857041926: Connecting :1pqawith :reward-8
+28.14799857041926: Connecting :1pqawith :reward-2
+28.14799857041926: Connecting :1pqawith :reward-7
+28.14799857041926: Connecting :1pqawith :reward-1
+28.14799857041986: Connecting :1pqawith :reward-6
+28.14799857041986: Connecting :1pqawith :reward-5
+28.147998570420455: Deactivated :reward-7
+28.147998570420455: Deactivated :reward-6
+28.147998570420455: Deactivated :reward-1
+28.147998571552865: Flushed neuron :- :reward-3
+28.147998571552865: Flushed neuron :- :reward-4
+28.147998571552865: Flushed neuron :- :reward-9
+28.147998571552865: Activated :reward-8
+28.147998571552865: Flushed neuron :- :reward-8
+28.147998571552865: interest calculated for :reward-2 to be = 0.34176642956570363
+28.14799857155346: interest calculated for :reward-7 to be = 0.34971202002972274
+28.14799857155346: interest calculated for :reward-1 to be = 0.3161423941583695
+28.14799857155346: interest calculated for :reward-6 to be = 0.31531912578355675
+28.14799857155346: Activated :reward-7
+28.14799857155346: Activated :reward-2
+28.14799857155346: Activated :reward-1
+28.14799857155346: interest calculated for :reward-5 to be = 0.2975988559480423
+28.14799857155346: Flushed neuron :- :reward-7
+28.14799857155346: Flushed neuron :- :reward-1
+28.14799857155346: Activated :reward-6
+28.14799857155346: Flushed neuron :- :reward-2
+28.14799857155346: Flushed neuron :- :reward-6
+28.14799857155346: Flushed neuron :- :reward-5
+28.147998571613094: Deactivated :reward-8
+28.147998571613094: Deactivated :reward-7
+28.147998571613094: Deactivated :reward-1
+28.147998571613094: Deactivated :reward-2
+28.147998571613094: Deactivated :reward-6
+28.14799857220882: Connecting :652sgwith :reward-9
+28.14799857220882: Connecting :652sgwith :reward-3
+28.14799857220882: Connecting :652sgwith :reward-4
+28.14799857220882: Connecting :652sgwith :reward-8
+28.14799857220882: Connecting :652sgwith :reward-2
+28.14799857220882: Connecting :652sgwith :reward-7
+28.14799857220882: Connecting :652sgwith :reward-1
+28.14799857220882: Connecting :652sgwith :reward-6
+28.14799857220882: Connecting :652sgwith :reward-5
+28.14799857220882: Connecting :6h5sgwith :reward-9
+28.147998572209413: Connecting :6h5sgwith :reward-3
+28.147998572209413: Connecting :6h5sgwith :reward-4
+28.147998572209413: Connecting :6h5sgwith :reward-8
+28.147998572209413: Connecting :6h5sgwith :reward-2
+28.147998572209413: Connecting :6h5sgwith :reward-7
+28.147998572209413: Connecting :6h5sgwith :reward-1
+28.147998572209413: Connecting :6h5sgwith :reward-6
+28.147998572209413: Connecting :6h5sgwith :reward-5
+28.147998572746104: Activated :reward-9
+28.147998572746104: Flushed neuron :- :reward-9
+28.147998572746104: interest calculated for :reward-4 to be = 0.29500970348809097
+28.147998572746104: interest calculated for :reward-3 to be = 0.32189790772214727
+28.147998572746104: interest calculated for :reward-2 to be = 0.34487310179072583
+28.147998572746104: interest calculated for :reward-8 to be = 0.2568378580135124
+28.147998572746104: interest calculated for :reward-7 to be = 0.3280261612954721
+28.147998572746104: Flushed neuron :- :reward-4
+28.147998572746104: Activated :reward-3
+28.147998572746104: Flushed neuron :- :reward-2
+28.147998572746104: Flushed neuron :- :reward-8
+28.147998572746104: Flushed neuron :- :reward-3
+28.147998572746104: Activated :reward-7
+28.147998572746104: interest calculated for :reward-1 to be = 0.3074152694371774
+28.147998572746104: Flushed neuron :- :reward-7
+28.147998572746104: Flushed neuron :- :reward-1
+28.147998572746104: interest calculated for :reward-6 to be = 0.3051674608064355
+28.147998572746104: interest calculated for :reward-5 to be = 0.30523360541449335
+28.147998572746104: Flushed neuron :- :reward-5
+28.147998572746104: Flushed neuron :- :reward-6
+28.147998572805736: Deactivated :reward-9
+28.147998572805736: Deactivated :reward-3
+28.147998572805736: Deactivated :reward-7
+28.147998573938743: Flushed neuron :- :reward-3
+28.147998573938743: Flushed neuron :- :reward-9
+28.147998573938743: Flushed neuron :- :reward-8
+28.147998573938743: Flushed neuron :- :reward-4
+28.147998573938743: Activated :reward-2
+28.147998573938743: Activated :reward-7
+28.147998573938743: Flushed neuron :- :reward-2
+28.147998573938743: Flushed neuron :- :reward-7
+28.14799857393934: interest calculated for :reward-1 to be = 0.3461811940519465
+28.14799857393934: interest calculated for :reward-6 to be = 0.26024239474079525
+28.14799857393934: Activated :reward-1
+28.14799857393934: interest calculated for :reward-5 to be = 0.30851105982135735
+28.14799857393934: Flushed neuron :- :reward-6
+28.14799857393934: Flushed neuron :- :reward-1
+28.14799857393934: Activated :reward-5
+28.14799857393934: Flushed neuron :- :reward-5
+28.14799857399718: Connecting :dc2l8with :reward-9
+28.14799857399718: Connecting :dc2l8with :reward-3
+28.14799857399718: Connecting :dc2l8with :reward-4
+28.14799857399718: Connecting :dc2l8with :reward-8
+28.14799857399718: Connecting :dc2l8with :reward-2
+28.14799857399718: Connecting :dc2l8with :reward-7
+28.14799857399718: Connecting :dc2l8with :reward-1
+28.14799857399718: Connecting :dc2l8with :reward-6
+28.14799857399718: Connecting :dc2l8with :reward-5
+28.14799857399718: Connecting :79flewith :reward-9
+28.14799857399778: Connecting :79flewith :reward-3
+28.14799857399778: Connecting :79flewith :reward-4
+28.14799857399778: Connecting :79flewith :reward-8
+28.14799857399778: Connecting :79flewith :reward-2
+28.14799857399778: Connecting :79flewith :reward-7
+28.14799857399778: Connecting :79flewith :reward-1
+28.14799857399778: Connecting :79flewith :reward-6
+28.14799857399778: Connecting :79flewith :reward-5
+28.147998573998972: Deactivated :reward-7
+28.147998573998972: Deactivated :reward-2
+28.147998573998972: Deactivated :reward-1
+28.147998573998972: Deactivated :reward-5
+28.14799857513198: Activated :reward-9
+28.14799857513198: Flushed neuron :- :reward-9
+28.14799857513198: interest calculated for :reward-3 to be = 0.3395878695160724
+28.14799857513198: interest calculated for :reward-8 to be = 0.28909119411617207
+28.14799857513198: interest calculated for :reward-4 to be = 0.30469312260314224
+28.14799857513198: Activated :reward-3
+28.14799857513198: Activated :reward-8
+28.14799857513198: Activated :reward-4
+28.14799857513198: Flushed neuron :- :reward-3
+28.14799857513198: interest calculated for :reward-7 to be = 0.3584070182082363
+28.14799857513198: interest calculated for :reward-2 to be = 0.3523549492389768
+28.14799857513198: Flushed neuron :- :reward-8
+28.14799857513198: Flushed neuron :- :reward-4
+28.14799857513198: interest calculated for :reward-1 to be = 0.3414497595752847
+28.14799857513198: Flushed neuron :- :reward-7
+28.14799857513198: interest calculated for :reward-6 to be = 0.3165096903858662
+28.14799857513198: Flushed neuron :- :reward-2
+28.14799857513198: Flushed neuron :- :reward-1
+28.14799857513198: Flushed neuron :- :reward-6
+28.147998575132576: interest calculated for :reward-5 to be = 0.3311480545569388
+28.147998575132576: Flushed neuron :- :reward-5
+28.14799857519161: Deactivated :reward-9
+28.147998575192208: Deactivated :reward-3
+28.147998575192208: Deactivated :reward-8
+28.147998575192208: Deactivated :reward-4
+28.14799857632462: Activated :reward-9
+28.147998576325218: interest calculated for :reward-3 to be = 0.3395878695160724
+28.147998576325218: interest calculated for :reward-4 to be = 0.30469312260314224
+28.147998576325218: interest calculated for :reward-8 to be = 0.28909119411617207
+28.147998576325218: interest calculated for :reward-7 to be = 0.3584070182082363
+28.147998576325218: Flushed neuron :- :reward-3
+28.147998576325218: Flushed neuron :- :reward-4
+28.147998576325218: Flushed neuron :- :reward-8
+28.147998576325218: interest calculated for :reward-1 to be = 0.3152774803825214
+28.147998576325218: Flushed neuron :- :reward-1
+28.147998576325218: Flushed neuron :- :reward-7
+28.147998576325218: Flushed neuron :- :reward-9
+28.147998576325218: interest calculated for :reward-6 to be = 0.2983180296917766
+28.147998576325218: interest calculated for :reward-2 to be = 0.3523549492389768
+28.147998576325218: interest calculated for :reward-5 to be = 0.29080746872928326
+28.147998576325815: Activated :reward-2
+28.147998576325815: Flushed neuron :- :reward-6
+28.147998576325815: Activated :reward-5
+28.147998576325815: Flushed neuron :- :reward-5
+28.147998576325815: Flushed neuron :- :reward-2
+28.147998576385447: Deactivated :reward-9
+28.147998576385447: Deactivated :reward-2
+28.147998576385447: Deactivated :reward-5
+28.14799857751726: Activated :reward-3
+28.14799857751726: Activated :reward-9
+28.14799857751726: Activated :reward-4
+28.147998577517857: Flushed neuron :- :reward-9
+28.147998577517857: interest calculated for :reward-8 to be = 0.3374883460827203
+28.147998577517857: Flushed neuron :- :reward-4
+28.147998577517857: interest calculated for :reward-2 to be = 0.41044155033652924
+28.147998577517857: interest calculated for :reward-7 to be = 0.4206476607715485
+28.147998577517857: Flushed neuron :- :reward-8
+28.147998577517857: interest calculated for :reward-1 to be = 0.3910298323414299
+28.147998577517857: interest calculated for :reward-6 to be = 0.3792502315493518
+28.147998577517857: Flushed neuron :- :reward-7
+28.147998577517857: Flushed neuron :- :reward-2
+28.147998577517857: Flushed neuron :- :reward-6
+28.147998577517857: Flushed neuron :- :reward-3
+28.147998577517857: Flushed neuron :- :reward-1
+28.147998577517857: interest calculated for :reward-5 to be = 0.3562583231545594
+28.147998577517857: Flushed neuron :- :reward-5
+28.14799857757749: Deactivated :reward-9
+28.14799857757749: Deactivated :reward-3
+28.14799857757749: Deactivated :reward-4
+28.1479985787105: Activated :reward-9
+28.1479985787105: interest calculated for :reward-8 to be = 0.3282783330930642
+28.1479985787105: interest calculated for :reward-4 to be = 0.3388768377723238
+28.1479985787105: interest calculated for :reward-3 to be = 0.3763046817808397
+28.1479985787105: interest calculated for :reward-2 to be = 0.3973517520885389
+28.1479985787105: interest calculated for :reward-7 to be = 0.3989570825899844
+28.1479985787105: Flushed neuron :- :reward-9
+28.1479985787105: interest calculated for :reward-1 to be = 0.36270068534554956
+28.1479985787105: Flushed neuron :- :reward-4
+28.1479985787105: Flushed neuron :- :reward-8
+28.1479985787105: Flushed neuron :- :reward-2
+28.1479985787105: Flushed neuron :- :reward-3
+28.1479985787105: Activated :reward-7
+28.1479985787105: Flushed neuron :- :reward-1
+28.1479985787105: Flushed neuron :- :reward-7
+28.1479985787105: interest calculated for :reward-6 to be = 0.34716325694237593
+28.1479985787105: interest calculated for :reward-5 to be = 0.3442920517642171
+28.1479985787105: Activated :reward-6
+28.1479985787105: Flushed neuron :- :reward-5
+28.1479985787105: Flushed neuron :- :reward-6
+28.14799857877013: Deactivated :reward-9
+28.14799857877013: Deactivated :reward-7
+28.147998578770725: Deactivated :reward-6
+28.14799857990314: Activated :reward-9
+28.147998579903735: Flushed neuron :- :reward-9
+28.147998579903735: interest calculated for :reward-2 to be = 0.3973517520885389
+28.147998579903735: interest calculated for :reward-4 to be = 0.3388768377723238
+28.147998579903735: interest calculated for :reward-3 to be = 0.3763046817808397
+28.147998579903735: interest calculated for :reward-8 to be = 0.3282783330930642
+28.147998579903735: interest calculated for :reward-1 to be = 0.36270068534554956
+28.147998579903735: interest calculated for :reward-7 to be = 0.3989570825899844
+28.147998579903735: interest calculated for :reward-6 to be = 0.34264739735624605
+28.147998579903735: Activated :reward-2
+28.147998579903735: Flushed neuron :- :reward-4
+28.147998579903735: Flushed neuron :- :reward-8
+28.147998579903735: Activated :reward-3
+28.147998579903735: Activated :reward-7
+28.147998579903735: Flushed neuron :- :reward-1
+28.147998579903735: Flushed neuron :- :reward-6
+28.147998579903735: Flushed neuron :- :reward-2
+28.147998579903735: Flushed neuron :- :reward-3
+28.147998579903735: Flushed neuron :- :reward-7
+28.147998579903735: interest calculated for :reward-5 to be = 0.3652682941302853
+28.147998579904332: Flushed neuron :- :reward-5
+28.147998579963367: Deactivated :reward-9
+28.147998579963367: Deactivated :reward-7
+28.147998579963367: Deactivated :reward-2
+28.147998579963367: Deactivated :reward-3
+28.147998581096374: Activated :reward-9
+28.147998581096374: Flushed neuron :- :reward-9
+28.147998581096374: interest calculated for :reward-3 to be = 0.3763046817808397
+28.147998581096374: interest calculated for :reward-8 to be = 0.3282783330930642
+28.147998581096374: interest calculated for :reward-2 to be = 0.3973517520885389
+28.147998581096374: Flushed neuron :- :reward-8
+28.147998581096374: Activated :reward-2
+28.147998581096374: Flushed neuron :- :reward-3
+28.147998581096374: Flushed neuron :- :reward-2
+28.147998581096374: interest calculated for :reward-4 to be = 0.3388768377723238
+28.147998581096374: interest calculated for :reward-1 to be = 0.38390927026430366
+28.14799858109697: Activated :reward-4
+28.14799858109697: Activated :reward-1
+28.14799858109697: interest calculated for :reward-7 to be = 0.42334664079192963
+28.14799858109697: Flushed neuron :- :reward-4
+28.14799858109697: Flushed neuron :- :reward-1
+28.14799858109697: Activated :reward-7
+28.14799858109697: interest calculated for :reward-6 to be = 0.3631977356253926
+28.14799858109697: interest calculated for :reward-5 to be = 0.3747645150565594
+28.14799858109697: Flushed neuron :- :reward-7
+28.14799858109697: Flushed neuron :- :reward-6
+28.14799858109697: Activated :reward-5
+28.14799858109697: Flushed neuron :- :reward-5
+28.147998581156006: Deactivated :reward-9
+28.147998581156603: Deactivated :reward-2
+28.147998581156603: Deactivated :reward-1
+28.147998581156603: Deactivated :reward-4
+28.147998581156603: Deactivated :reward-7
+28.147998581156603: Deactivated :reward-5
+28.147998582289016: Activated :reward-9
+28.147998582289016: Flushed neuron :- :reward-9
+28.147998582289016: interest calculated for :reward-2 to be = 0.3973517520885389
+28.147998582289016: interest calculated for :reward-3 to be = 0.3763046817808397
+28.147998582289016: interest calculated for :reward-8 to be = 0.3282783330930642
+28.147998582289016: Flushed neuron :- :reward-2
+28.147998582289016: Activated :reward-8
+28.147998582289016: Activated :reward-3
+28.147998582289016: interest calculated for :reward-7 to be = 0.3989570825899844
+28.147998582289016: Flushed neuron :- :reward-3
+28.147998582289016: Flushed neuron :- :reward-8
+28.147998582289016: Flushed neuron :- :reward-7
+28.147998582289613: interest calculated for :reward-1 to be = 0.40979674247403314
+28.147998582289613: interest calculated for :reward-6 to be = 0.38218581315619443
+28.147998582289613: interest calculated for :reward-5 to be = 0.3695144592443677
+28.147998582289613: Activated :reward-1
+28.147998582289613: Flushed neuron :- :reward-6
+28.147998582289613: Flushed neuron :- :reward-1
+28.147998582289613: Flushed neuron :- :reward-5
+28.147998582289016: interest calculated for :reward-4 to be = 0.3388768377723238
+28.147998582289613: Flushed neuron :- :reward-4
+28.14799858234865: Deactivated :reward-9
+28.147998582349246: Deactivated :reward-3
+28.147998582349246: Deactivated :reward-8
+28.147998582349246: Deactivated :reward-1
+28.147998583481655: Flushed neuron :- :reward-3
+28.147998583481655: Flushed neuron :- :reward-9
+28.147998583481655: Activated :reward-4
+28.147998583481655: Flushed neuron :- :reward-8
+28.147998583482252: Flushed neuron :- :reward-4
+28.147998583482252: interest calculated for :reward-2 to be = 0.3897223719264169
+28.147998583482252: interest calculated for :reward-7 to be = 0.40280530244597407
+28.147998583482252: interest calculated for :reward-1 to be = 0.36400910371990225
+28.147998583482252: Flushed neuron :- :reward-2
+28.147998583482252: Flushed neuron :- :reward-1
+28.147998583482252: interest calculated for :reward-5 to be = 0.3364511894427812
+28.147998583482252: interest calculated for :reward-6 to be = 0.34013247616157133
+28.147998583482252: Flushed neuron :- :reward-7
+28.147998583482252: Activated :reward-5
+28.147998583482252: Activated :reward-6
+28.147998583482252: Flushed neuron :- :reward-5
+28.147998583482252: Flushed neuron :- :reward-6
+28.147998583541884: Deactivated :reward-4
+28.147998583541884: Deactivated :reward-5
+28.147998583541884: Deactivated :reward-6
+28.147998584674895: Activated :reward-9
+28.147998584674895: Flushed neuron :- :reward-9
+28.147998584674895: interest calculated for :reward-3 to be = 0.3812589648161771
+28.147998584674895: interest calculated for :reward-4 to be = 0.3638019765691491
+28.147998584674895: interest calculated for :reward-2 to be = 0.4162171139381555
+28.147998584674895: Flushed neuron :- :reward-3
+28.147998584674895: interest calculated for :reward-8 to be = 0.3446717359885342
+28.147998584674895: Activated :reward-4
+28.147998584674895: Flushed neuron :- :reward-2
+28.147998584674895: interest calculated for :reward-7 to be = 0.4116588493336685
+28.147998584675488: Flushed neuron :- :reward-4
+28.147998584675488: interest calculated for :reward-1 to be = 0.3844872555184422
+28.147998584675488: Flushed neuron :- :reward-8
+28.147998584675488: Flushed neuron :- :reward-7
+28.147998584675488: Activated :reward-1
+28.147998584675488: interest calculated for :reward-6 to be = 0.3654949627327183
+28.147998584675488: Flushed neuron :- :reward-1
+28.147998584675488: Flushed neuron :- :reward-6
+28.147998584675488: interest calculated for :reward-5 to be = 0.3775001456595935
+28.147998584675488: Flushed neuron :- :reward-5
+28.147998584734523: Deactivated :reward-9
+28.14799858473512: Deactivated :reward-4
+28.14799858473512: Deactivated :reward-1
+28.147998585867533: Activated :reward-9
+28.147998585867533: interest calculated for :reward-8 to be = 0.3446717359885342
+28.147998585867533: Flushed neuron :- :reward-9
+28.147998585867533: interest calculated for :reward-4 to be = 0.3638019765691491
+28.147998585867533: interest calculated for :reward-1 to be = 0.3823303877153251
+28.147998585867533: interest calculated for :reward-2 to be = 0.4162171139381555
+28.147998585867533: interest calculated for :reward-7 to be = 0.4116588493336685
+28.147998585867533: interest calculated for :reward-3 to be = 0.3812589648161771
+28.147998585867533: Activated :reward-8
+28.147998585867533: Flushed neuron :- :reward-4
+28.147998585867533: Flushed neuron :- :reward-7
+28.147998585867533: Activated :reward-2
+28.147998585867533: Flushed neuron :- :reward-8
+28.147998585867533: Activated :reward-1
+28.14799858586813: Flushed neuron :- :reward-2
+28.14799858586813: Flushed neuron :- :reward-1
+28.14799858586813: Flushed neuron :- :reward-3
+28.14799858586813: interest calculated for :reward-6 to be = 0.37056970910969134
+28.14799858586813: interest calculated for :reward-5 to be = 0.4012943194435394
+28.14799858586813: Activated :reward-6
+28.14799858586813: Flushed neuron :- :reward-5
+28.14799858586813: Flushed neuron :- :reward-6
+28.147998585927763: Deactivated :reward-1
+28.147998585927763: Deactivated :reward-8
+28.147998585927763: Deactivated :reward-9
+28.147998585927763: Deactivated :reward-2
+28.147998585927763: Deactivated :reward-6
+28.147998586521698: Connecting :1qbvv0mwith :reward-9
+28.147998586521698: Connecting :1qbvv0mwith :reward-3
+28.147998586521698: Connecting :1qbvv0mwith :reward-4
+28.147998586521698: Connecting :1qbvv0mwith :reward-8
+28.147998586521698: Connecting :1qbvv0mwith :reward-2
+28.147998586521698: Connecting :1qbvv0mwith :reward-7
+28.147998586521698: Connecting :1qbvv0mwith :reward-1
+28.147998586521698: Connecting :1qbvv0mwith :reward-6
+28.147998586521698: Connecting :1qbvv0mwith :reward-5
+28.147998586521698: Connecting :6b3kawith :reward-9
+28.147998586521698: Connecting :6b3kawith :reward-3
+28.147998586521698: Connecting :6b3kawith :reward-4
+28.14799858652229: Connecting :6b3kawith :reward-8
+28.14799858652229: Connecting :6b3kawith :reward-2
+28.14799858652229: Connecting :6b3kawith :reward-7
+28.14799858652229: Connecting :6b3kawith :reward-1
+28.14799858652229: Connecting :6b3kawith :reward-6
+28.14799858652229: Connecting :6b3kawith :reward-5
+28.14799858652229: Connecting :1qrepsowith :reward-9
+28.14799858652229: Connecting :1qrepsowith :reward-3
+28.14799858652229: Connecting :1qrepsowith :reward-4
+28.14799858652229: Connecting :1qrepsowith :reward-8
+28.14799858652229: Connecting :1qrepsowith :reward-2
+28.14799858652229: Connecting :1qrepsowith :reward-7
+28.14799858652229: Connecting :1qrepsowith :reward-1
+28.14799858652229: Connecting :1qrepsowith :reward-6
+28.14799858652229: Connecting :1qrepsowith :reward-5
+28.14799858652289: Connecting :ddnrawith :reward-9
+28.14799858652289: Connecting :ddnrawith :reward-3
+28.14799858652289: Connecting :ddnrawith :reward-4
+28.14799858652289: Connecting :ddnrawith :reward-8
+28.14799858652289: Connecting :ddnrawith :reward-2
+28.14799858652289: Connecting :ddnrawith :reward-7
+28.14799858652289: Connecting :ddnrawith :reward-1
+28.14799858652289: Connecting :ddnrawith :reward-6
+28.14799858652289: Connecting :ddnrawith :reward-5
+28.14799858652289: Connecting :6b4cgwith :reward-9
+28.14799858652289: Connecting :6b4cgwith :reward-3
+28.14799858652289: Connecting :6b4cgwith :reward-4
+28.14799858652289: Connecting :6b4cgwith :reward-8
+28.14799858652289: Connecting :6b4cgwith :reward-2
+28.14799858652289: Connecting :6b4cgwith :reward-7
+28.14799858652289: Connecting :6b4cgwith :reward-1
+28.14799858652289: Connecting :6b4cgwith :reward-6
+28.147998586523485: Connecting :6b4cgwith :reward-5
+28.147998587060172: Activated :reward-9
+28.147998587061963: Flushed neuron :- :reward-9
+28.147998587060172: Flushed neuron :- :reward-3
+28.14799858706077: interest calculated for :reward-2 to be = 0.4148361368718806
+28.14799858706077: interest calculated for :reward-1 to be = 0.42145000635061625
+28.14799858706077: interest calculated for :reward-8 to be = 0.37376445009922404
+28.14799858706077: interest calculated for :reward-4 to be = 0.3985202156008581
+28.14799858706077: interest calculated for :reward-6 to be = 0.3762855877273015
+28.14799858706077: interest calculated for :reward-7 to be = 0.42984087779608693
+28.147998587061963: Flushed neuron :- :reward-2
+28.14799858706077: interest calculated for :reward-5 to be = 0.344111275258773
+28.147998587061963: Activated :reward-4
+28.147998587061963: Flushed neuron :- :reward-6
+28.147998587061963: Flushed neuron :- :reward-1
+28.147998587061963: Flushed neuron :- :reward-8
+28.147998587061963: Flushed neuron :- :reward-4
+28.147998587061963: Flushed neuron :- :reward-7
+28.147998587061963: Activated :reward-5
+28.147998587061963: Flushed neuron :- :reward-5
+28.147998587121595: Deactivated :reward-9
+28.147998587121595: Deactivated :reward-4
+28.147998587121595: Deactivated :reward-5
+28.14799858825341: Flushed neuron :- :reward-9
+28.14799858825341: Flushed neuron :- :reward-3
+28.14799858825341: Flushed neuron :- :reward-8
+28.14799858825341: Activated :reward-4
+28.14799858825341: Flushed neuron :- :reward-4
+28.14799858825341: interest calculated for :reward-7 to be = 0.4201258359107988
+28.14799858825341: interest calculated for :reward-1 to be = 0.42923583517641156
+28.14799858825341: interest calculated for :reward-2 to be = 0.4088997418871778
+28.14799858825341: interest calculated for :reward-6 to be = 0.36069220066354146
+28.14799858825341: interest calculated for :reward-5 to be = 0.3480915714407633
+28.14799858825401: Flushed neuron :- :reward-1
+28.14799858825401: Activated :reward-7
+28.14799858825401: Flushed neuron :- :reward-2
+28.14799858825401: Flushed neuron :- :reward-6
+28.14799858825401: Flushed neuron :- :reward-5
+28.14799858825401: Flushed neuron :- :reward-7
+28.147998588313044: Deactivated :reward-4
+28.147998588313637: Deactivated :reward-7
+28.14799858944605: Activated :reward-9
+28.14799858944605: Flushed neuron :- :reward-9
+28.14799858944605: interest calculated for :reward-3 to be = 0.3912969383528534
+28.147998589446647: interest calculated for :reward-2 to be = 0.41562086250619
+28.147998589446647: interest calculated for :reward-4 to be = 0.40844041419084515
+28.147998589446647: Flushed neuron :- :reward-3
+28.147998589446647: Activated :reward-2
+28.147998589446647: interest calculated for :reward-8 to be = 0.3710788070644761
+28.147998589446647: interest calculated for :reward-7 to be = 0.4167357374662365
+28.147998589446647: Activated :reward-4
+28.147998589446647: Flushed neuron :- :reward-2
+28.147998589446647: Activated :reward-7
+28.147998589446647: Flushed neuron :- :reward-8
+28.147998589446647: Flushed neuron :- :reward-4
+28.147998589446647: Flushed neuron :- :reward-7
+28.147998589446647: interest calculated for :reward-1 to be = 0.4677924437834293
+28.147998589446647: interest calculated for :reward-5 to be = 0.37161478178113677
+28.147998589446647: interest calculated for :reward-6 to be = 0.3837051685066986
+28.147998589446647: Activated :reward-1
+28.147998589446647: Activated :reward-5
+28.147998589446647: Flushed neuron :- :reward-6
+28.147998589446647: Flushed neuron :- :reward-1
+28.147998589447244: Flushed neuron :- :reward-5
+28.14799858950628: Deactivated :reward-9
+28.14799858950628: Deactivated :reward-2
+28.14799858950628: Deactivated :reward-4
+28.14799858950628: Deactivated :reward-7
+28.147998589506876: Deactivated :reward-1
+28.147998589506876: Deactivated :reward-5
+28.147998590638693: Flushed neuron :- :reward-9
+28.147998590639286: Activated :reward-3
+28.147998590639286: Flushed neuron :- :reward-3
+28.147998590639286: interest calculated for :reward-2 to be = 0.420938831810252
+28.147998590639286: interest calculated for :reward-8 to be = 0.3737701295675072
+28.147998590639286: interest calculated for :reward-4 to be = 0.4090658634174559
+28.147998590639286: interest calculated for :reward-7 to be = 0.4212648971139422
+28.147998590639286: interest calculated for :reward-1 to be = 0.4679256530756786
+28.147998590639286: Flushed neuron :- :reward-2
+28.147998590639286: Flushed neuron :- :reward-8
+28.147998590639286: Flushed neuron :- :reward-4
+28.147998590639286: Flushed neuron :- :reward-7
+28.147998590639286: interest calculated for :reward-6 to be = 0.3636306355283705
+28.147998590639286: Flushed neuron :- :reward-1
+28.147998590639286: interest calculated for :reward-5 to be = 0.354463868877304
+28.147998590639286: Flushed neuron :- :reward-6
+28.147998590639883: Activated :reward-5
+28.147998590639883: Flushed neuron :- :reward-5
+28.14799859069892: Deactivated :reward-3
+28.147998590699515: Deactivated :reward-5
+28.14799859183193: Activated :reward-3
+28.14799859183193: Activated :reward-9
+28.14799859183193: interest calculated for :reward-4 to be = 0.43200253761220797
+28.14799859183193: interest calculated for :reward-8 to be = 0.39692182082014477
+28.14799859183193: Flushed neuron :- :reward-3
+28.14799859183193: Flushed neuron :- :reward-9
+28.14799859183193: Flushed neuron :- :reward-4
+28.14799859183193: Flushed neuron :- :reward-8
+28.14799859183193: interest calculated for :reward-7 to be = 0.4337305644658907
+28.14799859183193: interest calculated for :reward-2 to be = 0.43802083624841326
+28.14799859183193: interest calculated for :reward-1 to be = 0.4686730966200664
+28.14799859183193: Flushed neuron :- :reward-7
+28.14799859183193: Flushed neuron :- :reward-1
+28.14799859183193: Activated :reward-2
+28.14799859183193: interest calculated for :reward-6 to be = 0.3820655284728125
+28.14799859183193: Flushed neuron :- :reward-2
+28.14799859183193: Activated :reward-6
+28.14799859183193: interest calculated for :reward-5 to be = 0.3720009586191483
+28.14799859183193: Flushed neuron :- :reward-6
+28.147998591832526: Activated :reward-5
+28.147998591832526: Flushed neuron :- :reward-5
+28.147998591892158: Deactivated :reward-6
+28.147998591892158: Deactivated :reward-2
+28.14799859189156: Deactivated :reward-9
+28.14799859189156: Deactivated :reward-3
+28.147998591892158: Deactivated :reward-5
+28.147998593024568: Flushed neuron :- :reward-9
+28.147998593024568: Activated :reward-3
+28.147998593024568: Flushed neuron :- :reward-4
+28.147998593025164: Flushed neuron :- :reward-3
+28.147998593025164: interest calculated for :reward-5 to be = 0.354463868877304
+28.147998593025164: interest calculated for :reward-6 to be = 0.3636306355283705
+28.147998593025164: interest calculated for :reward-2 to be = 0.420938831810252
+28.147998593025164: interest calculated for :reward-1 to be = 0.4679256530756786
+28.147998593025164: interest calculated for :reward-7 to be = 0.4212648971139422
+28.147998593025164: interest calculated for :reward-8 to be = 0.3737701295675072
+28.147998593025164: Flushed neuron :- :reward-5
+28.147998593025164: Flushed neuron :- :reward-6
+28.147998593025164: Flushed neuron :- :reward-2
+28.147998593025164: Flushed neuron :- :reward-8
+28.147998593025164: Activated :reward-1
+28.147998593025164: Activated :reward-7
+28.14799859302576: Flushed neuron :- :reward-1
+28.14799859302576: Flushed neuron :- :reward-7
+28.147998593084797: Deactivated :reward-3
+28.147998593085394: Deactivated :reward-1
+28.147998593085394: Deactivated :reward-7
+28.147998594217807: Activated :reward-3
+28.147998594217807: Flushed neuron :- :reward-9
+28.147998594217807: interest calculated for :reward-2 to be = 0.420938831810252
+28.147998594217807: interest calculated for :reward-8 to be = 0.3737701295675072
+28.147998594217807: interest calculated for :reward-1 to be = 0.4679256530756786
+28.147998594217807: interest calculated for :reward-7 to be = 0.4212648971139422
+28.147998594217807: Flushed neuron :- :reward-3
+28.147998594217807: interest calculated for :reward-4 to be = 0.4090658634174559
+28.147998594217807: Flushed neuron :- :reward-1
+28.147998594217807: Flushed neuron :- :reward-8
+28.1479985942184: Flushed neuron :- :reward-7
+28.1479985942184: Flushed neuron :- :reward-4
+28.1479985942184: interest calculated for :reward-6 to be = 0.3636306355283705
+28.1479985942184: Activated :reward-2
+28.1479985942184: Flushed neuron :- :reward-6
+28.1479985942184: interest calculated for :reward-5 to be = 0.3637473782745205
+28.1479985942184: Flushed neuron :- :reward-2
+28.1479985942184: Activated :reward-5
+28.1479985942184: Flushed neuron :- :reward-5
+28.147998594278032: Deactivated :reward-3
+28.147998594278032: Deactivated :reward-2
+28.147998594278032: Deactivated :reward-5
+28.147998595410446: Flushed neuron :- :reward-3
+28.147998595410446: Activated :reward-9
+28.147998595411043: Flushed neuron :- :reward-9
+28.147998595411043: interest calculated for :reward-2 to be = 0.4368502311348088
+28.147998595411043: interest calculated for :reward-7 to be = 0.4304779637691189
+28.147998595411043: interest calculated for :reward-4 to be = 0.4089708289123508
+28.147998595411043: Flushed neuron :- :reward-2
+28.147998595411043: interest calculated for :reward-1 to be = 0.445616564950251
+28.147998595411043: Flushed neuron :- :reward-7
+28.147998595411043: Flushed neuron :- :reward-4
+28.147998595411043: interest calculated for :reward-8 to be = 0.3940025121573674
+28.147998595411043: Flushed neuron :- :reward-1
+28.147998595411043: interest calculated for :reward-6 to be = 0.3660395416708764
+28.147998595411043: Flushed neuron :- :reward-8
+28.147998595411043: Flushed neuron :- :reward-6
+28.147998595411043: interest calculated for :reward-5 to be = 0.3535218879633264
+28.147998595411043: Flushed neuron :- :reward-5
+28.147998595470675: Deactivated :reward-9
+28.14799859660368: Activated :reward-3
+28.14799859660368: Activated :reward-9
+28.14799859660368: Activated :reward-4
+28.14799859660368: interest calculated for :reward-7 to be = 0.4495863302624014
+28.14799859660368: interest calculated for :reward-1 to be = 0.4705731944466218
+28.14799859660368: interest calculated for :reward-6 to be = 0.39828489560289815
+28.14799859660368: interest calculated for :reward-8 to be = 0.40211609502920737
+28.14799859660368: interest calculated for :reward-2 to be = 0.4483817200675623
+28.14799859660368: Flushed neuron :- :reward-9
+28.14799859660368: Flushed neuron :- :reward-3
+28.14799859660368: Flushed neuron :- :reward-4
+28.14799859660368: Flushed neuron :- :reward-7
+28.14799859660368: Flushed neuron :- :reward-6
+28.14799859660368: Activated :reward-1
+28.14799859660368: Flushed neuron :- :reward-8
+28.14799859660368: Activated :reward-2
+28.14799859660368: Flushed neuron :- :reward-1
+28.14799859660368: Flushed neuron :- :reward-2
+28.14799859660368: interest calculated for :reward-5 to be = 0.3955483589113339
+28.14799859660368: Activated :reward-5
+28.14799859660368: Flushed neuron :- :reward-5
+28.147998596663314: Deactivated :reward-4
+28.147998596663314: Deactivated :reward-1
+28.147998596663314: Deactivated :reward-2
+28.147998596663314: Deactivated :reward-3
+28.147998596663314: Deactivated :reward-9
+28.147998596663314: Deactivated :reward-5
+28.147998597796324: Activated :reward-9
+28.147998597796324: interest calculated for :reward-4 to be = 0.4089708289123508
+28.147998597796324: Flushed neuron :- :reward-9
+28.147998597796324: interest calculated for :reward-3 to be = 0.4146116449858219
+28.147998597796324: interest calculated for :reward-2 to be = 0.4368502311348088
+28.147998597796324: interest calculated for :reward-8 to be = 0.3940025121573674
+28.147998597796324: interest calculated for :reward-7 to be = 0.4304779637691189
+28.147998597796324: Flushed neuron :- :reward-2
+28.147998597796324: Flushed neuron :- :reward-3
+28.147998597796324: Flushed neuron :- :reward-4
+28.147998597796324: Activated :reward-8
+28.147998597796324: Flushed neuron :- :reward-7
+28.147998597796324: Flushed neuron :- :reward-8
+28.14799859779692: interest calculated for :reward-6 to be = 0.38484501640699015
+28.14799859779692: interest calculated for :reward-1 to be = 0.4640494169412428
+28.14799859779692: interest calculated for :reward-5 to be = 0.3725321872262399
+28.14799859779692: Flushed neuron :- :reward-6
+28.14799859779692: Flushed neuron :- :reward-5
+28.14799859779692: Flushed neuron :- :reward-1
+28.147998597856553: Deactivated :reward-9
+28.147998597856553: Deactivated :reward-8
+28.147998598988963: Flushed neuron :- :reward-9
+28.147998598988963: Flushed neuron :- :reward-3
+28.147998598988963: Activated :reward-8
+28.147998598988963: Activated :reward-4
+28.147998598988963: Flushed neuron :- :reward-8
+28.147998598988963: Flushed neuron :- :reward-4
+28.147998598988963: interest calculated for :reward-7 to be = 0.45125551042001466
+28.147998598988963: interest calculated for :reward-2 to be = 0.4322957126341082
+28.147998598988963: interest calculated for :reward-1 to be = 0.46520207122341056
+28.147998598988963: Activated :reward-7
+28.147998598988963: Flushed neuron :- :reward-2
+28.147998598988963: interest calculated for :reward-6 to be = 0.3826294905926338
+28.147998598988963: interest calculated for :reward-5 to be = 0.37161088149398025
+28.147998598988963: Flushed neuron :- :reward-7
+28.147998598988963: Activated :reward-1
+28.147998598988963: Flushed neuron :- :reward-6
+28.147998598988963: Activated :reward-5
+28.147998598988963: Flushed neuron :- :reward-5
+28.147998598988963: Flushed neuron :- :reward-1
+28.147998599048595: Deactivated :reward-4
+28.147998599048595: Deactivated :reward-8
+28.147998599048595: Deactivated :reward-5
+28.147998599048595: Deactivated :reward-1
+28.147998599048595: Deactivated :reward-7
+28.147998600181605: Flushed neuron :- :reward-3
+28.147998600181605: Flushed neuron :- :reward-9
+28.147998600181605: Flushed neuron :- :reward-4
+28.1479986001822: Activated :reward-8
+28.1479986001822: Flushed neuron :- :reward-8
+28.1479986001822: interest calculated for :reward-2 to be = 0.4219348288149591
+28.1479986001822: interest calculated for :reward-6 to be = 0.36641012346254814
+28.1479986001822: Flushed neuron :- :reward-2
+28.1479986001822: interest calculated for :reward-1 to be = 0.463301973396855
+28.1479986001822: interest calculated for :reward-7 to be = 0.4353997446235039
+28.1479986001822: Activated :reward-6
+28.1479986001822: interest calculated for :reward-5 to be = 0.3642786068816121
+28.1479986001822: Activated :reward-1
+28.1479986001822: Flushed neuron :- :reward-6
+28.1479986001822: Activated :reward-7
+28.1479986001822: Activated :reward-5
+28.1479986001822: Flushed neuron :- :reward-1
+28.1479986001822: Flushed neuron :- :reward-7
+28.1479986001822: Flushed neuron :- :reward-5
+28.14799860024183: Deactivated :reward-1
+28.14799860024183: Deactivated :reward-8
+28.14799860024183: Deactivated :reward-6
+28.14799860024183: Deactivated :reward-5
+28.14799860024183: Deactivated :reward-7
+28.14799860137484: Activated :reward-9
+28.14799860137484: interest calculated for :reward-4 to be = 0.4309286892809827
+28.14799860137484: interest calculated for :reward-3 to be = 0.4189761324217145
+28.14799860137484: interest calculated for :reward-8 to be = 0.40844431947004345
+28.14799860137484: Flushed neuron :- :reward-9
+28.14799860137484: Activated :reward-4
+28.14799860137484: Flushed neuron :- :reward-4
+28.14799860137484: Activated :reward-3
+28.14799860137484: Activated :reward-8
+28.14799860137484: interest calculated for :reward-7 to be = 0.441667615424269
+28.14799860137484: interest calculated for :reward-2 to be = 0.4534697165737569
+28.14799860137484: Flushed neuron :- :reward-8
+28.14799860137484: Flushed neuron :- :reward-3
+28.14799860137484: Activated :reward-7
+28.14799860137484: Flushed neuron :- :reward-2
+28.14799860137484: interest calculated for :reward-6 to be = 0.42099862032629465
+28.14799860137484: Flushed neuron :- :reward-7
+28.14799860137484: interest calculated for :reward-1 to be = 0.46290939799029146
+28.14799860137484: Activated :reward-6
+28.14799860137484: interest calculated for :reward-5 to be = 0.4264248349873949
+28.14799860137484: Activated :reward-1
+28.14799860137484: Flushed neuron :- :reward-6
+28.14799860137484: Flushed neuron :- :reward-5
+28.14799860137484: Flushed neuron :- :reward-1
+28.147998601434473: Deactivated :reward-3
+28.147998601434473: Deactivated :reward-8
+28.147998601434473: Deactivated :reward-4
+28.147998601434473: Deactivated :reward-9
+28.147998601434473: Deactivated :reward-7
+28.14799860143507: Deactivated :reward-6
+28.14799860143507: Deactivated :reward-1
+28.14799860256748: Flushed neuron :- :reward-9
+28.14799860256748: Activated :reward-3
+28.14799860256748: interest calculated for :reward-4 to be = 0.4310237237860878
+28.14799860256748: Flushed neuron :- :reward-3
+28.14799860256748: interest calculated for :reward-2 to be = 0.4375583172492
+28.14799860256748: interest calculated for :reward-8 to be = 0.3882119368801832
+28.14799860256748: interest calculated for :reward-7 to be = 0.43245454876909245
+28.14799860256748: Flushed neuron :- :reward-4
+28.14799860256748: Activated :reward-2
+28.14799860256748: Flushed neuron :- :reward-7
+28.14799860256748: interest calculated for :reward-1 to be = 0.48521848611571905
+28.14799860256748: Activated :reward-8
+28.14799860256748: Flushed neuron :- :reward-2
+28.147998602568077: Activated :reward-1
+28.147998602568077: Flushed neuron :- :reward-8
+28.147998602568077: Flushed neuron :- :reward-1
+28.147998602568077: interest calculated for :reward-6 to be = 0.3882288625492627
+28.147998602568077: interest calculated for :reward-5 to be = 0.4106662729076169
+28.147998602568077: Flushed neuron :- :reward-5
+28.147998602568077: Flushed neuron :- :reward-6
+28.14799860262413: Connecting :1ivf1iowith :reward-9
+28.14799860262413: Connecting :1ivf1iowith :reward-3
+28.14799860262413: Connecting :1ivf1iowith :reward-4
+28.14799860262413: Connecting :1ivf1iowith :reward-8
+28.14799860262413: Connecting :1ivf1iowith :reward-2
+28.14799860262413: Connecting :1ivf1iowith :reward-7
+28.14799860262413: Connecting :1ivf1iowith :reward-1
+28.14799860262413: Connecting :1ivf1iowith :reward-6
+28.147998602624728: Connecting :1ivf1iowith :reward-5
+28.147998602624728: Connecting :1kg13quwith :reward-9
+28.147998602624728: Connecting :1kg13quwith :reward-3
+28.147998602624728: Connecting :1kg13quwith :reward-4
+28.147998602624728: Connecting :1kg13quwith :reward-8
+28.147998602624728: Connecting :1kg13quwith :reward-2
+28.147998602624728: Connecting :1kg13quwith :reward-7
+28.147998602625325: Connecting :1kg13quwith :reward-1
+28.147998602625325: Connecting :1kg13quwith :reward-6
+28.147998602625325: Connecting :1kg13quwith :reward-5
+28.147998602625325: Connecting :1hesvaiwith :reward-9
+28.147998602625325: Connecting :1hesvaiwith :reward-3
+28.147998602625325: Connecting :1hesvaiwith :reward-4
+28.147998602625325: Connecting :1hesvaiwith :reward-8
+28.147998602625325: Connecting :1hesvaiwith :reward-2
+28.147998602625325: Connecting :1hesvaiwith :reward-7
+28.147998602625325: Connecting :1hesvaiwith :reward-1
+28.147998602625922: Connecting :1hesvaiwith :reward-6
+28.147998602625922: Connecting :1hesvaiwith :reward-5
+28.147998602625922: Connecting :6gdhfwith :reward-9
+28.147998602625922: Connecting :6gdhfwith :reward-3
+28.147998602625922: Connecting :6gdhfwith :reward-4
+28.147998602625922: Connecting :6gdhfwith :reward-8
+28.147998602625922: Connecting :6gdhfwith :reward-2
+28.147998602625922: Connecting :6gdhfwith :reward-7
+28.147998602625922: Connecting :6gdhfwith :reward-1
+28.147998602625922: Connecting :6gdhfwith :reward-6
+28.147998602625922: Connecting :6gdhfwith :reward-5
+28.147998602625922: Connecting :1kmhfp0with :reward-9
+28.147998602625922: Connecting :1kmhfp0with :reward-3
+28.147998602625922: Connecting :1kmhfp0with :reward-4
+28.147998602625922: Connecting :1kmhfp0with :reward-8
+28.147998602625922: Connecting :1kmhfp0with :reward-2
+28.147998602626515: Connecting :1kmhfp0with :reward-7
+28.147998602626515: Connecting :1kmhfp0with :reward-1
+28.147998602626515: Connecting :1kmhfp0with :reward-6
+28.147998602626515: Connecting :1kmhfp0with :reward-5
+28.147998602626515: Connecting :1i9fwith :reward-9
+28.147998602626515: Connecting :1i9fwith :reward-3
+28.147998602626515: Connecting :1i9fwith :reward-4
+28.147998602626515: Connecting :1i9fwith :reward-8
+28.147998602626515: Connecting :1i9fwith :reward-2
+28.147998602626515: Connecting :1i9fwith :reward-7
+28.147998602626515: Connecting :1i9fwith :reward-1
+28.147998602626515: Connecting :1i9fwith :reward-6
+28.147998602626515: Connecting :1i9fwith :reward-5
+28.147998602626515: Connecting :1ivjsm4with :reward-9
+28.147998602626515: Connecting :1ivjsm4with :reward-3
+28.147998602626515: Connecting :1ivjsm4with :reward-4
+28.147998602627112: Connecting :1ivjsm4with :reward-8
+28.147998602627112: Connecting :1ivjsm4with :reward-2
+28.147998602627112: Connecting :1ivjsm4with :reward-7
+28.147998602627112: Connecting :1ivjsm4with :reward-1
+28.147998602627112: Connecting :1ivjsm4with :reward-6
+28.147998602627112: Connecting :1ivjsm4with :reward-5
+28.147998602627112: Deactivated :reward-3
+28.14799860262771: Deactivated :reward-2
+28.14799860262771: Deactivated :reward-8
+28.14799860262771: Deactivated :reward-1
+28.147998603760122: Flushed neuron :- :reward-9
+28.147998603760122: Activated :reward-3
+28.147998603760122: Flushed neuron :- :reward-3
+28.147998603760122: interest calculated for :reward-8 to be = 0.3878108605743997
+28.147998603760122: interest calculated for :reward-7 to be = 0.44236607546294543
+28.147998603760122: interest calculated for :reward-2 to be = 0.46278910486318187
+28.147998603760122: interest calculated for :reward-1 to be = 0.4962469229505537
+28.147998603760122: Flushed neuron :- :reward-7
+28.147998603760122: Flushed neuron :- :reward-8
+28.14799860376072: Flushed neuron :- :reward-1
+28.14799860376072: Activated :reward-2
+28.14799860376072: Flushed neuron :- :reward-2
+28.14799860376072: interest calculated for :reward-4 to be = 0.4275691596529842
+28.14799860376072: Flushed neuron :- :reward-4
+28.14799860376072: interest calculated for :reward-6 to be = 0.39634456503403376
+28.14799860376072: interest calculated for :reward-5 to be = 0.37155633737464194
+28.14799860376072: Activated :reward-6
+28.14799860376072: Flushed neuron :- :reward-5
+28.14799860376072: Flushed neuron :- :reward-6
+28.14799860382035: Deactivated :reward-3
+28.14799860382035: Deactivated :reward-2
+28.14799860382035: Deactivated :reward-6
+28.14799860495276: Activated :reward-9
+28.14799860495276: Flushed neuron :- :reward-3
+28.147998604953358: Flushed neuron :- :reward-9
+28.147998604953358: interest calculated for :reward-2 to be = 0.4764274471413734
+28.147998604953358: interest calculated for :reward-4 to be = 0.42748770150575127
+28.147998604953358: interest calculated for :reward-8 to be = 0.4051529027942799
+28.147998604953358: interest calculated for :reward-1 to be = 0.4771248474144729
+28.147998604953358: interest calculated for :reward-7 to be = 0.4502629897388111
+28.147998604953358: Activated :reward-4
+28.147998604953358: Flushed neuron :- :reward-2
+28.147998604953358: Flushed neuron :- :reward-8
+28.147998604953358: Activated :reward-1
+28.147998604953358: Flushed neuron :- :reward-7
+28.147998604953358: Flushed neuron :- :reward-4
+28.147998604953358: Flushed neuron :- :reward-1
+28.147998604953358: interest calculated for :reward-6 to be = 0.41289868527536455
+28.147998604953358: Flushed neuron :- :reward-6
+28.147998604953358: interest calculated for :reward-5 to be = 0.3829751173583489
+28.147998604953358: Flushed neuron :- :reward-5
+28.14799860501299: Deactivated :reward-9
+28.14799860501299: Deactivated :reward-1
+28.14799860501299: Deactivated :reward-4
+28.147998606146: Activated :reward-9
+28.147998606146: Flushed neuron :- :reward-3
+28.147998606146: interest calculated for :reward-4 to be = 0.43159514265841636
+28.147998606146: interest calculated for :reward-8 to be = 0.41416739902446076
+28.147998606146: Flushed neuron :- :reward-9
+28.147998606146: Flushed neuron :- :reward-4
+28.147998606146: Flushed neuron :- :reward-8
+28.147998606146: interest calculated for :reward-7 to be = 0.4673443423934834
+28.147998606146: interest calculated for :reward-1 to be = 0.48892897350557285
+28.147998606146: interest calculated for :reward-6 to be = 0.4101846715772122
+28.147998606146: interest calculated for :reward-2 to be = 0.4776912681994802
+28.147998606146594: Flushed neuron :- :reward-6
+28.147998606146594: Activated :reward-7
+28.147998606146594: Flushed neuron :- :reward-1
+28.147998606146594: Flushed neuron :- :reward-7
+28.147998606146594: Flushed neuron :- :reward-2
+28.147998606146594: interest calculated for :reward-5 to be = 0.3701719702335069
+28.147998606146594: Activated :reward-5
+28.147998606146594: Flushed neuron :- :reward-5
+28.147998606206226: Deactivated :reward-9
+28.147998606206226: Deactivated :reward-7
+28.147998606206226: Deactivated :reward-5
+28.14799860733864: Activated :reward-9
+28.147998607339236: Flushed neuron :- :reward-9
+28.147998607339236: interest calculated for :reward-4 to be = 0.43159514265841636
+28.147998607339236: interest calculated for :reward-3 to be = 0.4604174284142604
+28.147998607339236: interest calculated for :reward-2 to be = 0.4776912681994802
+28.147998607339236: interest calculated for :reward-8 to be = 0.41416739902446076
+28.147998607339236: interest calculated for :reward-7 to be = 0.4673443423934834
+28.147998607339236: interest calculated for :reward-1 to be = 0.48892897350557285
+28.147998607339236: interest calculated for :reward-6 to be = 0.4101846715772122
+28.147998607339236: Flushed neuron :- :reward-4
+28.147998607339236: Flushed neuron :- :reward-3
+28.147998607339236: Activated :reward-2
+28.147998607339236: Flushed neuron :- :reward-8
+28.147998607339236: Activated :reward-7
+28.147998607339236: Activated :reward-1
+28.147998607339236: Activated :reward-6
+28.147998607339236: Flushed neuron :- :reward-2
+28.147998607339236: Flushed neuron :- :reward-1
+28.147998607339236: Flushed neuron :- :reward-7
+28.147998607339236: Flushed neuron :- :reward-6
+28.147998607339236: interest calculated for :reward-5 to be = 0.40890099024349613
+28.147998607339236: Activated :reward-5
+28.147998607339236: Flushed neuron :- :reward-5
+28.14799860739887: Deactivated :reward-9
+28.14799860739887: Deactivated :reward-6
+28.14799860739887: Deactivated :reward-7
+28.14799860739887: Deactivated :reward-2
+28.14799860739887: Deactivated :reward-1
+28.14799860739887: Deactivated :reward-5
+28.147998608531875: Activated :reward-9
+28.147998608531875: Activated :reward-3
+28.147998608532472: interest calculated for :reward-2 to be = 0.4786946440111412
+28.147998608531875: Flushed neuron :- :reward-4
+28.147998608532472: interest calculated for :reward-7 to be = 0.47013228584785927
+28.147998608532472: interest calculated for :reward-8 to be = 0.41666966359255564
+28.147998608532472: interest calculated for :reward-1 to be = 0.5086917149368431
+28.147998608532472: Flushed neuron :- :reward-2
+28.147998608532472: Flushed neuron :- :reward-3
+28.147998608532472: Activated :reward-7
+28.147998608532472: Flushed neuron :- :reward-8
+28.147998608532472: Flushed neuron :- :reward-1
+28.147998608532472: Flushed neuron :- :reward-7
+28.147998608532472: Flushed neuron :- :reward-9
+28.147998608532472: interest calculated for :reward-5 to be = 0.3780538798837401
+28.147998608532472: interest calculated for :reward-6 to be = 0.42733116648268404
+28.147998608532472: Flushed neuron :- :reward-5
+28.147998608532472: Activated :reward-6
+28.147998608532472: Flushed neuron :- :reward-6
+28.147998608592104: Deactivated :reward-7
+28.147998608592104: Deactivated :reward-3
+28.147998608592104: Deactivated :reward-9
+28.147998608592104: Deactivated :reward-6
+28.147998609724517: Activated :reward-9
+28.147998609724517: interest calculated for :reward-2 to be = 0.4776912681994802
+28.147998609724517: interest calculated for :reward-7 to be = 0.4673443423934834
+28.147998609724517: interest calculated for :reward-8 to be = 0.41416739902446076
+28.147998609724517: interest calculated for :reward-3 to be = 0.4604174284142604
+28.147998609724517: interest calculated for :reward-1 to be = 0.48892897350557285
+28.147998609724517: interest calculated for :reward-6 to be = 0.4101846715772122
+28.147998609724517: Flushed neuron :- :reward-9
+28.147998609724517: Flushed neuron :- :reward-1
+28.147998609724517: Flushed neuron :- :reward-7
+28.147998609724517: Flushed neuron :- :reward-8
+28.147998609724517: Flushed neuron :- :reward-6
+28.147998609724517: Activated :reward-3
+28.147998609724517: interest calculated for :reward-4 to be = 0.43159514265841636
+28.147998609724517: Activated :reward-2
+28.147998609724517: Flushed neuron :- :reward-4
+28.147998609724517: Flushed neuron :- :reward-2
+28.147998609724517: Flushed neuron :- :reward-3
+28.147998609724517: interest calculated for :reward-5 to be = 0.3808802131397578
+28.147998609725114: Activated :reward-5
+28.147998609725114: Flushed neuron :- :reward-5
+28.147998609784743: Deactivated :reward-3
+28.147998609784743: Deactivated :reward-2
+28.147998609784743: Deactivated :reward-9
+28.147998609784743: Deactivated :reward-5
+28.147998610917156: Activated :reward-9
+28.147998610917156: Activated :reward-3
+28.147998610917156: interest calculated for :reward-8 to be = 0.41666966359255564
+28.147998610917156: interest calculated for :reward-4 to be = 0.45133660725829383
+28.147998610917753: interest calculated for :reward-7 to be = 0.47013228584785927
+28.147998610917753: interest calculated for :reward-2 to be = 0.4786946440111412
+28.147998610917753: interest calculated for :reward-1 to be = 0.5086917149368431
+28.147998610917753: Activated :reward-8
+28.147998610917753: Flushed neuron :- :reward-3
+28.147998610917753: Activated :reward-4
+28.147998610917753: Activated :reward-2
+28.147998610917753: Flushed neuron :- :reward-1
+28.147998610917753: Flushed neuron :- :reward-8
+28.147998610917753: Flushed neuron :- :reward-4
+28.147998610917753: Flushed neuron :- :reward-2
+28.147998610917753: Flushed neuron :- :reward-9
+28.147998610917753: Flushed neuron :- :reward-7
+28.147998610917753: interest calculated for :reward-6 to be = 0.4544566541307003
+28.147998610917753: interest calculated for :reward-5 to be = 0.4034595621757135
+28.147998610917753: Activated :reward-6
+28.147998610917753: Activated :reward-5
+28.147998610917753: Flushed neuron :- :reward-6
+28.147998610917753: Flushed neuron :- :reward-5
+28.147998610977385: Deactivated :reward-2
+28.147998610977385: Deactivated :reward-8
+28.147998610977385: Deactivated :reward-6
+28.147998610977385: Deactivated :reward-3
+28.147998610977385: Deactivated :reward-4
+28.147998610977385: Deactivated :reward-5
+28.147998610977385: Deactivated :reward-9
+28.147998612110392: Activated :reward-9
+28.147998612110392: Flushed neuron :- :reward-9
+28.147998612110392: interest calculated for :reward-4 to be = 0.43159514265841636
+28.147998612110392: interest calculated for :reward-3 to be = 0.4604174284142604
+28.147998612110392: Flushed neuron :- :reward-4
+28.147998612110392: interest calculated for :reward-8 to be = 0.41416739902446076
+28.147998612110392: interest calculated for :reward-2 to be = 0.4776912681994802
+28.147998612110392: Activated :reward-3
+28.147998612110392: Flushed neuron :- :reward-8
+28.147998612110392: interest calculated for :reward-7 to be = 0.4673443423934834
+28.147998612110392: Activated :reward-2
+28.147998612110392: Flushed neuron :- :reward-3
+28.147998612110392: Flushed neuron :- :reward-2
+28.147998612110392: Flushed neuron :- :reward-7
+28.147998612110392: interest calculated for :reward-1 to be = 0.5247063606918206
+28.147998612110392: interest calculated for :reward-5 to be = 0.3808802131397578
+28.147998612110392: interest calculated for :reward-6 to be = 0.42443536110252944
+28.14799861211099: Flushed neuron :- :reward-6
+28.14799861211099: Flushed neuron :- :reward-5
+28.14799861211099: Activated :reward-1
+28.14799861211099: Flushed neuron :- :reward-1
+28.147998612170024: Deactivated :reward-9
+28.14799861217062: Deactivated :reward-2
+28.14799861217062: Deactivated :reward-3
+28.14799861217062: Deactivated :reward-1
+28.147998613303034: Flushed neuron :- :reward-9
+28.147998613303034: Activated :reward-3
+28.147998613303034: interest calculated for :reward-4 to be = 0.4316766008056493
+28.147998613303034: Flushed neuron :- :reward-3
+28.147998613303034: interest calculated for :reward-2 to be = 0.4640529259212887
+28.147998613303034: interest calculated for :reward-8 to be = 0.39682535680458053
+28.14799861330363: Activated :reward-4
+28.14799861330363: interest calculated for :reward-1 to be = 0.5080510490416537
+28.14799861330363: interest calculated for :reward-7 to be = 0.45944742811761774
+28.14799861330363: Activated :reward-2
+28.14799861330363: Flushed neuron :- :reward-4
+28.14799861330363: Flushed neuron :- :reward-2
+28.14799861330363: Flushed neuron :- :reward-1
+28.14799861330363: Activated :reward-7
+28.14799861330363: Activated :reward-8
+28.14799861330363: Flushed neuron :- :reward-7
+28.14799861330363: Flushed neuron :- :reward-8
+28.14799861330363: interest calculated for :reward-5 to be = 0.40151602525048613
+28.14799861330363: interest calculated for :reward-6 to be = 0.4420652521107052
+28.14799861330363: Activated :reward-5
+28.14799861330363: Flushed neuron :- :reward-6
+28.14799861330363: Flushed neuron :- :reward-5
+28.147998613363264: Deactivated :reward-3
+28.147998613363264: Deactivated :reward-2
+28.147998613363264: Deactivated :reward-4
+28.147998613363264: Deactivated :reward-7
+28.147998613363264: Deactivated :reward-8
+28.147998613363264: Deactivated :reward-5
+28.14799861398284: Activated :reward-9
+28.147998613983436: Flushed neuron :- :reward-9
+28.147998613983436: interest calculated for :reward-8 to be = 0.41416739902446076
+28.147998613983436: interest calculated for :reward-7 to be = 0.4673443423934834
+28.147998613983436: interest calculated for :reward-3 to be = 0.4604174284142604
+28.147998613983436: interest calculated for :reward-4 to be = 0.43159514265841636
+28.147998613983436: interest calculated for :reward-2 to be = 0.4776912681994802
+28.147998613983436: Activated :reward-8
+28.147998613983436: Flushed neuron :- :reward-8
+28.147998613983436: Activated :reward-7
+28.147998613983436: Flushed neuron :- :reward-4
+28.147998613983436: Activated :reward-3
+28.147998613983436: Activated :reward-2
+28.147998613983436: interest calculated for :reward-1 to be = 0.48892897350557285
+28.147998613983436: Flushed neuron :- :reward-7
+28.147998613983436: Flushed neuron :- :reward-3
+28.147998613983436: Flushed neuron :- :reward-2
+28.147998613983436: Activated :reward-1
+28.147998613983436: interest calculated for :reward-6 to be = 0.4450654325114921
+28.147998613983436: Flushed neuron :- :reward-1
+28.147998613983436: interest calculated for :reward-5 to be = 0.4162043950322665
+28.147998613983436: Flushed neuron :- :reward-6
+28.147998613984033: Flushed neuron :- :reward-5
+28.14799861404307: Deactivated :reward-9
+28.14799861404307: Deactivated :reward-8
+28.14799861404307: Deactivated :reward-2
+28.14799861404307: Deactivated :reward-3
+28.14799861404307: Deactivated :reward-7
+28.147998614043665: Deactivated :reward-1
+28.147998615176075: Flushed neuron :- :reward-3
+28.147998615176075: Activated :reward-9
+28.147998615176075: interest calculated for :reward-8 to be = 0.41416739902446076
+28.147998615176075: Flushed neuron :- :reward-9
+28.147998615176075: interest calculated for :reward-2 to be = 0.4776912681994802
+28.147998615176075: Flushed neuron :- :reward-8
+28.147998615176075: Activated :reward-2
+28.147998615176075: interest calculated for :reward-4 to be = 0.43159514265841636
+28.147998615176075: interest calculated for :reward-1 to be = 0.48892897350557285
+28.147998615176075: interest calculated for :reward-7 to be = 0.4673443423934834
+28.147998615176075: Flushed neuron :- :reward-2
+28.147998615176075: Flushed neuron :- :reward-4
+28.147998615176075: Flushed neuron :- :reward-1
+28.147998615176075: Activated :reward-7
+28.14799861517667: interest calculated for :reward-6 to be = 0.4141087357761109
+28.14799861517667: Flushed neuron :- :reward-7
+28.14799861517667: Flushed neuron :- :reward-6
+28.14799861517667: interest calculated for :reward-5 to be = 0.3781292640025496
+28.14799861517667: Activated :reward-5
+28.14799861517667: Flushed neuron :- :reward-5
+28.147998615235707: Deactivated :reward-9
+28.147998615236304: Deactivated :reward-2
+28.147998615236304: Deactivated :reward-7
+28.147998615236304: Deactivated :reward-5
+28.147998616368717: Flushed neuron :- :reward-3
+28.147998616368717: Flushed neuron :- :reward-4
+28.147998616368717: Flushed neuron :- :reward-8
+28.147998616368717: Flushed neuron :- :reward-9
+28.147998616368717: Flushed neuron :- :reward-7
+28.147998616368717: Flushed neuron :- :reward-2
+28.147998616368717: Activated :reward-1
+28.147998616368717: Flushed neuron :- :reward-1
+28.147998616368717: interest calculated for :reward-6 to be = 0.39548449304188643
+28.147998616368717: Flushed neuron :- :reward-6
+28.147998616368717: interest calculated for :reward-5 to be = 0.37186519143635877
+28.14799861636931: Activated :reward-5
+28.14799861636931: Flushed neuron :- :reward-5
+28.14799861642835: Deactivated :reward-1
+28.147998616428943: Deactivated :reward-5
+28.147998617561953: Activated :reward-4
+28.147998617561953: Flushed neuron :- :reward-9
+28.147998617561953: Activated :reward-3
+28.147998617561953: Activated :reward-8
+28.147998617561953: Flushed neuron :- :reward-8
+28.147998617561953: Flushed neuron :- :reward-3
+28.147998617561953: Flushed neuron :- :reward-4
+28.147998617561953: interest calculated for :reward-1 to be = 0.5254792917424085
+28.147998617561953: interest calculated for :reward-7 to be = 0.4879416115486272
+28.147998617561953: Flushed neuron :- :reward-7
+28.147998617561953: interest calculated for :reward-6 to be = 0.4381411879118065
+28.147998617561953: interest calculated for :reward-5 to be = 0.38842777096841846
+28.147998617561953: interest calculated for :reward-2 to be = 0.47479077101054057
+28.147998617561953: Activated :reward-6
+28.147998617561953: Flushed neuron :- :reward-5
+28.147998617561953: Activated :reward-2
+28.147998617561953: Flushed neuron :- :reward-6
+28.147998617561953: Flushed neuron :- :reward-2
+28.147998617561953: Activated :reward-1
+28.147998617561953: Flushed neuron :- :reward-1
+28.147998617621585: Deactivated :reward-8
+28.147998617621585: Deactivated :reward-3
+28.147998617621585: Deactivated :reward-4
+28.147998617621585: Deactivated :reward-6
+28.147998617621585: Deactivated :reward-2
+28.147998617621585: Deactivated :reward-1
+28.147998618754592: Flushed neuron :- :reward-8
+28.147998618754592: Activated :reward-9
+28.147998618754592: interest calculated for :reward-1 to be = 0.48892897350557285
+28.147998618754592: interest calculated for :reward-6 to be = 0.4101846715772122
+28.147998618754592: Flushed neuron :- :reward-9
+28.147998618754592: Activated :reward-1
+28.147998618754592: Flushed neuron :- :reward-6
+28.147998618754592: Flushed neuron :- :reward-3
+28.147998618754592: Flushed neuron :- :reward-1
+28.147998618754592: Flushed neuron :- :reward-4
+28.147998618754592: interest calculated for :reward-5 to be = 0.37893968887461116
+28.147998618754592: Flushed neuron :- :reward-5
+28.147998618754592: interest calculated for :reward-7 to be = 0.4673443423934834
+28.147998618754592: Activated :reward-7
+28.147998618754592: interest calculated for :reward-2 to be = 0.4776912681994802
+28.147998618754592: Flushed neuron :- :reward-7
+28.147998618754592: Activated :reward-2
+28.14799861875519: Flushed neuron :- :reward-2
+28.14799861881482: Deactivated :reward-7
+28.147998618814224: Deactivated :reward-9
+28.147998618814224: Deactivated :reward-1
+28.14799861881482: Deactivated :reward-2
+28.147998619947234: Flushed neuron :- :reward-9
+28.147998619947234: Flushed neuron :- :reward-3
+28.147998619947234: Flushed neuron :- :reward-8
+28.147998619947234: Activated :reward-4
+28.147998619947234: Flushed neuron :- :reward-4
+28.147998619947234: interest calculated for :reward-1 to be = 0.4899169628902882
+28.14799861994783: interest calculated for :reward-6 to be = 0.4082856494506212
+28.14799861994783: interest calculated for :reward-2 to be = 0.4719303076688984
+28.14799861994783: Flushed neuron :- :reward-1
+28.14799861994783: interest calculated for :reward-5 to be = 0.36425131909283076
+28.14799861994783: interest calculated for :reward-7 to be = 0.4702501410602511
+28.14799861994783: Flushed neuron :- :reward-6
+28.14799861994783: Activated :reward-2
+28.14799861994783: Flushed neuron :- :reward-5
+28.14799861994783: Flushed neuron :- :reward-7
+28.14799861994783: Flushed neuron :- :reward-2
+28.147998620007463: Deactivated :reward-4
+28.147998620007463: Deactivated :reward-2
+28.14799862114047: Activated :reward-9
+28.14799862114047: interest calculated for :reward-3 to be = 0.4604174284142604
+28.14799862114047: interest calculated for :reward-4 to be = 0.43159514265841636
+28.14799862114047: interest calculated for :reward-2 to be = 0.4776912681994802
+28.14799862114047: interest calculated for :reward-8 to be = 0.41416739902446076
+28.14799862114047: Flushed neuron :- :reward-9
+28.14799862114047: Flushed neuron :- :reward-8
+28.14799862114047: Flushed neuron :- :reward-2
+28.14799862114047: Activated :reward-4
+28.14799862114047: Activated :reward-3
+28.14799862114047: interest calculated for :reward-7 to be = 0.4673443423934834
+28.14799862114047: Flushed neuron :- :reward-4
+28.14799862114047: Flushed neuron :- :reward-3
+28.14799862114047: Flushed neuron :- :reward-7
+28.14799862114047: interest calculated for :reward-1 to be = 0.48892897350557285
+28.14799862114047: interest calculated for :reward-5 to be = 0.37920772618131643
+28.14799862114047: interest calculated for :reward-6 to be = 0.4378235463760879
+28.14799862114047: Activated :reward-1
+28.14799862114047: Activated :reward-5
+28.14799862114047: Activated :reward-6
+28.14799862114047: Flushed neuron :- :reward-5
+28.14799862114047: Flushed neuron :- :reward-6
+28.14799862114047: Flushed neuron :- :reward-1
+28.147998621200102: Deactivated :reward-9
+28.147998621200102: Deactivated :reward-4
+28.147998621200102: Deactivated :reward-3
+28.147998621200102: Deactivated :reward-5
+28.147998621200102: Deactivated :reward-1
+28.147998621200102: Deactivated :reward-6
+28.14799862233311: Flushed neuron :- :reward-9
+28.14799862233311: Activated :reward-3
+28.14799862233311: Activated :reward-4
+28.14799862233311: Flushed neuron :- :reward-4
+28.14799862233311: Flushed neuron :- :reward-3
+28.14799862233311: interest calculated for :reward-8 to be = 0.4012775918409199
+28.14799862233311: interest calculated for :reward-7 to be = 0.473038084514627
+28.14799862233311: interest calculated for :reward-2 to be = 0.4729336834805592
+28.147998622333706: Activated :reward-8
+28.147998622333706: interest calculated for :reward-1 to be = 0.5096797043215584
+28.147998622333706: Flushed neuron :- :reward-7
+28.147998622333706: interest calculated for :reward-6 to be = 0.42202220956656633
+28.147998622333706: Flushed neuron :- :reward-8
+28.147998622333706: Flushed neuron :- :reward-2
+28.147998622333706: Activated :reward-1
+28.147998622333706: Activated :reward-6
+28.147998622333706: Flushed neuron :- :reward-1
+28.147998622333706: interest calculated for :reward-5 to be = 0.4023264501225477
+28.147998622333706: Flushed neuron :- :reward-6
+28.147998622333706: Activated :reward-5
+28.147998622333706: Flushed neuron :- :reward-5
+28.147998622393338: Deactivated :reward-4
+28.147998622393338: Deactivated :reward-3
+28.147998622393338: Deactivated :reward-8
+28.147998622393338: Deactivated :reward-1
+28.147998622393338: Deactivated :reward-6
+28.147998622393338: Deactivated :reward-5
+28.14799862352575: Activated :reward-3
+28.14799862352575: Activated :reward-9
+28.14799862352575: Flushed neuron :- :reward-9
+28.14799862352575: Flushed neuron :- :reward-3
+28.14799862352575: interest calculated for :reward-4 to be = 0.45133660725829383
+28.14799862352575: interest calculated for :reward-8 to be = 0.41666966359255564
+28.14799862352575: interest calculated for :reward-2 to be = 0.4786946440111412
+28.14799862352575: interest calculated for :reward-7 to be = 0.47013228584785927
+28.14799862352575: Flushed neuron :- :reward-4
+28.14799862352575: Flushed neuron :- :reward-2
+28.14799862352575: Activated :reward-8
+28.14799862352575: interest calculated for :reward-1 to be = 0.5086917149368431
+28.14799862352575: Flushed neuron :- :reward-7
+28.14799862352575: Flushed neuron :- :reward-8
+28.14799862352575: interest calculated for :reward-6 to be = 0.44004021003839766
+28.14799862352575: Flushed neuron :- :reward-1
+28.14799862352575: Activated :reward-6
+28.14799862352575: interest calculated for :reward-5 to be = 0.38921746159606957
+28.14799862352575: Flushed neuron :- :reward-6
+28.14799862352575: Activated :reward-5
+28.147998623526348: Flushed neuron :- :reward-5
+28.14799862358121: Connecting :1qqgaqswith :reward-9
+28.14799862358121: Connecting :1qqgaqswith :reward-3
+28.14799862358121: Connecting :1qqgaqswith :reward-4
+28.14799862358121: Connecting :1qqgaqswith :reward-8
+28.14799862358121: Connecting :1qqgaqswith :reward-2
+28.14799862358121: Connecting :1qqgaqswith :reward-7
+28.14799862358121: Connecting :1qqgaqswith :reward-1
+28.14799862358121: Connecting :1qqgaqswith :reward-6
+28.14799862358121: Connecting :1qqgaqswith :reward-5
+28.14799862358121: Connecting :65r7bwith :reward-9
+28.14799862358121: Connecting :65r7bwith :reward-3
+28.14799862358121: Connecting :65r7bwith :reward-4
+28.14799862358121: Connecting :65r7bwith :reward-8
+28.14799862358121: Connecting :65r7bwith :reward-2
+28.14799862358121: Connecting :65r7bwith :reward-7
+28.14799862358121: Connecting :65r7bwith :reward-1
+28.14799862358121: Connecting :65r7bwith :reward-6
+28.14799862358121: Connecting :65r7bwith :reward-5
+28.14799862358121: Connecting :6i102with :reward-9
+28.147998623581806: Connecting :6i102with :reward-3
+28.147998623581806: Connecting :6i102with :reward-4
+28.147998623581806: Connecting :6i102with :reward-8
+28.147998623581806: Connecting :6i102with :reward-2
+28.147998623581806: Connecting :6i102with :reward-7
+28.147998623581806: Connecting :6i102with :reward-1
+28.147998623581806: Connecting :6i102with :reward-6
+28.147998623581806: Connecting :6i102with :reward-5
+28.147998623581806: Connecting :1qj7o4kwith :reward-9
+28.147998623581806: Connecting :1qj7o4kwith :reward-3
+28.147998623581806: Connecting :1qj7o4kwith :reward-4
+28.147998623581806: Connecting :1qj7o4kwith :reward-8
+28.147998623581806: Connecting :1qj7o4kwith :reward-2
+28.147998623581806: Connecting :1qj7o4kwith :reward-7
+28.147998623581806: Connecting :1qj7o4kwith :reward-1
+28.147998623581806: Connecting :1qj7o4kwith :reward-6
+28.147998623581806: Connecting :1qj7o4kwith :reward-5
+28.147998623585384: Deactivated :reward-9
+28.147998623585384: Deactivated :reward-3
+28.147998623585384: Deactivated :reward-8
+28.14799862358598: Deactivated :reward-6
+28.14799862358598: Deactivated :reward-5
+28.14799862471839: Activated :reward-9
+28.14799862471839: interest calculated for :reward-8 to be = 0.4043291635227997
+28.14799862471839: interest calculated for :reward-4 to be = 0.44200146293246906
+28.14799862471839: interest calculated for :reward-2 to be = 0.46808855736223587
+28.14799862471839: Flushed neuron :- :reward-8
+28.14799862471839: Activated :reward-4
+28.14799862471839: Flushed neuron :- :reward-2
+28.14799862471839: Flushed neuron :- :reward-9
+28.14799862471839: Flushed neuron :- :reward-4
+28.14799862471839: interest calculated for :reward-1 to be = 0.4903074111710783
+28.14799862471839: interest calculated for :reward-3 to be = 0.4494632233208519
+28.14799862471839: Activated :reward-3
+28.147998624718987: Flushed neuron :- :reward-3
+28.147998624718987: Activated :reward-1
+28.147998624718987: interest calculated for :reward-6 to be = 0.44611151937485993
+28.147998624718987: Flushed neuron :- :reward-1
+28.147998624718987: Flushed neuron :- :reward-6
+28.14799862471839: interest calculated for :reward-7 to be = 0.44196235339235157
+28.147998624718987: Flushed neuron :- :reward-7
+28.147998624718987: interest calculated for :reward-5 to be = 0.40165587488198445
+28.147998624718987: Activated :reward-5
+28.147998624718987: Flushed neuron :- :reward-5
+28.14799862477862: Deactivated :reward-9
+28.14799862477862: Deactivated :reward-4
+28.14799862477862: Deactivated :reward-1
+28.14799862477862: Deactivated :reward-3
+28.14799862477862: Deactivated :reward-5
