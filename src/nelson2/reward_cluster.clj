@@ -1,6 +1,6 @@
-(ns nelson2.reward-cluster
+(ns nelson2.reward_cluster
   (:gen-class)(:use [clojure.string :only (index-of)])
-  (:require [nelson2.reward-log :as reward-log]
+  (:require [nelson2.reward_log :as reward-log]
             [clojure.java.io :as io]
             [nelson2.brain :as brain]
             [clojure.edn :as edn]
@@ -9,7 +9,13 @@
 
 (defrecord reward-neurons [state connections] :load-ns true)
 (def personality (atom {}))
-(def params {:number-of-reward-neurons (atom 10), :base-neuron-interest (atom 0.5),
+
+
+"number-of-reward-neurons :- number of reward neurons"
+"base-neuron-interest :- default probability of excitation"
+"reward-neuron-sleep :- time for which the reward neuron stays activated"
+"manager-latency :- interval for which the background recruiting of threads for managing all reward neurons"
+(def params {:number-of-reward-neurons (atom 100), :base-neuron-interest (atom 0.5),
              :reward-neuron-sleep (atom 100), :manager-latency (atom 2000)})
 
 (defn get-random-weights []

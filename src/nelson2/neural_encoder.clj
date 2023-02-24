@@ -1,4 +1,4 @@
-(ns nelson2.neural-encoder
+(ns nelson2.neural_encoder
   (:require [nelson2.utility :as utility]
             [nelson2.neural_processes :as neural-processes]
             ) (:gen-class))

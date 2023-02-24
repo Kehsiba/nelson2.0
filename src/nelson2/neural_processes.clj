@@ -1,5 +1,5 @@
 (ns nelson2.neural_processes
-  (:require [nelson2.brain :as brain] [nelson2.reward-log :as reward-log])
+  (:require [nelson2.brain :as brain] [nelson2.reward_log :as reward-log])
   (:gen-class)
   (:require [nelson2.weight_update :as weight-update]
             [nelson2.log :as log]
@@ -19,7 +19,6 @@
   (doseq [key neuron-ids] (when (not= nil (key @brain/neural-cluster))(if (= 0 @(:state (get @brain/neural-cluster key)))
                                                                          (do
                                                                           (swap! (:state (get @brain/neural-cluster key)) (fn [_] 1))
-                                                                          ;(println "activated " key)
                                                                           (log/log (str "Activated " key))
                                                                           ))))
 
@@ -63,7 +62,6 @@
   "update neurons"
   "Takes a set of ids and then updates the weights of the neurons"
   (activate-neurons neuron-ids)
-  ;;(println @brain/neural-cluster)
   "update the coordinates of the neurons"
   (let [pairings (partition 2 (interleave neuron-ids (rest neuron-ids)) )]
     (doseq [pair pairings]

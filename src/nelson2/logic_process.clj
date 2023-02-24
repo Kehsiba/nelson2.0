@@ -1,11 +1,19 @@
 (ns nelson2.logic_process
   (:require [nelson2.log :as log]
             [nelson2.utility :as utility] [nelson2.neural_processes :as neural-processes] [nelson2.log :as log]
-           [nelson2.logic-remember :as logic-remember] [nelson2.reward-moderator :as reward-moderator] [nelson2.brain :as brain]))
+           [nelson2.logic_remember :as logic-remember] [nelson2.reward_moderator :as reward-moderator] [nelson2.text_input_interface :as text-input-interface] [nelson2.brain :as brain]))
 "Take the brain and the reward center"
 "Given a fixed set of neurons which remain excited- make all possible conclusions"
 "extract the concept neurons of the given neurons first"
-(def params {:logic-thread-timeout (atom 1000) :logic-thread-count-sup (atom 10) :temporal-correlation-delay (atom 5000)})
+
+
+"logic-thread-timeout :- time between successive logic threads that will be constructed"
+"logic-thread-count-sup :- maximum number of neuron-ids in a logic thread"
+"temporal-correlation-delay :- temporal between two correlated events"
+(def params {
+             :logic-thread-timeout (atom 1000)
+             :logic-thread-count-sup (atom 10)
+             :temporal-correlation-delay (atom 5000)})
 (defn deactivate-all [neuron-ids]
   "takes a set of neurons and deactivates them"
   (comment
@@ -63,10 +71,6 @@
 (defn activate-concept-tree [neuron-ids]
   "take the set of neurons and then activate the entire concept hierarchy"
   (activate-all neuron-ids))
-
-(defn deactivate-concept-tree [neuron-ids]
-  "take the set of neurons and then deactivate the entire concept hierarchy"
-  (activate-all neuron-ids))
 (defn filter-dendrites [neuron-id]
   "get dendrites of the same concept level"
   (filter (fn [x] (if (= (Math/round (utility/concept-level? x)) (Math/round (utility/concept-level? neuron-id))) true false))
@@ -76,6 +80,9 @@
   "decides how long the logic thread should be"
   (if (not= (count @logic-thread) @(:logic-thread-count-sup params)) true false))
 
+(defn select-nth-logic-element [live-intersections]
+  (rand-nth live-intersections)
+  )
 (defn construct-logic-thread [concept-neuron-id, logic-thread]
   "Takes the initial concept neuron and returns a directed graph of concepts"
   (when (thread-length-regulator logic-thread)
@@ -84,7 +91,7 @@
         ("no more concepts to activate" concept-neuron-id)
         (let [live-intersections (vec (clojure.set/intersection (set (keys (neural-processes/get-active-neurons))) (set filtered-concepts)))]
           (if (not= 0 (count live-intersections))
-            (let [selection (rand-nth live-intersections)]
+            (let [selection (select-nth-logic-element live-intersections)]
               (swap! logic-thread (fn [_] (conj @logic-thread selection)))
               (Thread/sleep @(:logic-thread-timeout params))
               (construct-logic-thread selection logic-thread)))
@@ -102,7 +109,7 @@
   "Given the logic threads find the lower concept representations i.e the byte representation of the concepts"
   "all the neurons are at the same concept level"
   (let [concept-level (mapv #(int (Math/floor (utility/concept-level? %))) logic-thread)]
-    (println (str "Concept levels "  concept-level))
+    ;;(println (str "Concept levels "  concept-level))
     (mapv #(keyword (utility/dec2base32 %)) (flatten (map #(utility/de-compress [(utility/base32todec (name %))] (first concept-level)) logic-thread)))))
 
 (defn logical-inference [neuron-ids]
@@ -122,7 +129,7 @@
             "deactivate logic thread"
             (deactivate-all @logic-thread)
 
-            (println (str "Report: " @report))
+            ;;(println (str "Report: " @report))
             (swap! report (fn [_] (conj @report thread-table)))
             )))
       (log/log "Logical inference report generated"
@@ -142,6 +149,11 @@
 
 (defn sample-response-mode [question]
   "This is called when the mode is to get a response to a question"
-
-
+  (println "question = " question)
+   "parse the input"
+  (text-input-interface/parse-text question)
+  "get the response"
+  (let [x (mapv #(logical-inference [%]) (keys (neural-processes/get-active-neurons)))]
+    (spit "neural_network_response.txt" (prn-str x))
+    )
   )

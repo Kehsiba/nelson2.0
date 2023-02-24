@@ -1,8 +1,8 @@
-(ns nelson2.employee-handling
+(ns nelson2.employee_handling
   (:require [nelson2.brain :as brain]
             [nelson2.utility :as utility]
-            [nelson2.reward-cluster :as cluster]
-            [nelson2.agent-job-description :as job]
+            [nelson2.reward_cluster :as cluster]
+            [nelson2.agent_job_description :as job]
             [nelson2.log :as log]
             [nelson2.neural_processes :as neural_processes]))
 "consist of a set of agents"
@@ -20,22 +20,11 @@
 
 (defn send-neuron-managers-to-work []
   (doseq [manager (neuron-managers)]
-    ;(println "priority = " (neural_processes/get-neuron-priority (get @manager 0)))
     (if (not= 0 (neural_processes/get-neuron-priority (get @manager 0)))
       (do
         (send manager (fn [x] (job/neuron-manager x)))
-        (Thread/sleep @(:recruiting-latency brain/params))
-        )
+        (Thread/sleep @(:recruiting-latency brain/params)))
       )
-    ;(println "priority = " (neural_processes/get-neuron-priority (get @manager 0)))
-                                     ;(if (not= 0 )
-                                     ;     (println "hi")
-                                     ;  (do
-                                     ;    ;(println "flushing neuron " @manager)
-                                     ;    ;(send manager (fn [x] (job/neuron-manager x)))
-                                     ;    ;(Thread/sleep @(:recruiting-latency brain/params))
-                                     ;  )
-                                     ;)
   )
   )
 

@@ -1,6 +1,6 @@
-(ns nelson2.reward-moderator
-  (:require [nelson2.reward-cluster :as cluster]
-            [nelson2.reward-log :as log]
+(ns nelson2.reward_moderator
+  (:require [nelson2.reward_cluster :as cluster]
+            [nelson2.reward_log :as log]
             [nelson2.brain :as brain])  (:gen-class))
 "calculates the reward and gives feedback to the neuron as if the new pattern increases or decreases the pleasure"
 (defn calc-reward []

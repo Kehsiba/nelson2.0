@@ -3,13 +3,35 @@
             [nelson2.log :as log]
             [clojure.edn :as edn]) (:gen-class))
 
+
+"background-recruiting-latency :- interval for which no background recruiting occurs"
+"dendrite-strength-threshold :- minimum threshold for deletion of dendrite"
+"tuple-sample-latency :- time interval of pausing between selecting tuples for concept creation"
+"recruiting-latency :- time interval between two successive managing of neurons"
+"number-of-concept-engineers :- how many concept engineers to make"
+"neuron-latency :- time it keeps the neuron flushed"
+"concept-engineer-latency :- time between successive concept extractions"
+"concept-cap :- ???????????????????????????????????"
+"base-excitation-probability :- default probability of excitation "
+"time-interval :- see weight-update file for formula"
+"learning-timescale :- see weight-update file for formula"
+"forgetting-timescale :- see weight-update file for formula"
+"latency :- ?????????????????????????????????????"
 (def params {:background-recruiting-latency (atom 3000),
-             :dendrite-strength-threshold (atom 0.1), :tuple-sample-latency (atom 10), :recruiting-latency (atom 1000),
-             :number-of-concept-engineers (atom 4), :neuron-latency (atom 500),
-             :concept-engineer-latency (atom 300), :encoding-base (atom 256),
-             :concept-cap (atom 10),:base-excitation-probability (atom 0.5),
-             :time-interval (atom 0.3), :learning-timescale (atom 0.7), :forgetting-timescale (atom 0.2),
-             :latency (atom 0.3)})
+             :dendrite-strength-threshold (atom 0.1),
+             :tuple-sample-latency (atom 10),
+             :recruiting-latency (atom 1000),
+             :number-of-concept-engineers (atom 4),
+             :neuron-latency (atom 500),
+             :concept-engineer-latency (atom 300),
+             :encoding-base (atom 256)
+             :concept-cap (atom 10)
+             :base-excitation-probability (atom 0.5),
+             :time-interval (atom 0.3),
+             :learning-timescale (atom 0.7),
+             :forgetting-timescale (atom 0.2)
+             :latency (atom 3)
+             })
 
 "create a structure for dendrites and coordinates"
 (defrecord coord [x y z])

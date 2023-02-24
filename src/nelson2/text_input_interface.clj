@@ -1,5 +1,5 @@
-(ns nelson2.text-input-interface
-  (:require [nelson2.neural-encoder :as encoder]
+(ns nelson2.text_input_interface
+  (:require [nelson2.neural_encoder :as encoder]
             [nelson2.brain :as brain]
             [nelson2.log :as log]
             [nelson2.neural_processes :as neural-processes]))

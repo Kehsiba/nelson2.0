@@ -1,7 +1,7 @@
 (ns nelson2.cli_reward (:require
-                         [nelson2.reward-cluster :as cluster]
-                         [nelson2.employee-handling :as handler]
-                         [nelson2.reward-moderator :as moderator]
+                         [nelson2.reward_cluster :as cluster]
+                         [nelson2.employee_handling :as handler]
+                         [nelson2.reward_moderator :as moderator]
                          [nelson2.neural_processes :as neural_processes])
   (:use [clojure.string :only (index-of)])  (:gen-class))
 "The cli for building and probing personalities"

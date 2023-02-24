@@ -1,4 +1,4 @@
-(ns nelson2.reward-log
+(ns nelson2.reward_log
   (:require [clojure.java.io :as io])
   (:import (java.util Date)))
 (defn timestamp []

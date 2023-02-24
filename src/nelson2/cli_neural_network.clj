@@ -1,14 +1,14 @@
 (ns nelson2.cli_neural_network
   (:require [nelson2.brain :as brain]
             [nelson2.neural_processes :as neural-processes]
-            [nelson2.extract-data-features :as extract-data-features]
+            [nelson2.extract_data_features :as extract-data-features]
             [nelson2.cli_logic :as logic-cli]
             [nelson2.utility :as utility]
             [nelson2.cli_reward :as reward-cli]
-            [nelson2.employee-handling :as handler]
+            [nelson2.employee_handling :as handler] [nelson2.reward_cluster :as reward-cluster]
             [nelson2.log :as log]
-            [nelson2.neural-encoder :as neural-encoder]
-            [nelson2.text-input-interface :as text-interface]) (:use [clojure.string :only (index-of)])  (:gen-class))
+            [nelson2.neural_encoder :as neural-encoder]
+            [nelson2.text_input_interface :as text-interface]) (:use [clojure.string :only (index-of)])  (:gen-class))
 
 (defn neural-interaction [text]
 
@@ -60,7 +60,7 @@
     (= command "@quit") (do (shutdown-agents)(log/log "All agents shutdown"))
     ;;(= command "@set focus") (println "Focus ou little piece of shit")
     (= command "@set-concept-cap") (do (print "Enter the cap ~~ ") (flush) (swap! (get brain/params :concept-cap) (fn [_] (let [val (Integer/parseInt (read-line))] val))) (log/log (str "Updated params : " brain/params)))
-    (= command "@connect-residual-neurons") (nelson2.reward-cluster/connect-residual-neurons)
+    (= command "@connect-residual-neurons") (reward-cluster/connect-residual-neurons)
     (= command "@set-latency") (do (print "Enter the latency ~~ ") (flush) (swap! (get brain/params :latency) (fn [_] (let [val (Double/parseDouble (read-line))] val))))
     (= command "@set-timestep") (do (print "Enter the time step size ~~ ") (flush) (swap! (get brain/params :time-interval) (fn [_] (let [val (Double/parseDouble (read-line))] val))))
     (= command "@set-learning-time-scale") (do (print "Enter the learning time scale ~~ ") (flush) (swap! (get brain/params :learning-timescale) (fn [_] (let [val (Double/parseDouble (read-line))] val))))

@@ -1,6 +1,6 @@
-(ns nelson2.agent-job-description
-  (:require [nelson2.neural_processes :as neural-processes] [nelson2.reward-cluster :as cluster] [nelson2.reward-log :as r-log]
-            [nelson2.brain :as brain]  [nelson2.extract-data-features :as extract-concept] [nelson2.log :as log]))
+(ns nelson2.agent_job_description
+  (:require [nelson2.neural_processes :as neural-processes] [nelson2.reward_cluster :as cluster] [nelson2.reward_log :as reward-log]
+            [nelson2.brain :as brain]  [nelson2.extract_data_features :as extract-concept] [nelson2.log :as log]))
 "Has the job description of the agent"
 
 (defn neuron-manager [manager]
@@ -10,15 +10,11 @@
   "check if the neuron is activated"
     (if (= 1 @(:state (get @brain/neural-cluster (key manager))))
         (do
-          ;(println "deactivating " (key manager))
           (neural-processes/deactivate-neuron (key manager))
           )
         )
   (cluster/connect-residual-neurons)
   (neural-processes/gradual-forgetting (key manager))
-  ;(neural-processes/deactivate-neuron (key manager))
-  ;(println "done")
-  ;;(log/log (str "Neuron-manager reporting. ID - " (key manager)))
   )
 (defn concept-engineer []
   "creates concepts"

@@ -1,4 +1,4 @@
-(ns nelson2.logic-remember (:require [nelson2.utility :as utility] [nelson2.brain :as brain]))
+(ns nelson2.logic_remember (:require [nelson2.utility :as utility] [nelson2.brain :as brain]))
 "sample from the brain"
 
 
