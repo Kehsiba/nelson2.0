@@ -275,8 +275,11 @@ def main():
               #print("erwqqg")   
     animate_images()
 
-        
+#plotting a new window
+# 
+#         
 
+plt.figure()
 if __name__ == "__main__":
 
     main()

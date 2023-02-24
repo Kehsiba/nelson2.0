@@ -1,5 +1,6 @@
 (ns nelson2.cli_logic
-  (:require [nelson2.logic_process :as logic-process])
+  (:require [nelson2.logic_process :as logic-process] [nelson2.text_output_interface :as text-output-interface]
+            )
   (:use [clojure.string :only (index-of)] [clojure.edn :as edn]) (:gen-class))
 "CLI for the logic sector"
 
@@ -19,6 +20,7 @@
     (= command "@infer") (do (print "Enter the initial logic thread :- ") (flush)
                              (println  "report : " (logic-process/logical-inference (edn/read-string (read-line)))))
     (= command "@sample-spontaneous") (logic-process/sample-spontaneous-mode)
+    (= command "@parse-output") (do (print "Enter the file name : ") (flush) (text-output-interface/parse-output (read-line)))
     (= command "@sample-response") (do ("Enter a sentence :- ") (flush) (logic-process/sample-response-mode (read-line)))
     (= command "@help") (do (println "rrthui"))
     )

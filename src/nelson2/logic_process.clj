@@ -6,7 +6,6 @@
 "Given a fixed set of neurons which remain excited- make all possible conclusions"
 "extract the concept neurons of the given neurons first"
 (def params {:logic-thread-timeout (atom 1000) :logic-thread-count-sup (atom 10) :temporal-correlation-delay (atom 5000)})
-(def agent1 (agent 0))
 (defn deactivate-all [neuron-ids]
   "takes a set of neurons and deactivates them"
   (comment
@@ -15,7 +14,32 @@
   (map neural-processes/deactivate-neuron neuron-ids)
   (log/log (str "Deactivated logic tree: " neuron-ids))
   )
+(defn causal-correlate-delay-regulator []
+  "control the time delay for temporal correlation"
+  (rand 10)
+  )
+(defn causally-correlate [time-interval]
+  "Correlate causal events separated by time-interval"
+  (let [initial-excitation (vec (keys (neural-processes/get-active-neurons)))]
+    (Thread/sleep time-interval)
+    (let [final-excitation (vec (keys (neural-processes/get-active-neurons)))]
+      "connect initial-excitation to final-excitation"
+      (neural-processes/create-neural-map (flatten (conj initial-excitation final-excitation)))
+      (log/log (str "Causally correlating : " (vec (flatten (conj initial-excitation final-excitation)))))
+      )
 
+    )
+  )
+
+(defn auto-temporal-corr []
+  (causally-correlate (causal-correlate-delay-regulator))
+  (Thread/sleep @(:temporal-correlation-delay params))
+  (pcalls auto-temporal-corr)
+  )
+(defn auto-temporal-corr1 []
+  (auto-temporal-corr)
+
+  )
 
 (defn activate-all [neuron-ids]
   "takes a set of neurons and keeps them activated all the time"
@@ -93,50 +117,28 @@
           (println (str "logic thread: " concept))
           (activate-concept-tree @logic-thread)
           "calculate the reward for each logic-thread"
-          (let [thread-table (merge outcome-list (zipmap [:logic-thread :reward] [logic-thread (reward-moderator/calc-reward)]))]
+          (let [thread-table (merge outcome-list (zipmap [:logic-thread :reward] [@logic-thread (reward-moderator/calc-reward)]))]
 
             "deactivate logic thread"
             (deactivate-all @logic-thread)
 
-            (println (str "Calculated reward: " @logic-thread))
+            (println (str "Report: " @report))
             (swap! report (fn [_] (conj @report thread-table)))
             )))
       (log/log "Logical inference report generated"
                )
-      report))
-  )
-(defn causal-correlate-delay-regulator []
-  "control the time delay for temporal correlation"
-  (rand 10)
-  )
-(defn causally-correlate [time-interval]
-  "Correlate causal events separated by time-interval"
-  (let [initial-excitation (vec (keys (neural-processes/get-active-neurons)))]
-    (Thread/sleep time-interval)
-    (let [final-excitation (vec (keys (neural-processes/get-active-neurons)))]
-      "connect initial-excitation to final-excitation"
-      (neural-processes/create-neural-map (flatten (conj initial-excitation final-excitation)))
-      (log/log (str "Causally correlating : " (vec (flatten (conj initial-excitation final-excitation)))))
-      )
-
-    )
+      @report))
   )
 
-(defn auto-temporal-corr []
-  (causally-correlate (causal-correlate-delay-regulator))
-  (Thread/sleep @(:temporal-correlation-delay params))
-  (pcalls auto-temporal-corr)
-  )
-(defn auto-temporal-corr1 []
-  (auto-temporal-corr)
-
-  )
 
 (defn sample-spontaneous-mode []
   "This is called when the mode is for the AI to come up with something"
-   (spit "neural_network_output.txt" (mapv #(logical-inference [%]) (keys (neural-processes/get-active-neurons))))
-  (log/log "Response obtained for active neurons.")
-  )
+  (log/log "initiating logical report")
+  (let [x (mapv #(logical-inference [%]) (keys (neural-processes/get-active-neurons)))]
+    (spit "neural_network_output.txt" (prn-str x))
+   )
+
+  (log/log "Response obtained for active neurons."))
 
 (defn sample-response-mode [question]
   "This is called when the mode is to get a response to a question"
