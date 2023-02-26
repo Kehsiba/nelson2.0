@@ -17,16 +17,15 @@
 "learning-timescale :- see weight-update file for formula"
 "forgetting-timescale :- see weight-update file for formula"
 "latency :- ?????????????????????????????????????"
-(def params {:background-recruiting-latency (atom 3000),
+(def params {:background-recruiting-latency (atom 1000),
              :dendrite-strength-threshold (atom 0.1),
              :tuple-sample-latency (atom 10),
-             :recruiting-latency (atom 1000),
-             :number-of-concept-engineers (atom 4),
+             :recruiting-latency (atom 800),
+             :number-of-concept-engineers (atom 6),
              :neuron-latency (atom 500),
              :concept-engineer-latency (atom 300),
-             :encoding-base (atom 256)
              :concept-cap (atom 10)
-             :base-excitation-probability (atom 0.5),
+             :base-excitation-probability (atom 0.1),
              :time-interval (atom 0.3),
              :learning-timescale (atom 0.7),
              :forgetting-timescale (atom 0.2)
@@ -64,7 +63,10 @@
 
 (defn createNeuralMap [arr]
   "arr is the set of neurons...lets create the shit"
-  (let [neural-map (if (= 0 @neural-cluster) (map #(create-neuron %) (set arr)) (map #(when (= nil (find @neural-cluster %)) (create-neuron %)) (set arr) ))] (log/log (str "Neural map created using : " (vec arr))) neural-map))
+  (let [neural-map (if (= 0 @neural-cluster)
+                     (map #(create-neuron %) (set arr))
+                     (map #(when (= nil (find @neural-cluster %)) (create-neuron %)) (set arr) ))]
+    (log/log (str "Neural map created using : " (vec arr))) neural-map))
 
 (defn reinit []
   "re-initialize the neural cluster"

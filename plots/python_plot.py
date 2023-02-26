@@ -84,18 +84,7 @@ def processActivatedNeurons(log):
     key = temp[2]
 
     #extract the keys
-
-    # for key in keys:
-
-    #     #print("key = " +key+"concept-level = "+str(concept_level(key)))
-
-    #     if key != " " and key != "":
-
     conceptLevelA_y.append(concept_level(key))
-
-    #print("x = "+str(conceptLevelA_x))
-
-    #print("y = "+str(conceptLevelA_y))
 
     plt.subplot(2,2,1)
     plt.xlabel("time")
@@ -197,9 +186,6 @@ def animate_conceptGraph(i):
         process_conceptCreation(log)
 
         
-
-        
-
     elif log.find("Activated ") != -1:
 
         processActivatedNeurons(log)
@@ -215,7 +201,7 @@ def animate_conceptGraph(i):
 
 
     if i % 100 ==0:
-        plt.savefig("/home/abhishek/IdeaProjects/nelson2.0/plots/after optimization/"+str(i/100)+".png")
+        plt.savefig("/home/abhishek/IdeaProjects/nelson2.0/plots/after optimization/n"+str(i/100)+".png")
         print("Figure saved")
     plt.autoscale()
 
@@ -275,11 +261,7 @@ def main():
               #print("erwqqg")   
     animate_images()
 
-#plotting a new window
-# 
-#         
-
-plt.figure()
+    #reward_analysis()
 if __name__ == "__main__":
 
     main()

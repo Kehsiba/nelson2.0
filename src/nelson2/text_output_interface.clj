@@ -36,7 +36,8 @@
   )
 (defn process-to-characters [list]
   "take the list and print the character"
-  (println "**" (clojure.string/join (map #(char (utility/base32todec (name %))) list)) "**")
+  (println "list = " list)
+  (println "**" (apply str (map #(char (utility/base32todec (name %))) list)) "**")
   )
 (defn parse-line [line]
   (process-to-characters (logic-process/expand-logic-thread (:logic-thread line)))

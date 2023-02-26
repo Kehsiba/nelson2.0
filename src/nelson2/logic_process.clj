@@ -11,7 +11,7 @@
 "logic-thread-count-sup :- maximum number of neuron-ids in a logic thread"
 "temporal-correlation-delay :- temporal between two correlated events"
 (def params {
-             :logic-thread-timeout (atom 1000)
+             :logic-thread-timeout (atom 100)
              :logic-thread-count-sup (atom 10)
              :temporal-correlation-delay (atom 5000)})
 (defn deactivate-all [neuron-ids]
@@ -109,11 +109,11 @@
   "Given the logic threads find the lower concept representations i.e the byte representation of the concepts"
   "all the neurons are at the same concept level"
   (let [concept-level (mapv #(int (Math/floor (utility/concept-level? %))) logic-thread)]
-    ;;(println (str "Concept levels "  concept-level))
     (mapv #(keyword (utility/dec2base32 %)) (flatten (map #(utility/de-compress [(utility/base32todec (name %))] (first concept-level)) logic-thread)))))
 
 (defn logical-inference [neuron-ids]
   "logically infer everything from the data"
+
   (let [inferred-concepts (infer-concept-neurons neuron-ids), outcome-list {}]
     (println (str "inferred neurons: " inferred-concepts))
     "filter the dendrites of each concept in inferred-concepts and start the logic thread for each concept"
