@@ -73,7 +73,7 @@
   (activate-all neuron-ids))
 (defn filter-dendrites [neuron-id]
   "get dendrites of the same concept level"
-  (filter (fn [x] (if (= (Math/round (utility/concept-level? x)) (Math/round (utility/concept-level? neuron-id))) true false))
+  (filter (fn [x] (if (= (utility/concept-level? x) (utility/concept-level? neuron-id)) true false))
           (keys @(:dendrites (get @brain/neural-cluster neuron-id)))))
 
 (defn thread-length-regulator [logic-thread]
@@ -108,8 +108,9 @@
 (defn expand-logic-thread [logic-thread]
   "Given the logic threads find the lower concept representations i.e the byte representation of the concepts"
   "all the neurons are at the same concept level"
-  (let [concept-level (mapv #(int (Math/floor (utility/concept-level? %))) logic-thread)]
-    (mapv #(keyword (utility/dec2base32 %)) (flatten (map #(utility/de-compress [(utility/base32todec (name %))] (first concept-level)) logic-thread)))))
+  ;;(println "logic-thread = " logic-thread)
+  (mapv #(keyword (utility/dec2base32 %)) (flatten (map #(utility/base32todec (name %)) logic-thread)))
+  )
 
 (defn logical-inference [neuron-ids]
   "logically infer everything from the data"

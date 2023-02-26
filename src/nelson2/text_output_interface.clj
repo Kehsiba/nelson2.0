@@ -34,10 +34,17 @@
     )
 
   )
+(defn process-to-characters2 [ele]
+  "takes an array and returns a string"
+  ;;(println ele)
+  (apply str (map #(char (Integer/parseInt %)) ele))
+
+
+  )
 (defn process-to-characters [list]
   "take the list and print the character"
-  (println "list = " list)
-  (println "**" (apply str (map #(char (utility/base32todec (name %))) list)) "**")
+  (println "**"
+           (map #(process-to-characters2 %) (map #(clojure.string/split % #"_") (map #(subs (utility/base32todec (name %)) 1) list))) "**")
   )
 (defn parse-line [line]
   (process-to-characters (logic-process/expand-logic-thread (:logic-thread line)))

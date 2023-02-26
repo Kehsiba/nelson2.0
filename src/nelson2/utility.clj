@@ -17,8 +17,8 @@
   )
 (defn base32todec [N]
   (if (= "_" (str (first (str N))))
-    (Integer/parseInt (apply str (map #(Integer/parseInt % 32) (clojure.string/split (subs N 1) #"_"))))
-    (Integer/parseInt (apply str (map #(Integer/parseInt % 32) (clojure.string/split N #"_"))))
+    (apply str (map #(str "_" %) (map #(Integer/parseInt % 32) (clojure.string/split (subs N 1) #"_"))))
+    (apply str (map #(str "_" %) (map #(Integer/parseInt % 32) (clojure.string/split N #"_"))))
     )
 )
 (defn save-neurons [cluster]

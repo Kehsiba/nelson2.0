@@ -31,9 +31,11 @@
 
 (defn calc-concept [neuron-ids]
   "combines the concepts and returns a bigger concept"
-
+  ;;(println "neuron-ids = " neuron-ids)
+  ;;(println "....... " (utility/compress-data (vec (map #(utility/base32todec (name %)) neuron-ids))))
   (let [concept (utility/dec2base32 (utility/compress-data (vec (map #(utility/base32todec (name %)) neuron-ids))))]
-    (when (< (/ (Math/log (utility/base32todec concept)) (Math/log 256)) @(:concept-cap brain/params))
+    ;;(println "concept = " concept)
+    (when (< (utility/concept-level? concept) @(:concept-cap brain/params))
       (swap! brain/neural-cluster (fn [_] (merge @brain/neural-cluster (into {} (brain/init [(keyword concept)])))))
       (neural-processes/create-neural-map (merge neuron-ids (keyword concept))))
     )
