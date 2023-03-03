@@ -53,7 +53,9 @@
   )
 (defn connection-exists? [parent child]
   "check if the connection exists between parent and child"
-  (if (= nil (find (get (find @brain/neural-cluster parent) :dendrites) child)) false true))
+  ;;(println "parent = " parent " child = " child " neuron = " (find @(get (get @brain/neural-cluster parent) :dendrites) child))
+  (if (= nil (find @(get (get @brain/neural-cluster parent) :dendrites) child)) false true)
+  )
 
 (defn get-neuron [neuron-id]
   (let [neuron (get @brain/neural-cluster neuron-id)] neuron)
@@ -62,15 +64,20 @@
   "update neurons"
   "Takes a set of ids and then updates the weights of the neurons"
   (activate-neurons neuron-ids)
+
   "update the coordinates of the neurons"
   (let [pairings (partition 2 (interleave neuron-ids (rest neuron-ids)) )]
-    (doseq [pair pairings]
-                           (if (connection-exists? (keyword (nth pair 0)) (keyword (nth pair 1)))
-                             (do (weight-update/learn @(get (get @brain/neural-cluster (nth pair 0)) :dendrites) (nth pair 1) brain/params))
+    (doseq [pair pairings]                                  ;;(println "...before.." @(get (get @brain/neural-cluster (nth pair 0)) :dendrites))
+                           (if (connection-exists? (nth pair 0) (nth pair 1))
+                             (do
+                                 (weight-update/learn @(get (get @brain/neural-cluster (nth pair 0)) :dendrites) (nth pair 1) brain/params)
+                                 (log/log (str "Updating weight between " (nth pair 0) " and " (nth pair 1))))
                              (do
                                (swap! (get (get @brain/neural-cluster (nth pair 0)) :dendrites) (fn [_] (assoc @(get (get @brain/neural-cluster (nth pair 0)) :dendrites) (nth pair 1) (atom 0))))
                                (weight-update/learn @(get (get @brain/neural-cluster (nth pair 0)) :dendrites) (nth pair 1) brain/params)
+                               (log/log (str "Initializing weights between " (nth pair 0) " and " (nth pair 1)))
                                ))
+                           ;;(println "...after.." @(get (get @brain/neural-cluster (nth pair 0)) :dendrites))
                            )
 
     )

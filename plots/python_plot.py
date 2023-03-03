@@ -2,8 +2,7 @@
 import math
 import os
 from matplotlib import pyplot as plt
-from matplotlib.animation import FuncAnimation
-import matplotlib.animation as animation
+import reward_analysis as r_anal
 import numpy as np
 
 #define the number of plots
@@ -24,17 +23,11 @@ countConcept = 0
 
  
 
-#next we need to see which concept levels are being activated
-
-def base32todec(n):
-
-    return int(n,32)
+#next we need to see which concept levels are being activate
 
 def concept_level(neuron_id):
 
-    log32 = math.log(base32todec(neuron_id),256)
-
-    return log32        
+    return len(neuron_id.split("_"))        
 
 def process_conceptCreation(log):
 
@@ -71,7 +64,6 @@ def processActivatedNeurons(log):
     temp = log.split(" ")
 
     tempnew = temp[0]
-
     if len(temp) > 3:
 
         for i in range(3,len(temp)):
@@ -81,7 +73,7 @@ def processActivatedNeurons(log):
         
 
     conceptLevelA_x.append(tempnew)
-    key = temp[2]
+    key = temp[2][1:]
 
     #extract the keys
     conceptLevelA_y.append(concept_level(key))
@@ -115,7 +107,6 @@ def processDeactivatedNeurons(log):
     keys = temp[2:]
 
     #extract the keys
-
     for key in keys:
 
         #print("key = " +key)
@@ -123,7 +114,6 @@ def processDeactivatedNeurons(log):
         if key != " " and key != "":
 
             conceptLevelD_y.append(concept_level(key))
-
     sizeArray = [1]*len(conceptLevelD_x)
 
     plt.xlabel("time")
@@ -140,7 +130,6 @@ def process_probMap(log):
     #plot a contour plot of probabilities and concept level
 
     temp = log.split(" ")
-    #print("temp = "+temp)
     probabilities.append(temp[8])
     concept_levels.append(concept_level(temp[5]))
 
@@ -154,7 +143,7 @@ def process_probMap(log):
 def animate_conceptGraph(i):
 
     log = neural_data[i]
-
+    
     log = log.replace(":","")
 
     
@@ -193,7 +182,6 @@ def animate_conceptGraph(i):
         
 
     elif log.find("Deactivated ") != -1:
-
         processDeactivatedNeurons(log)
 
     elif log.find("excitation probability calculated for ") != -1:
@@ -211,28 +199,6 @@ def plot_figs(i):
 
     animate_conceptGraph(i)
 
-def f(x, y):
-    return np.sin(x) + np.cos(y)
-
-def animate_images():
-    fig, ax = plt.subplots()
-    x = np.linspace(0, 2 * np.pi, 120)
-    y = np.linspace(0, 2 * np.pi, 100).reshape(-1, 1)
-
-    # ims is a list of lists, each row is a list of artists to draw in the
-    # current frame; here we are just animating one artist, the image, in
-    # each frame
-    ims = []
-    for i in range(60):
-        x += np.pi / 15.
-        y += np.pi / 20.
-        im = ax.imshow(f(x, y), animated=True)
-        if i == 0:
-            ax.imshow(f(x, y))  # show an initial one first
-        ims.append([im])
-
-    ani = animation.ArtistAnimation(fig, ims, interval=50, blit=True,
-                                repeat_delay=1000)
 
 def main():
 
@@ -253,13 +219,10 @@ def main():
         FileData.close()
 
         if len(neural_data) != 0:
+            for i in range(len(neural_data)):
+                plot_figs(i)
 
-            animation_conceptLevel = FuncAnimation(plt.gcf(),plot_figs,interval=0)
-
-            plt.show()
-
-              #print("erwqqg")   
-    animate_images()
+    r_anal.animate_conceptGraph()         
 
     #reward_analysis()
 if __name__ == "__main__":

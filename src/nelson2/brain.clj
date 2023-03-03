@@ -19,16 +19,16 @@
 "latency :- ?????????????????????????????????????"
 (def params {:background-recruiting-latency (atom 1000),
              :dendrite-strength-threshold (atom 0.1),
-             :tuple-sample-latency (atom 10),
+             :tuple-sample-latency (atom 1000),
              :recruiting-latency (atom 800),
              :number-of-concept-engineers (atom 6),
              :neuron-latency (atom 500),
              :concept-engineer-latency (atom 300),
-             :concept-cap (atom 10)
+             :concept-cap (atom 40)
              :base-excitation-probability (atom 0.1),
-             :time-interval (atom 0.3),
+             :time-interval (atom 0.1),
              :learning-timescale (atom 0.7),
-             :forgetting-timescale (atom 0.2)
+             :forgetting-timescale (atom 0.1)
              :latency (atom 3)
              })
 
