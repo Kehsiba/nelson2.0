@@ -81,6 +81,8 @@
   (if (not= (count @logic-thread) @(:logic-thread-count-sup params)) true false))
 
 (defn select-nth-logic-element [live-intersections]
+  "chooses a random logic element"
+  "implement a greedy algorithm that maximizes reward locally"
   (rand-nth live-intersections)
   )
 (defn construct-logic-thread [concept-neuron-id, logic-thread]

@@ -20,11 +20,11 @@
 (def params {:background-recruiting-latency (atom 1000),
              :dendrite-strength-threshold (atom 0.1),
              :tuple-sample-latency (atom 1000),
-             :recruiting-latency (atom 800),
+             :recruiting-latency (atom 500),
              :number-of-concept-engineers (atom 6),
              :neuron-latency (atom 500),
              :concept-engineer-latency (atom 300),
-             :concept-cap (atom 40)
+             :concept-cap (atom 5)
              :base-excitation-probability (atom 0.1),
              :time-interval (atom 0.1),
              :learning-timescale (atom 0.7),
@@ -48,7 +48,7 @@
   (atom (rand 50)))
 (defn get-atom-z []
   "Returns a z coordinate given x,y coordinate for the neuron"
-  (atom (rand 50)))
+  (atom (rand 5)))
 (defn create-neuron-file [id]
   "create a file with the supplied id"
   (spit (str "neuron-data/" (name id) ".neuron") "Fuck Google for now")

@@ -13,7 +13,7 @@
   )
 (defn connect-concepts [tuple]
   "Takes the two concepts and creates a concept out of that"
-  (if (distinct? (nth tuple 0) (nth tuple 1))
+  (if (= (nth tuple 0) (nth tuple 1))
     (neural-processes/create-neural-map tuple)
     (neural-processes/create-neural-map (reverse tuple)))
   (log/log (str "concepts connected " (vec tuple)))
@@ -37,7 +37,9 @@
     ;;(println "concept = " concept)
     (when (< (utility/concept-level? concept) @(:concept-cap brain/params))
       (swap! brain/neural-cluster (fn [_] (merge @brain/neural-cluster (into {} (brain/init [(keyword concept)])))))
-      (neural-processes/create-neural-map (merge neuron-ids (keyword concept))))
+      (neural-processes/create-neural-map (merge neuron-ids (keyword concept)))
+      (log/log (str "Concept created with " (into [] neuron-ids)))
+      )
     )
   )
 (defn create-graph-topologies [neuron-ids focus]
@@ -51,8 +53,10 @@
   "takes a set of neurons and then combines them to create another neuron called concept"
   "if the weight between the neurons is 0 then it is not included in the concept"
   (doseq [tuple neuron-ids] (if (validate-tuple tuple)
-                              (let [concept (calc-concept tuple)]  (log/log (str "Concept created with " (into []  tuple)))))
+                              (let [concept (calc-concept tuple)]  ))
                             "check for concept overlaps"
+                            "if the neurons are the same then skip"
+                            ()
                             (connect-concept tuple)
   ) )
 (defn get-structure [neuron-ids focus]
