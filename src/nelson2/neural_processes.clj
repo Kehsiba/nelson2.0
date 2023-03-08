@@ -185,7 +185,7 @@
   )
 (defn select-random-tuple []
   "returns only a random pair for now"
-  (let [tuple [(rand-nth (keys @brain/neural-cluster)) (do (Thread/sleep @(get brain/params :tuple-sample-latency)) (rand-nth (keys @brain/neural-cluster)))]] tuple)
+  (let [tuple [(rand-nth (keys (get-active-neurons))) (do (Thread/sleep @(get brain/params :tuple-sample-latency)) (rand-nth (keys (get-active-neurons))))]] tuple)
   ;;
   ; (let [tuple (repeatedly (get-focus) (count @brain/neural-cluster))] (println "select random tuple " tuple) (vec (map #((nth % (nth tuple 0)) (nth % (nth tuple 1))) (keys @brain/neural-cluster))))
   ;;

@@ -63,5 +63,8 @@
   "neuron-ids refers to the neurons within which we want to find the structure"
   "focus refers to how deep you want to focus i.e. clusters of 2, clusters of 3..."
 
-  (let [concepts (extract-concept (create-graph-topologies neuron-ids focus))] concepts)
+  (let [concepts (extract-concept (create-graph-topologies neuron-ids focus))] concepts
+   "Activate concepts"
+                                                                               (neural-processes/activate-neurons (into [] concepts))
+                                                                               )
   )
