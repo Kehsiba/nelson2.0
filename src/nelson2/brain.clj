@@ -24,11 +24,11 @@
              :number-of-concept-engineers (atom 6),
              :neuron-latency (atom 500),
              :concept-engineer-latency (atom 300),
-             :concept-cap (atom 5)
+             :concept-cap (atom 100)
              :base-excitation-probability (atom 0.1),
              :time-interval (atom 0.1),
-             :learning-timescale (atom 0.7),
-             :forgetting-timescale (atom 0.1)
+             :learning-timescale (atom 0.1),
+             :forgetting-timescale (atom 0.5)
              :latency (atom 3)
              })
 

@@ -16,15 +16,12 @@
              :temporal-correlation-delay (atom 5000)})
 (defn deactivate-all [neuron-ids]
   "takes a set of neurons and deactivates them"
-  (comment
-    (map #(add-watch (:state (get @brain/neural-cluster %)) % (fn [key agent old-state new-state]
-                                                                (when (= @new-state 0) (neural-processes/activate-neurons [key])))) neuron-ids))
   (map neural-processes/deactivate-neuron neuron-ids)
   (log/log (str "Deactivated logic tree: " neuron-ids))
   )
 (defn causal-correlate-delay-regulator []
   "control the time delay for temporal correlation"
-  (rand 10)
+  (rand 10000)
   )
 (defn causally-correlate [time-interval]
   "Correlate causal events separated by time-interval"
@@ -51,9 +48,6 @@
 
 (defn activate-all [neuron-ids]
   "takes a set of neurons and keeps them activated all the time"
-  (comment
-  (map #(add-watch (:state (get @brain/neural-cluster %)) % (fn [key agent old-state new-state]
-                                                          (when (= @new-state 0) (neural-processes/activate-neurons [key])))) neuron-ids))
   (neural-processes/activate-neurons neuron-ids))
 
 (defn remove-watchers [neuron-ids]
@@ -116,7 +110,7 @@
 
 (defn logical-inference [neuron-ids]
   "logically infer everything from the data"
-
+  (println "neuron-id = " neuron-ids)
   (let [inferred-concepts (infer-concept-neurons neuron-ids), outcome-list {}]
     (println (str "inferred neurons: " inferred-concepts))
     "filter the dendrites of each concept in inferred-concepts and start the logic thread for each concept"

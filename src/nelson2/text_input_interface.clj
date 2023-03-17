@@ -25,7 +25,7 @@
     (if (= 0 @brain/neural-cluster) (swap! brain/neural-cluster (fn [_] (into {} (brain/init (set data-labels)))))
                                     (create-new-neurons data-labels))
     (neural-processes/create-neural-map data-labels)
-    (log/log "Neural map created")
+    (log/log (str "Neural map created using " data-labels))
     )
   )
 

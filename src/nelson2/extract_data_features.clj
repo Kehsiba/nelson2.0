@@ -9,14 +9,14 @@
 
 (defn validate-pair [neuron-pair]
   "Checks if the two neurons are connected"
-  (if (= nil (find @(get (get @brain/neural-cluster (nth neuron-pair 0)) :dendrites) (nth neuron-pair 1))) false true)
+  (if (= nil (get @(get (get @brain/neural-cluster (nth neuron-pair 0)) :dendrites) (nth neuron-pair 1))) false true)
   )
 (defn connect-concepts [tuple]
   "Takes the two concepts and creates a concept out of that"
   (if (= (nth tuple 0) (nth tuple 1))
     (neural-processes/create-neural-map tuple)
     (neural-processes/create-neural-map (reverse tuple)))
-  (log/log (str "concepts connected " (vec tuple)))
+  (log/log (str "concepts connected " (vec tuple) " and " (vec (reverse tuple))))
   )
 (defn concept-overlap-exists? [tuple]
   (when (not= 0 (count (intersection (set (keys @(:dendrites (get @brain/neural-cluster (nth tuple 0)))))
@@ -56,7 +56,6 @@
                               (let [concept (calc-concept tuple)]  ))
                             "check for concept overlaps"
                             "if the neurons are the same then skip"
-                            ()
                             (connect-concept tuple)
   ) )
 (defn get-structure [neuron-ids focus]
